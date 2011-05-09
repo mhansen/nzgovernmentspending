@@ -1,0 +1,1266 @@
+{
+    "2006": {
+        "Department of Building and Housing": {
+            "Dividend from HNZC": 14140, 
+            "Interest on Housing New Zealand Corporation Loans": 96748
+        }, 
+        "Department of Conservation": {
+            "Concessions, Leases and Licences": 12419, 
+            "Disposal of Reserves": 1829, 
+            "Old Government Building Rental": 1611, 
+            "Rates Recovery from Concessionaires": 498, 
+            "Turnbull House Revenue": 221
+        }, 
+        "Department of Internal Affairs": {
+            "Refund of Benefit": 7, 
+            "Rent from Crown Properties": 10
+        }, 
+        "Department of Labour": {
+            "Employment Relations Authority Fees": 173, 
+            "Health and Safety in Employment Levy": 36694, 
+            "Infringement Notice Fines": 33, 
+            "Migrant Levy": 12912, 
+            "OSH Fees and Licences": 26, 
+            "Programme Recoveries": 71, 
+            "Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration": 238
+        }, 
+        "Inland Revenue Department": {
+            "ACC Levies": -10, 
+            "Adverse Income Equalisation Account": 8, 
+            "Child Support Collections": 421442, 
+            "Companies": 9797491, 
+            "Fringe Benefit Tax": 449829, 
+            "Gaming Duties": 314876, 
+            "Goods and Services Tax (IRD)": 9054382, 
+            "Income Equalisation Reserve Account": 53198, 
+            "Interest on Impaired Student Loans": 314791, 
+            "Other Direct Taxes": 2960, 
+            "Other Persons": 3986585, 
+            "Source Deductions": 19936119, 
+            "Stamp and Cheque Duties": 82501, 
+            "Student Loans - Interest": 179854, 
+            "Student Loans - Receipts": 306519, 
+            "Unclaimed Monies": 5498, 
+            "Withholding Taxes": 3207798
+        }, 
+        "Land Information New Zealand": {
+            "Database Licence Fees and Royalties": 971, 
+            "Land Tenure Reform Sales": 2597, 
+            "Pastoral Lease Rentals": 1952, 
+            "Sundry Operating Revenue": 105, 
+            "Surplus Government Properties - Rents": 2416, 
+            "Surplus Government Properties - Sales": 4938, 
+            "Transit Sales": 13139
+        }, 
+        "Ministry for Culture and Heritage": {
+            "Broadcasting Standards Authority - Costs Awarded to Crown": 10, 
+            "Commercial Tenancies Income": 270
+        }, 
+        "Ministry for the Environment": {
+            "Catchment Works Loans - Principal": 645, 
+            "Coastal Royalties": 469, 
+            "Crown Energy Efficiency Loans": 1226
+        }, 
+        "Ministry of Agriculture and Forestry": {
+            "Biosecurity Act 1993 Fines": 1236, 
+            "Crown Forestry Assets": 81425, 
+            "Forestry Encouragement Loans": 2004, 
+            "Irrigation Suspensory Loan Refunds": 1, 
+            "Levy Charged Under the Dairy Industry Restructuring Act": 124, 
+            "Sale of Forestry Assets": 10
+        }, 
+        "Ministry of Defence": {
+            "Crown Interest": 570, 
+            "Defence Equipment": 395882
+        }, 
+        "Ministry of Economic Development": {
+            "Accounting Standards Review Board": 830, 
+            "Commerce Act 1986 Penalty": 3835, 
+            "Concession Fees": 344, 
+            "Control of Natural Gas Services": 1250, 
+            "Electricity Governance Rulings Panel Penalties and Fees": 4, 
+            "Energy Resource Levies - Coal": 8963, 
+            "Energy Resource Levies - Gas": 64174, 
+            "Ironsands Royalties": 56, 
+            "Levy on Electricity Industry Participants": 69173, 
+            "Levy on Electricity Line Businesses": 2370, 
+            "Proceeds of Crime": 843, 
+            "Radio Spectrum": 334, 
+            "Radio Spectrum Rights": 82, 
+            "Recovery of Scholarship Funding": 27, 
+            "Rent from Reserve Lands": 126, 
+            "Repayment of Compensation Payments": 2, 
+            "Residual Ministry of Energy Commitments": 120, 
+            "Return of Capital Invested": 183, 
+            "Revenue from the Textphone Rental Service": 10, 
+            "Royalties - Coal": 1820, 
+            "Royalties - Minerals": 1477, 
+            "Royalties - Petroleum": 60958, 
+            "Telecommunications Levy": 3500, 
+            "Trade Measurement Unit Infringement Fees": 5, 
+            "Whirinaki Availability": 15487, 
+            "Whirinaki Electricity Generation": 6118, 
+            "Whirinaki Operating and Maintenance Recoveries": 7492
+        }, 
+        "Ministry of Education ": {
+            "Charter Fees Early Childhood Education": 36, 
+            "Crown Entity Recoveries": 5595, 
+            "Education Residual Management Unit Receipts": 312, 
+            "Export Education Levies": 2646, 
+            "Miscellaneous Receipts": 2456, 
+            "Overseas Students' Fees": 6389, 
+            "Roll Audit and Staffing Recoveries": 106, 
+            "School Support Recovery": 260, 
+            "State Sector Retirement Savings Scheme Recoveries": 36267, 
+            "Tertiary Investments - Interest": 2688, 
+            "Tertiary Investments - Repayments": 7748
+        }, 
+        "Ministry of Fisheries": {
+            "Conservation Levy": 1122, 
+            "Cost Recovery": 29351, 
+            "Deemed Values": 10568, 
+            "Doubtful Debts Recovered": 117, 
+            "Fisheries Research Catch": 348, 
+            "Fisheries Revenue from Forfeitures": 496, 
+            "Infringement Notice Revenue": 199, 
+            "Other Revenue": 281, 
+            "Proceeds Quota Shares and ACE": 11593, 
+            "Sale of Quota Shares and ACE": 14343
+        }, 
+        "Ministry of Foreign Affairs and Trade": {
+            "Crown Recoveries": 62, 
+            "Pacific Forum Line Dividend": 311
+        }, 
+        "Ministry of Health": {
+            "ACC - Reimbursement of Complex Burns Costs": 1397, 
+            "ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs": 58926, 
+            "ACC - Reimbursement of Medical Misadventure Costs": 1613, 
+            "ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs": 46608, 
+            "ACC - Reimbursement of Non-Earners Account": 181745, 
+            "ACC - Reimbursement of Self-Employed Public Hospital Costs": 2864, 
+            "ACC - Reimbursement of Work-Related Public Hospital Costs": 19577, 
+            "Miscellaneous": 109, 
+            "Net Surplus from DHBs": -22533, 
+            "Payment of Capital Charge by DHBs": 109137, 
+            "Repayment of DHB Debt": 22002, 
+            "Repayment of Residential Care Loans": 14823, 
+            "Residual Health Management Rental": 390, 
+            "Residual Health Management Unit - Surplus": 2125
+        }, 
+        "Ministry of Justice": {
+            "Court Fines": 240484, 
+            "Landbank Properties": 6022, 
+            "Law Commission": 65, 
+            "Money Forfeited to the Crown": 23, 
+            "Offenders Legal Aid Cont": 80, 
+            "Repayments of Judicial Salaries from Crown Entities": 245
+        }, 
+        "Ministry of Social Development": {
+            "Benefit Recoveries - Current Debt": 194353, 
+            "Benefit Recoveries - Liable Parent Contributions": 2930, 
+            "Benefit Recoveries - Non-Current Debt": 74140, 
+            "Community Services Card Recoveries": 217, 
+            "Interest Revenue": 27, 
+            "Maintenance Capitalisation": -690, 
+            "Overseas Pension Recoveries": 145525, 
+            "Programme Recoveries": 27, 
+            "Student Loan - Accumulated Interest": 43254, 
+            "Student Loan - Administration Fee": 7999, 
+            "Student Loans - Repayment of Principal": 64575
+        }, 
+        "Ministry of Transport": {
+            "Fuel Excise Duty Refunds": -32360, 
+            "Infringements": 67, 
+            "Motor Vehicle Registration": 220818, 
+            "Motor Vehicle Registration Recoveries": 13751, 
+            "Repayment of Capital from Crown Entities": 11639, 
+            "Road User Charges": 731163
+        }, 
+        "New Zealand Customs Service": {
+            "Customs Duty": 1082854, 
+            "Excise Duty": 2233587, 
+            "Goods and Services Tax": 5078670, 
+            "Sale of Seized Goods": 104
+        }, 
+        "New Zealand Police": {
+            "Infringement Fees": 79100, 
+            "Sale of Unclaimed Property": 346
+        }, 
+        "State Services Commission": {
+            "Reimbursement of Chief Executives' Remuneration": 9397
+        }, 
+        "Te Puni Kokiri": {
+            "Interest on Advances": -25, 
+            "Miscellaneous Receipts": 4327, 
+            "Mortgage Repayments Intended for HNZC": 6, 
+            "Rent Received": 35, 
+            "Repayment of Advances": 272
+        }, 
+        "The Treasury": {
+            "Capital Charge - Departments": 1308228, 
+            "Contact Energy Limited Crown Margin": 55800, 
+            "Contact Energy Ltd Crown Margin": 3869, 
+            "Dividends - Other": 2848, 
+            "Dividends from Crown Entities": 80452, 
+            "Dividends from Crown Research Institutes": 18000, 
+            "Dividends from SOEs": 1073109, 
+            "Earthquake Commission Guarantee Fee": 10000, 
+            "Employers' Superannuation Contributions": 61562, 
+            "Export Credit Office": 150, 
+            "Interest from Securities and Deposits": 1048269, 
+            "Maui Gas Contracts": 100632, 
+            "Other Current Revenue": 18506, 
+            "Other Interest": 7459, 
+            "Rentals from Crown Overseas Properties": 15535, 
+            "Reserve Bank Surplus": 139284, 
+            "Return of Capital by the IMF": 313000, 
+            "Sale of Goods and Services": 21502, 
+            "Sale of Physical Assets": 36700, 
+            "Unclaimed Money": 373
+        }
+    }, 
+    "2007": {
+        "Department of Building and Housing": {
+            "Dividend from HNZC": 20211, 
+            "Interest on Housing New Zealand Corporation Loans": 115163
+        }, 
+        "Department of Conservation": {
+            "Concessions, Leases and Licences": 14234, 
+            "Disposal of Reserves": 1505, 
+            "Old Government Building Rental": 1772, 
+            "Rates Recovery from Concessionaires": 484, 
+            "Turnbull House Revenue": 208
+        }, 
+        "Department of Internal Affairs": {
+            "Forfeiture to the Crown": 6, 
+            "Refund of Benefit": 3, 
+            "Refund of Non-Department payment": 1277, 
+            "Refund of Non-Departmental grants": 137, 
+            "Rent from Crown Properties": 10
+        }, 
+        "Department of Labour": {
+            "Employment Relations Authority Fees": 184, 
+            "Health and Safety in Employment Levy": 35950, 
+            "Infringement Notice Fines": 10, 
+            "Migrant Levy": 11705, 
+            "Non-Principal Applicants English Language Fees": 4661, 
+            "OSH Fees and Licences": 33, 
+            "Programme Recoveries": 22, 
+            "Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration": 216
+        }, 
+        "Inland Revenue Department": {
+            "Adverse Income Equalisation Account": 79, 
+            "Child Support Collections": 420153, 
+            "Companies": 9622371, 
+            "Fringe Benefit Tax": 467712, 
+            "Gaming Duties": 286206, 
+            "Goods and Services Tax (IRD)": 9714455, 
+            "Income Equalisation Reserve Account": 29246, 
+            "Interest on Impaired Student Loans": 556578, 
+            "Other Direct Taxes": 2008, 
+            "Other Persons": 3359668, 
+            "Source Deductions": 21372732, 
+            "Stamp and Cheque Duties": 92111, 
+            "Student Loans - Interest": 37500, 
+            "Student Loans - Receipts": 448958, 
+            "Unclaimed Monies": 4711, 
+            "Withholding Taxes": 3654034
+        }, 
+        "Land Information New Zealand": {
+            "Database Licence Fees and Royalties": 955, 
+            "Land Tenure Reform Sales": 519, 
+            "Pastoral Lease Rentals": 1821, 
+            "Sundry Operating Revenue": 527, 
+            "Surplus Government Properties - Rents": 2488, 
+            "Surplus Government Properties - Sales": 6495, 
+            "Transit Sales": 15200
+        }, 
+        "Ministry for Culture and Heritage": {
+            "Broadcasting Standards Authority - Costs Awarded to Crown": 11, 
+            "Canterbury Museum Redevelopment Project - Return of Funding": 7354, 
+            "Commercial Tenancies Income": 213
+        }, 
+        "Ministry for the Environment": {
+            "Catchment Works Loans - Principal": 643, 
+            "Coastal Royalties": 727, 
+            "Crown Energy Efficiency Loans": 1252
+        }, 
+        "Ministry of Agriculture and Forestry": {
+            "Biosecurity Act 1993 Fines": 866, 
+            "Crown Forestry Assets": 87541, 
+            "Forestry Encouragement Loans": 1761, 
+            "Irrigation Suspensory Loan Refunds": 14, 
+            "Levy Charged Under the Dairy Industry Restructuring Act": 638, 
+            "Sale of Irrigation Assets": 184
+        }, 
+        "Ministry of Defence": {
+            "Crown Interest": 754, 
+            "Defence Equipment": 509267
+        }, 
+        "Ministry of Economic Development": {
+            "Accounting Standards Review Board": 761, 
+            "Commerce Act 1986 Penalty": 2348, 
+            "Concession Fees": 429, 
+            "Control of Natural Gas Services": 1237, 
+            "Energy Resource Levies - Coal": 8934, 
+            "Energy Resource Levies - Gas": 44680, 
+            "Ironsands Royalties": 70, 
+            "Levy on Electricity Industry Participants": 76328, 
+            "Levy on Electricity Line Businesses": 2770, 
+            "Proceeds of Crime": 1198, 
+            "Radio Spectrum": 443, 
+            "Radio Spectrum Rights": 2714, 
+            "Rent from Reserve Lands": 531, 
+            "Repayment of Compensation Payments": 6, 
+            "Residual Ministry of Energy Commitments": 86, 
+            "Return of Capital Invested": 1973, 
+            "Revenue from the Textphone Rental Service": 3, 
+            "Royalties - Coal": 2158, 
+            "Royalties - Minerals": 2615, 
+            "Royalties - Petroleum": 65640, 
+            "Telecommunications Levy": 3295, 
+            "Trade Measurement Unit Infringement Fees": 5, 
+            "Whirinaki Availability": 22871, 
+            "Whirinaki Electricity Generation": 193, 
+            "Whirinaki Operating and Maintenance Recoveries": 5209
+        }, 
+        "Ministry of Education ": {
+            "Charter Fees Early Childhood Education": 35, 
+            "Crown Entity Recoveries": 8922, 
+            "Education Residual Management Unit Receipts": 28, 
+            "Export Education Levies": 4224, 
+            "Miscellaneous Receipts": 2178, 
+            "Overseas Students' Fees": 4721, 
+            "Roll Audit and Staffing Recoveries": 153, 
+            "State Sector Retirement Savings Scheme Recoveries": 41529, 
+            "Tertiary Investments - Interest": 992, 
+            "Tertiary Investments - Repayments": 9621
+        }, 
+        "Ministry of Fisheries": {
+            "Conservation Levy": 2036, 
+            "Cost Recovery": 30323, 
+            "Deemed Values": 10877, 
+            "Doubtful Debts Recovered": 20, 
+            "Fisheries Revenue from Forfeitures": 169, 
+            "Infringement Notice Revenue": 189, 
+            "Other Revenue": 506, 
+            "Proceeds Quota Shares and ACE": 3605, 
+            "Sale of Quota Shares and ACE": 3541
+        }, 
+        "Ministry of Foreign Affairs and Trade": {
+            "Crown Recoveries": 35, 
+            "Pacific Forum Line Dividend": 311
+        }, 
+        "Ministry of Health": {
+            "ACC - Reimbursement of Complex Burns Costs": 6275, 
+            "ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs": 60967, 
+            "ACC - Reimbursement of Medical Misadventure Costs": 2588, 
+            "ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs": 47704, 
+            "ACC - Reimbursement of Non-Earners Account": 190893, 
+            "ACC - Reimbursement of Self-Employed Public Hospital Costs": 4278, 
+            "ACC - Reimbursement of Work-Related Public Hospital Costs": 20288, 
+            "Equity repayments by DHBs": 48999, 
+            "Miscellaneous": 61, 
+            "Payment of Capital Charge by DHBs": 137572, 
+            "Repayment of Residential Care Loans": 12780, 
+            "Residual Health Management Rental": 524
+        }, 
+        "Ministry of Justice": {
+            "Court Fines": 250295, 
+            "Landbank Properties": 6472, 
+            "Money Forfeited to the Crown": 19, 
+            "Offenders Legal Aid Cont": 117, 
+            "Repayments of Judicial Salaries from Crown Entities": 65
+        }, 
+        "Ministry of Social Development": {
+            "Benefit Recoveries - Current Debt": 190144, 
+            "Benefit Recoveries - Liable Parent Contributions": 2430, 
+            "Benefit Recoveries - Non-Current Debt": 75853, 
+            "Community Services Card Recoveries": 164, 
+            "Interest Revenue": 45290, 
+            "Maintenance Capitalisation": -1074, 
+            "Overseas Pension Recoveries": 164184, 
+            "Student Loan - Administration Fee": 8656, 
+            "Student Loans - Repayment of Principal": 68929
+        }, 
+        "Ministry of Transport": {
+            "Fuel Excise Duty Refunds": -33288, 
+            "Infringements": 34, 
+            "Motor Vehicle Registration": 222445, 
+            "Motor Vehicle Registration Recoveries": 12932, 
+            "Road User Charges": 785749
+        }, 
+        "New Zealand Customs Service": {
+            "Customs Duty": 1836373, 
+            "Excise Duty": 1643459, 
+            "Goods and Services Tax": 5391053, 
+            "Sale of Seized Goods": 132
+        }, 
+        "New Zealand Police": {
+            "Infringement Fees": 81373, 
+            "Sale of Unclaimed Property": 1165
+        }, 
+        "Parliamentary Service": {
+            "Refund of Party and Members Support ACT": 18, 
+            "Refund of Party and Members Support Green": 78, 
+            "Refund of Party and Members Support Labour": 733, 
+            "Refund of Party and Members Support National": 11, 
+            "Refund of Party and Members Support United": 31
+        }, 
+        "State Services Commission": {
+            "Reimbursement of Chief Executives' Remuneration": 10474
+        }, 
+        "Te Puni Kokiri": {
+            "Interest on Advances": 73, 
+            "Miscellaneous Receipts": 4741, 
+            "Mortgage Repayments Intended for HNZC": 3, 
+            "Rent Received": 26, 
+            "Repayment of Advances": 1069
+        }, 
+        "The Treasury": {
+            "Capital Charge - Departments": 1404573, 
+            "Contact Energy Limited Crown Margin": 58242, 
+            "Contact Energy Ltd Crown Margin": 3606, 
+            "Dividends - Other": 2681, 
+            "Dividends from Crown Entities": 14525, 
+            "Dividends from Crown Research Institutes": 803, 
+            "Dividends from SOEs": 603685, 
+            "Earthquake Commission Guarantee Fee": 10000, 
+            "Employers' Superannuation Contributions": 52043, 
+            "Export Credit Office": 147, 
+            "Interest from Securities and Deposits": 1044300, 
+            "Loan Repayments by ONTRACK": 500, 
+            "Maui Gas Contracts": 50939, 
+            "Other Current Revenue": 5944, 
+            "Other Interest": 13880, 
+            "Rentals from Crown Overseas Properties": 14991, 
+            "Reserve Bank Surplus": 410000, 
+            "Return of Capital by the IMF": 100000, 
+            "Sale of Goods and Services": 10504, 
+            "Unclaimed Money": 1431
+        }
+    }, 
+    "2008": {
+        "Department of Building and Housing": {
+            "Dividend from HNZC": 12999, 
+            "Interest on Housing New Zealand Corporation Loans": 151764
+        }, 
+        "Department of Conservation": {
+            "Concessions, Leases and Licences": 13591, 
+            "Disposal of Reserves": 1480, 
+            "Old Government Building Rental": 1782, 
+            "Rates Recovery from Concessionaires": 447, 
+            "Revenue for Land Purchases": 36, 
+            "Turnbull House Revenue": 194
+        }, 
+        "Department of Internal Affairs": {
+            "Refund of Benefit": 2, 
+            "Rent from Crown Properties": 10
+        }, 
+        "Department of Labour": {
+            "Employment Relations Authority Fees": 173, 
+            "Health and Safety in Employment Levy": 37977, 
+            "Infringement Notice Fines": 28, 
+            "Migrant Levy": 10418, 
+            "Non-Principal Applicants English Language Fees": 795, 
+            "OSH Fees and Licences": 32, 
+            "Programme Recoveries": 4, 
+            "Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration": 227
+        }, 
+        "Inland Revenue Department": {
+            "Adverse Income Equalisation Account": 1247, 
+            "Child Support Collections": 493989, 
+            "Companies": 9103504, 
+            "Fringe Benefit Tax": 522220, 
+            "Gaming Duties": 301889, 
+            "Goods and Services Tax (IRD)": 9487616, 
+            "Income Equalisation Reserve Account": 65405, 
+            "Interest on Impaired Student Loans": 361219, 
+            "Other Direct Taxes": 2620, 
+            "Other Indirect Taxes": 30530, 
+            "Other Persons": 3601100, 
+            "Source Deductions": 23768819, 
+            "Stamp and Cheque Duties": 91534, 
+            "Student Loans - Receipts": 550048, 
+            "Unclaimed Monies": 6106, 
+            "Withholding Taxes": 4345016
+        }, 
+        "Land Information New Zealand": {
+            "Database Licence Fees and Royalties": 930, 
+            "Land Tenure Reform Sales": 1021, 
+            "Pastoral Lease Rentals": 1768, 
+            "Sundry Operating Revenue": 418, 
+            "Surplus Government Properties - Rents": 2636, 
+            "Surplus Government Properties - Sales": 6043, 
+            "Transit Sales": 8443
+        }, 
+        "Ministry for Culture and Heritage": {
+            "Broadcasting Standards Authority - Costs Awarded to Crown": 24, 
+            "SPARC - Return Funds Held on Behalf of the Crown": 6490
+        }, 
+        "Ministry for the Environment": {
+            "Catchment Works Loans - Principal": 643, 
+            "Coastal Royalties": 676, 
+            "Crown Energy Efficiency Loans": 1377, 
+            "Revision in Forecast Carbon Units under Kyoto Protocol": 368103
+        }, 
+        "Ministry of Agriculture and Forestry": {
+            "Biosecurity Act 1993 Fines": 812, 
+            "Crown Forestry Assets": 85465, 
+            "Forestry Encouragement Loan Interest": 2171, 
+            "Forestry Encouragement Loans": 2088, 
+            "Irrigation Suspensory Loan Refunds": 66, 
+            "Levy Charged Under the Dairy Industry Restructuring Act": 208
+        }, 
+        "Ministry of Defence": {
+            "Crown Interest": 578, 
+            "Defence Equipment": 253230
+        }, 
+        "Ministry of Economic Development": {
+            "Accounting Standards Review Board": 899, 
+            "Commerce Act 1986 Penalty": 27, 
+            "Concession Fees": 643, 
+            "Control of Natural Gas Services": 1674, 
+            "Energy Resource Levies - Coal": 8200, 
+            "Energy Resource Levies - Gas": 38058, 
+            "Ironsands Royalties": 50, 
+            "Levy on Electricity Industry Participants": 75087, 
+            "Levy on Electricity Line Businesses": 4132, 
+            "Proceeds of Crime": 1964, 
+            "Radio Spectrum": 378, 
+            "Radio Spectrum Rights": 7499, 
+            "Rent from Reserve Lands": 305, 
+            "Repayment of Compensation Payments": 4, 
+            "Residual Ministry of Energy Commitments": 93, 
+            "Return of Capital Invested": 16, 
+            "Revenue from the Textphone Rental Service": 3, 
+            "Royalties - Coal": 1305, 
+            "Royalties - Minerals": 3565, 
+            "Royalties - Petroleum": 86094, 
+            "Sales Proceeds Surplus Assets": 199, 
+            "Telecommunications Levy": 6357, 
+            "Trade Measurement Unit Infringement Fees": 6, 
+            "Whirinaki Availability": 20355, 
+            "Whirinaki Electricity Generation": 33843, 
+            "Whirinaki Operating and Maintenance Recoveries": 36022
+        }, 
+        "Ministry of Education ": {
+            "Asset Sales": 2855, 
+            "Charter Fees Early Childhood Education": 35, 
+            "Crown Entity Recoveries": 5933, 
+            "Education Residual Management Unit Receipts": 28, 
+            "Export Education Levies": 4320, 
+            "Miscellaneous Receipts": 442, 
+            "Overseas Students' Fees": 5303, 
+            "Roll Audit and Staffing Recoveries": 279, 
+            "School Support Recovery": 1116, 
+            "State Sector Retirement Savings Scheme Recoveries": 44483, 
+            "Tertiary Investments - Interest": 619, 
+            "Tertiary Investments - Repayments": 6802
+        }, 
+        "Ministry of Fisheries": {
+            "Conservation Levy": 1287, 
+            "Cost Recovery": 29670, 
+            "Deemed Values": 10853, 
+            "Doubtful Debts Recovered": 61, 
+            "Fisheries Research Catch": 16, 
+            "Fisheries Revenue from Forfeitures": 263, 
+            "Infringement Notice Revenue": 158, 
+            "Other Revenue": 647, 
+            "Sale of Quota Shares and ACE": 1615
+        }, 
+        "Ministry of Foreign Affairs and Trade": {
+            "Crown Recoveries": 22, 
+            "Fringe Benefit Tax Refund": 1466
+        }, 
+        "Ministry of Health": {
+            "ACC - Reimbursement of Complex Burns Costs": 6576, 
+            "ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs": 69782, 
+            "ACC - Reimbursement of Medical Misadventure Costs": 3739, 
+            "ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs": 53554, 
+            "ACC - Reimbursement of Non-Earners Account": 205611, 
+            "ACC - Reimbursement of Self-Employed Public Hospital Costs": 4487, 
+            "ACC - Reimbursement of Work-Related Public Hospital Costs": 19005, 
+            "Equity repayments by DHBs": 12499, 
+            "Miscellaneous": 12, 
+            "Payment of Capital Charge by DHBs": 176115, 
+            "Repayment of DHB Debt": 304, 
+            "Repayment of Residential Care Loans": 11674, 
+            "Residual Health Management Rental": 599
+        }, 
+        "Ministry of Justice": {
+            "Court Fines": 307540, 
+            "Money Forfeited to the Crown": 28, 
+            "Offenders Legal Aid Cont": 125, 
+            "Repayments of Judicial Salaries from Crown Entities": 570
+        }, 
+        "Ministry of Social Development": {
+            "Benefit Recoveries - Current Debt": 190446, 
+            "Benefit Recoveries - Liable Parent Contributions": 2414, 
+            "Benefit Recoveries - Non-Current Debt": 80002, 
+            "Community Services Card Recoveries": 93, 
+            "Interest Revenue": 46108, 
+            "Maintenance Capitalisation": 175, 
+            "Overseas Pension Recoveries": 147843, 
+            "Student Loan - Administration Fee": 8567, 
+            "Student Loans - Repayment of Principal": 78817
+        }, 
+        "Ministry of Transport": {
+            "Fuel Excise Duty Refunds": -34525, 
+            "Motor Vehicle Registration": 226026, 
+            "Motor Vehicle Registration Recoveries": 12908, 
+            "Road User Charges": 850949
+        }, 
+        "New Zealand Customs Service": {
+            "Customs Duty": 1857406, 
+            "Excise Duty": 1585944, 
+            "Goods and Services Tax": 5812330, 
+            "Sale of Seized Goods": 135
+        }, 
+        "New Zealand Police": {
+            "Infringement Fees": 84931, 
+            "Sale of Unclaimed Property": 394
+        }, 
+        "Parliamentary Service": {
+            "Refund of Party and Members Support United": 3
+        }, 
+        "State Services Commission": {
+            "Reimbursement of Chief Executives' Remuneration": 11118
+        }, 
+        "Te Puni Kokiri": {
+            "Interest on Advances": 21, 
+            "Miscellaneous Receipts": 6102, 
+            "Mortgage Repayments Intended for HNZC": 1, 
+            "Rent Received": -13, 
+            "Repayment of Advances": 538, 
+            "Sale of Properties": 4596
+        }, 
+        "The Treasury": {
+            "Capital Charge - Departments": 1437103, 
+            "Contact Energy Limited Crown Margin": 31547, 
+            "Contact Energy Ltd Crown Margin": 1554, 
+            "Dividends - Other": 2751, 
+            "Dividends from Crown Research Institutes": 887, 
+            "Dividends from SOEs": 522435, 
+            "Earthquake Commission Guarantee Fee": 10000, 
+            "Employers' Superannuation Contributions": 46547, 
+            "Export Credit Office": 1515, 
+            "Interest from Securities and Deposits": 760013, 
+            "Loan Repayments by ONTRACK": 500, 
+            "Maui Gas Contracts": 37439, 
+            "Other Current Revenue": 4759, 
+            "Other Interest": 20442, 
+            "Rentals from Crown Overseas Properties": 14218, 
+            "Reserve Bank Surplus": 193000, 
+            "Sale of Goods and Services": 7815, 
+            "Sale of Physical Assets": 23540, 
+            "Unclaimed Money": 347
+        }
+    }, 
+    "2009": {
+        "Department of Building and Housing": {
+            "Dividend from HNZC": 1661, 
+            "Interest on Housing New Zealand Corporation Loans": 108725
+        }, 
+        "Department of Conservation": {
+            "Concessions, Leases and Licences": 13564, 
+            "Disposal of Reserves": 3302, 
+            "Old Government Building Rental": 1776, 
+            "Rates Recovery from Concessionaires": 486, 
+            "Revenue for Land Purchases": 421, 
+            "Turnbull House Revenue": 176
+        }, 
+        "Department of Internal Affairs": {
+            "Forfeiture to the Crown": 173, 
+            "Refund of Benefit": 4, 
+            "Refund of Non-Departmental grants": 166, 
+            "Rent from Crown Properties": 4
+        }, 
+        "Department of Labour": {
+            "Employment Relations Authority Fees": 171, 
+            "Health and Safety in Employment Levy": 41138, 
+            "Immigration Adviser Levy": 227, 
+            "Infringement Notice Fines": 10, 
+            "Migrant Levy": 10450, 
+            "Non-Principal Applicants English Language Fees": 3354, 
+            "OSH Fees and Licences": 37, 
+            "Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration": 227, 
+            "Repayment of Non-Earners' Account Surplus": 9925
+        }, 
+        "Inland Revenue Department": {
+            "Adverse Income Equalisation Account": 590, 
+            "Child Support Collections": 574542, 
+            "Companies": 8294310, 
+            "Fringe Benefit Tax": 500120, 
+            "Gaming Duties": 264853, 
+            "Goods and Services Tax (IRD)": 10050996, 
+            "Income Equalisation Reserve Account": 290431, 
+            "Interest on Impaired Student Loans": 401269, 
+            "Other Direct Taxes": 1486, 
+            "Other Indirect Taxes": 7745, 
+            "Other Persons": 2772087, 
+            "Source Deductions": 22966149, 
+            "Stamp and Cheque Duties": 90390, 
+            "Student Loans - Receipts": 619054, 
+            "Unclaimed Monies": 2579, 
+            "Withholding Taxes": 4097101
+        }, 
+        "Land Information New Zealand": {
+            "Database Licence Fees and Royalties": 780, 
+            "Land Tenure Reform Sales": 1417, 
+            "Pastoral Lease Rentals": 1769, 
+            "Sundry Operating Revenue": 92, 
+            "Surplus Government Properties - Rents": 2489, 
+            "Surplus Government Properties - Sales": 238956, 
+            "Transit Sales": 15881
+        }, 
+        "Ministry for Culture and Heritage": {
+            "Broadcasting Standards Authority - Costs Awarded to Crown": 14, 
+            "London Memorial - Return of funds": 196
+        }, 
+        "Ministry for the Environment": {
+            "Coastal Royalties": 578, 
+            "Revision in Forecast Carbon Units under Kyoto Protocol": 809798
+        }, 
+        "Ministry of Agriculture and Forestry": {
+            "Biosecurity Act 1993 Fines": 742, 
+            "Crown Forestry Assets": 98384, 
+            "Forestry Encouragement Loan Interest": 2600, 
+            "Forestry Encouragement Loans": 2907, 
+            "New Zealand Emissions Trading Scheme Fees": 101, 
+            "New Zealand Fast Forward Fund": 715580, 
+            "Sale of Forestry Assets": 4724
+        }, 
+        "Ministry of Defence": {
+            "Crown Interest": 152, 
+            "Defence Equipment": 228583
+        }, 
+        "Ministry of Economic Development": {
+            "Accounting Standards Review Board": 830, 
+            "Commerce Act 1986 Penalty": 2112, 
+            "Concession Fees": 501, 
+            "Control of Natural Gas Services": 1798, 
+            "Electricity Governance Rulings Panel Penalties and Fees": 58, 
+            "Energy Resource Levies - Coal": 7145, 
+            "Energy Resource Levies - Gas": 31379, 
+            "Ironsands Royalties": 41, 
+            "Levy on Electricity Industry Participants": 82081, 
+            "Levy on Electricity Line Businesses": 5946, 
+            "Proceeds of Crime": 3264, 
+            "Radio Spectrum": 324, 
+            "Radio Spectrum Rights": 3150, 
+            "Rent from Reserve Lands": 713, 
+            "Repayment of Compensation Payments": 2, 
+            "Repayment of Crown Energy Efficiency Loans.": 1213, 
+            "Residual Ministry of Energy Commitments": 61, 
+            "Return of Capital Invested": 2, 
+            "Royalties - Coal": 1035, 
+            "Royalties - Minerals": 6501, 
+            "Royalties - Petroleum": 511581, 
+            "Securities Commission Return of Capital": 2065, 
+            "Telecommunications Levy": 4713, 
+            "Trade Measurement Unit Infringement Fees": 11, 
+            "Whirinaki Availability": 22251, 
+            "Whirinaki Electricity Generation": 2505, 
+            "Whirinaki Operating and Maintenance Recoveries": 8063
+        }, 
+        "Ministry of Education ": {
+            "Asset Sales": 569, 
+            "Charter Fees Early Childhood Education": 26, 
+            "Crown Entity Recoveries": 9979, 
+            "Export Education Levies": 3097, 
+            "Miscellaneous Receipts": 1566, 
+            "Overseas Students' Fees": 6116, 
+            "Roll Audit and Staffing Recoveries": 421, 
+            "State Sector Retirement Savings Scheme Recoveries": 50855, 
+            "Tertiary Investments - Interest": 1674, 
+            "Tertiary Investments - Repayments": 22621
+        }, 
+        "Ministry of Fisheries": {
+            "Conservation Levy": 1329, 
+            "Cost Recovery": 27857, 
+            "Deemed Values": 5590, 
+            "Fisheries Revenue from Forfeitures": 75, 
+            "Infringement Notice Revenue": 197, 
+            "Other Revenue": 141, 
+            "Sale of Quota Shares and ACE": 645
+        }, 
+        "Ministry of Foreign Affairs and Trade": {
+            "Crown Recoveries": 174
+        }, 
+        "Ministry of Health": {
+            "ACC - Reimbursement of Complex Burns Costs": 4306, 
+            "ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs": 74499, 
+            "ACC - Reimbursement of Medical Misadventure Costs": 3116, 
+            "ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs": 49791, 
+            "ACC - Reimbursement of Non-Earners Account": 231073, 
+            "ACC - Reimbursement of Self-Employed Public Hospital Costs": 4366, 
+            "ACC - Reimbursement of Work-Related Public Hospital Costs": 19108, 
+            "Equity repayments by DHBs": 47499, 
+            "Net Surplus from DHBs": -159609, 
+            "Repayment of DHB Debt": 304, 
+            "Repayment of Residential Care Loans": 10928, 
+            "Residual Health Management Rental": 637
+        }, 
+        "Ministry of Justice": {
+            "Court Fines": 263379, 
+            "Landbank Properties": 6467, 
+            "Money Forfeited to the Crown": 42, 
+            "Offenders Legal Aid Cont": 55, 
+            "Repayments of Judicial Salaries from Crown Entities": 285
+        }, 
+        "Ministry of Social Development": {
+            "Benefit Recoveries - Current Debt": 203331, 
+            "Benefit Recoveries - Liable Parent Contributions": 2185, 
+            "Benefit Recoveries - Non-Current Debt": 75617, 
+            "Interest Revenue": 64122, 
+            "Maintenance Capitalisation": 323, 
+            "Overseas Pension Recoveries": 171989, 
+            "Student Loan - Administration Fee": 9594, 
+            "Student Loans - Repayment of Principal": 90939
+        }, 
+        "Ministry of Transport": {
+            "Fuel Excise Duty Refunds": -34681, 
+            "Motor Vehicle Registration": 170606, 
+            "Motor Vehicle Registration Recoveries": 11545, 
+            "Motor Vehicle Registration fee - administration cost": 43725, 
+            "Northern Gateway Toll Road Revenue": 2315, 
+            "Road User Charge transaction fee": 13030, 
+            "Road User Charges": 867649
+        }, 
+        "New Zealand Customs Service": {
+            "Customs Duty": 1879811, 
+            "Excise Duty": 1604066, 
+            "Goods and Services Tax": 6056358, 
+            "Sale of Seized Goods": 30
+        }, 
+        "New Zealand Police": {
+            "Infringement Fees": 85970, 
+            "Sale of Unclaimed Property": 491
+        }, 
+        "Parliamentary Service": {
+            "Refund of Party and Members Support United": 1
+        }, 
+        "State Services Commission": {
+            "Reimbursement of Chief Executives' Remuneration": 11887
+        }, 
+        "Te Puni Kokiri": {
+            "Interest on Advances": 23, 
+            "Miscellaneous Receipts": 8864, 
+            "Recovery of POBOCs": 18, 
+            "Rent Received": 75, 
+            "Repayment of Advances": 876
+        }, 
+        "The Treasury": {
+            "Capital Charge - Departments": 1560582, 
+            "Capital Withdrawals from Crown Companies": 401312, 
+            "Contact Energy Limited Crown Margin": 31549, 
+            "Contact Energy Ltd Crown Margin": 3669, 
+            "Crown Deposit Guarantee Scheme Fees": 67295, 
+            "Crown Wholesale Guarantee Facility Fees": 6249, 
+            "Dividends - Other": 3320, 
+            "Dividends from Crown Entities": 10301, 
+            "Dividends from Crown Research Institutes": 9303, 
+            "Dividends from SOEs": 275815, 
+            "Earthquake Commission Guarantee Fee": 10000, 
+            "Employers' Superannuation Contributions": 38652, 
+            "Export Credit Office": 2494, 
+            "Interest from Securities and Deposits": 386620, 
+            "Loan Repayments by ONTRACK": 500, 
+            "Maui Gas Contracts": 11018, 
+            "Other Current Revenue": 57163, 
+            "Other Interest": 29472, 
+            "Rentals from Crown Overseas Properties": 14049, 
+            "Reserve Bank Surplus": 168000, 
+            "Sale of Goods and Services": 2355, 
+            "Unclaimed Money": 582
+        }, 
+        "h": {
+            "Payment of Capital Charge by DHBs": 151159
+        }
+    }, 
+    "2010": {
+        "Department of Building and Housing": {
+            "Dividend from HNZC": 132000, 
+            "Interest on Housing New Zealand Corporation Loans": 114003, 
+            "Loans to support Homeownership": 2124, 
+            "Services to support Homeownership": 620
+        }, 
+        "Department of Conservation": {
+            "Concessions, Leases and Licences": 13000, 
+            "Disposal of Reserves": 8879, 
+            "Old Government Building Rental": 1760, 
+            "Rates Recovery from Concessionaires": 964, 
+            "Revenue for Land Purchases": 510, 
+            "Turnbull House Revenue": 200
+        }, 
+        "Department of Labour": {
+            "Employment Relations Authority Fees": 193, 
+            "Health and Safety in Employment Levy": 43051, 
+            "Infringement Notice Fines": 247, 
+            "Migrant Levy": 9715, 
+            "OSH Fees and Licences": 33, 
+            "Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration": 250
+        }, 
+        "Inland Revenue Department": {
+            "Adverse Income Equalisation Account": 1200, 
+            "Child Support Collections": 766000, 
+            "Companies": 6447000, 
+            "Environmental Restoration Accounts Scheme": 20000, 
+            "Fringe Benefit Tax": 459000, 
+            "Gaming Duties": 269000, 
+            "Goods and Services Tax (IRD)": 11117000, 
+            "Income Equalisation Reserve Account": 120000, 
+            "Interest on Impaired Student Loans": 407000, 
+            "Other Direct Taxes": 2000, 
+            "Other Indirect Taxes": 11000, 
+            "Other Persons": 2282000, 
+            "Source Deductions": 22248000, 
+            "Stamp and Cheque Duties": 72000, 
+            "Student Loans - Receipts": 647000, 
+            "Unclaimed Monies": 7000, 
+            "Withholding Taxes": 2962000
+        }, 
+        "Land Information New Zealand": {
+            "Database Licence Fees and Royalties": 580, 
+            "Land Tenure Reform Sales": 1057, 
+            "Pastoral Lease Rentals": 1779, 
+            "Sundry Operating Revenue": 1014, 
+            "Surplus Government Properties - Rents": 2264, 
+            "Surplus Government Properties - Sales": 16100, 
+            "Transit Sales": 14109
+        }, 
+        "Ministry for the Environment": {
+            "Coastal Royalties": 400, 
+            "Emissions Trading": 6578, 
+            "Revision in Forecast Carbon Units under Kyoto Protocol": 39482, 
+            "Waste Disposal Levy": 30000
+        }, 
+        "Ministry of Agriculture and Forestry": {
+            "Biosecurity Act 1993 Fines": 850, 
+            "Crown Forestry Assets": 113983, 
+            "Forestry Encouragement Loan Interest": 2600, 
+            "Forestry Encouragement Loans": 4458, 
+            "New Zealand Emissions Trading Scheme Fees": 150, 
+            "New Zealand Fast Forward Fund": 39, 
+            "Sale of Forestry Assets": 23
+        }, 
+        "Ministry of Defence": {
+            "Crown Interest": 200, 
+            "Defence Equipment": 174118
+        }, 
+        "Ministry of Economic Development": {
+            "Accounting Standards Review Board": 830, 
+            "Concession Fees": 617, 
+            "Control of Natural Gas Services": 3372, 
+            "Energy Resource Levies - Coal": 6160, 
+            "Energy Resource Levies - Gas": 30451, 
+            "Financial Advisers Act (FAA) Fees and Charges": 1300, 
+            "Ironsands Royalties": 66, 
+            "Levy on Electricity Industry Participants": 96524, 
+            "Levy on Electricity Line Businesses": 293, 
+            "Levy on Regulated Airports": 2077, 
+            "Miscellaneous Receipts": 1501, 
+            "Proceeds of Crime": 2472, 
+            "Radio Spectrum": 302, 
+            "Radio Spectrum Rights": 786, 
+            "Rent from Reserve Lands": 420, 
+            "Repayment of Crown Energy Efficiency Loans.": 2000, 
+            "Residual Ministry of Energy Commitments": 45, 
+            "Royalties - Coal": 1551, 
+            "Royalties - Minerals": 6732, 
+            "Royalties - Petroleum": 500050, 
+            "Telecommunications Levy": 7215, 
+            "Trade Measurement Unit Infringement Fees": 9, 
+            "Whirinaki Availability": 22536, 
+            "Whirinaki Electricity Generation": 4563, 
+            "Whirinaki Operating and Maintenance Recoveries": 8968
+        }, 
+        "Ministry of Education ": {
+            "Crown Entity Recoveries": 42419, 
+            "Export Education Levies": 3521, 
+            "Miscellaneous Receipts": 650, 
+            "Overseas Students' Fees": 5432, 
+            "Payroll Receipts": 25, 
+            "Roll Audit and Staffing Recoveries": 110, 
+            "State Sector Retirement Savings Scheme Recoveries": 59302, 
+            "Tertiary Investments - Interest": 122
+        }, 
+        "Ministry of Fisheries": {
+            "Conservation Levy": 1053, 
+            "Cost Recovery": 28273, 
+            "Deemed Values": 2500, 
+            "Fisheries Revenue from Forfeitures": 1000, 
+            "Infringement Notice Revenue": 150, 
+            "Other Revenue": 105, 
+            "Proceeds Quota Shares and ACE": 100
+        }, 
+        "Ministry of Health": {
+            "ACC - Reimbursement of Complex Burns Costs": 6400, 
+            "ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs": 73343, 
+            "ACC - Reimbursement of Medical Misadventure Costs": 2233, 
+            "ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs": 60758, 
+            "ACC - Reimbursement of Non-Earners Account": 241688, 
+            "ACC - Reimbursement of Self-Employed Public Hospital Costs": 6986, 
+            "ACC - Reimbursement of Work-Related Public Hospital Costs": 25589, 
+            "Equity repayments by DHBs": 12499, 
+            "Miscellaneous": 340, 
+            "Payment of Capital Charge by DHBs": 199709, 
+            "Repayment of Residential Care Loans": 24000, 
+            "Residual Health Management Rental": 278
+        }, 
+        "Ministry of Justice": {
+            "Court Fines": 265694, 
+            "Landbank Properties": 5877, 
+            "Money Forfeited to the Crown": 49
+        }, 
+        "Ministry of Social Development": {
+            "Benefit Recoveries - Current Debt": 237085, 
+            "Benefit Recoveries - Liable Parent Contributions": 1897, 
+            "Benefit Recoveries - Non-Current Debt": 77189, 
+            "Interest Revenue": 65535, 
+            "Maintenance Capitalisation": 168, 
+            "Overseas Pension Recoveries": 165940, 
+            "Student Loan - Administration Fee": 10800, 
+            "Student Loans - Repayment of Principal": 103620
+        }, 
+        "Ministry of Transport": {
+            "Fuel Excise Duty Refunds": -36398, 
+            "Infringements": 100, 
+            "Motor Vehicle Registration": 169932, 
+            "Motor Vehicle Registration Recoveries": 10500, 
+            "Motor Vehicle Registration fee-administration cost": 44454, 
+            "Northern Gateway Toll Road Revenue": 4000, 
+            "Road User Charge transaction fee": 13782, 
+            "Road User Charges": 894079
+        }, 
+        "New Zealand Customs Service": {
+            "Customs Duty": 1933000, 
+            "Excise Duty": 1709000, 
+            "Goods and Services Tax": 5300000, 
+            "Sale of Seized Goods": 80
+        }, 
+        "New Zealand Police": {
+            "Infringement Fees": 80400, 
+            "Sale of Unclaimed Property": 500
+        }, 
+        "State Services Commission": {
+            "Reimbursement of Chief Executives' Remuneration": 12530
+        }, 
+        "Te Puni Kokiri": {
+            "Interest on Advances": 10, 
+            "Mortgage Repayments Intended for HNZC": 10, 
+            "Repayment of Advances": 54
+        }, 
+        "The Treasury": {
+            "Capital Charge - Departments": 1686211, 
+            "Capital Withdrawals from Crown Companies": 7400, 
+            "Crown Deposit Guarantee Scheme Fees": 96856, 
+            "Crown Wholesale Guarantee Facility Fees": 76390, 
+            "Dividends - Other": 2810, 
+            "Dividends from Crown Entities": 1471, 
+            "Dividends from Crown Research Institutes": 9730, 
+            "Dividends from SOEs": 810548, 
+            "Earthquake Commission Guarantee Fee": 10000, 
+            "Employers' Superannuation Contributions": 40000, 
+            "Export Credit Office": 3067, 
+            "Interest from Securities and Deposits": 278978, 
+            "Loan Repayments from Other Parties": 16126, 
+            "Maui Gas Contracts": 1372, 
+            "Other Current Revenue": 2821, 
+            "Other Interest": 565, 
+            "Rentals from Crown Overseas Properties": 12300, 
+            "Reserve Bank Surplus": 630000, 
+            "Unclaimed Money": 500
+        }
+    }, 
+    "2011": {
+        "Department of Building and Housing": {
+            "Dividend from HNZC": 41000, 
+            "Interest on Housing New Zealand Corporation Loans": 124000, 
+            "Loans to support Homeownership": 5047, 
+            "Services to support Homeownership": 156
+        }, 
+        "Department of Conservation": {
+            "Concessions, Leases and Licences": 10900, 
+            "Disposal of Reserves": 1800, 
+            "Old Government Building Rental": 1760, 
+            "Rates Recovery from Concessionaires": 964, 
+            "Revenue for Land Purchases": 500, 
+            "Turnbull House Revenue": 200
+        }, 
+        "Department of Internal Affairs": {
+            "Local Government Debt Vehicle Interest Received": 125
+        }, 
+        "Department of Labour": {
+            "Employment Relations Authority Fees": 193, 
+            "Health and Safety in Employment Levy": 40147, 
+            "Infringement Notice Fines": 247, 
+            "Migrant Levy": 9715, 
+            "OSH Fees and Licences": 33, 
+            "Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration": 250
+        }, 
+        "Inland Revenue Department": {
+            "Adverse Income Equalisation Account": 1000, 
+            "Child Support Collections": 848000, 
+            "Companies": 8550000, 
+            "Environmental Restoration Accounts Scheme": 20000, 
+            "Fringe Benefit Tax": 430000, 
+            "Gaming Duties": 273000, 
+            "Goods and Services Tax (IRD)": 13326000, 
+            "Income Equalisation Reserve Account": 90000, 
+            "Interest on Impaired Student Loans": 440000, 
+            "Other Direct Taxes": 1000, 
+            "Other Indirect Taxes": 15000, 
+            "Other Persons": 2919000, 
+            "Source Deductions": 20580000, 
+            "Stamp and Cheque Duties": 81000, 
+            "Student Loans - Receipts": 714000, 
+            "Unclaimed Monies": 7000, 
+            "Withholding Taxes": 2341000
+        }, 
+        "Land Information New Zealand": {
+            "Land Tenure Reform Sales": 966, 
+            "Pastoral Lease Rentals": 1902, 
+            "Sundry Operating Revenue": 71, 
+            "Surplus Government Properties - Rents": 2214, 
+            "Surplus Government Properties - Sales": 6000, 
+            "Transit Sales": 39000
+        }, 
+        "Ministry for the Environment": {
+            "Coastal Royalties": 400, 
+            "Emissions Trading": 377539, 
+            "Waste Disposal Levy": 30000
+        }, 
+        "Ministry of Agriculture and Forestry": {
+            "Biosecurity Act 1993 Fines": 850, 
+            "Crown Forestry Assets": 103548, 
+            "Forestry Encouragement Loan Interest": 2100, 
+            "Forestry Encouragement Loans": 3300, 
+            "Levy Charged Under the Dairy Industry Restructuring Act": 250, 
+            "New Zealand Emissions Trading Scheme Fees": 100
+        }, 
+        "Ministry of Defence": {
+            "Crown Interest": 200, 
+            "Defence Equipment": 328722
+        }, 
+        "Ministry of Economic Development": {
+            "Accounting Standards Review Board": 830, 
+            "Concession Fees": 609, 
+            "Control of Natural Gas Services": 1439, 
+            "Energy Resource Levies - Coal": 7784, 
+            "Energy Resource Levies - Gas": 30090, 
+            "Financial Advisers Act (FAA) Fees and Charges": 6091, 
+            "Ironsands Royalties": 63, 
+            "Levy on Electricity Industry Participants": 102661, 
+            "Levy on Electricity Line Businesses": 4996, 
+            "Levy on Regulated Airports": 1319, 
+            "Proceeds of Crime": 9250, 
+            "Radio Spectrum Rights": 26403, 
+            "Rent from Reserve Lands": 40, 
+            "Repayment of Crown Energy Efficiency Loans.": 2000, 
+            "Residual Ministry of Energy Commitments": 80, 
+            "Royalties - Coal": 1912, 
+            "Royalties - Minerals": 3388, 
+            "Royalties - Petroleum": 503950, 
+            "Telecommunications Levy": 7791, 
+            "Trade Measurement Unit Infringement Fees": 20, 
+            "Whirinaki Availability": 25000, 
+            "Whirinaki Electricity Generation": 100, 
+            "Whirinaki Operating and Maintenance Recoveries": 4000
+        }, 
+        "Ministry of Education ": {
+            "Asset Sales": 1080, 
+            "Export Education Levies": 3521, 
+            "Miscellaneous Receipts": 650, 
+            "Overseas Students' Fees": 3757, 
+            "Payroll Receipts": 25, 
+            "Roll Audit and Staffing Recoveries": 110, 
+            "State Sector Retirement Savings Scheme Recoveries": 61385, 
+            "Tertiary Investments - Interest": 122
+        }, 
+        "Ministry of Fisheries": {
+            "Conservation Levy": 1053, 
+            "Cost Recovery": 33273, 
+            "Deemed Values": 2500, 
+            "Fisheries Revenue from Forfeitures": 150, 
+            "Infringement Notice Revenue": 125, 
+            "Other Revenue": 50, 
+            "Proceeds Quota Shares and ACE": 100
+        }, 
+        "Ministry of Health": {
+            "ACC - Reimbursement of Complex Burns Costs": 6400, 
+            "ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs": 77288, 
+            "ACC - Reimbursement of Medical Misadventure Costs": 2353, 
+            "ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs": 64025, 
+            "ACC - Reimbursement of Non-Earners Account": 254631, 
+            "ACC - Reimbursement of Self-Employed Public Hospital Costs": 7362, 
+            "ACC - Reimbursement of Work-Related Public Hospital Costs": 26965, 
+            "Equity repayments by DHBs": 12499, 
+            "Payment of Capital Charge by DHBs": 199709, 
+            "Principal Repayments from the Residual Health Management Unit": 14800, 
+            "Repayment of Residential Care Loans": 24000, 
+            "Residual Health Management Rental": 278
+        }, 
+        "Ministry of Justice": {
+            "Court Fines": 284357, 
+            "Landbank Properties": 5877, 
+            "Licensing Fund": 200, 
+            "Money Forfeited to the Crown": 49, 
+            "Repayments of Judicial Salaries from Crown Entities": 476
+        }, 
+        "Ministry of Social Development": {
+            "Benefit Recoveries - Current Debt": 248371, 
+            "Benefit Recoveries - Liable Parent Contributions": 1712, 
+            "Benefit Recoveries - Non-Current Debt": 76351, 
+            "Interest Revenue": 65511, 
+            "Maintenance Capitalisation": 168, 
+            "Overseas Pension Recoveries": 175063, 
+            "Student Loan - Administration Fee": 12581, 
+            "Student Loans - Repayment of Principal": 112368
+        }, 
+        "Ministry of Transport": {
+            "Fuel Excise Duty Refunds": -38312, 
+            "Infringements": 100, 
+            "Motor Vehicle Registration": 174548, 
+            "Motor Vehicle Registration Recoveries": 10500, 
+            "Motor Vehicle Registration fee-administration cost": 45838, 
+            "Northern Gateway Toll Road Revenue": 4000, 
+            "Road User Charge transaction fee": 14728, 
+            "Road User Charges": 955402
+        }, 
+        "New Zealand Customs Service": {
+            "Customs Duty": 2060000, 
+            "Excise Duty": 1811000, 
+            "Goods and Services Tax": 6952000, 
+            "Sale of Seized Goods": 80
+        }, 
+        "New Zealand Police": {
+            "Infringement Fees": 85700, 
+            "Sale of Unclaimed Property": 500
+        }, 
+        "State Services Commission": {
+            "Reimbursement of Chief Executives' Remuneration": 13150
+        }, 
+        "Te Puni Kokiri": {
+            "Mortgage Repayments Intended for HNZC": 10
+        }, 
+        "The Treasury": {
+            "Capital Charge - Departments": 1742135, 
+            "Crown Deposit Guarantee Scheme Fees": 32064, 
+            "Crown Wholesale Guarantee Facility Fees": 79851, 
+            "Dividends - Other": 2351, 
+            "Dividends from Crown Entities": 4521, 
+            "Dividends from SOEs": 466289, 
+            "Earthquake Commission Guarantee Fee": 10000, 
+            "Employers' Superannuation Contributions": 40000, 
+            "Export Credit Office": 9367, 
+            "Interest from Securities and Deposits": 537887, 
+            "Loan Repayments from Other Parties": 746, 
+            "Other Current Revenue": 324670, 
+            "Other Interest": 1359, 
+            "Rentals from Crown Overseas Properties": 14500, 
+            "Unclaimed Money": 500
+        }
+    }
+}
