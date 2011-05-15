@@ -31,7 +31,7 @@ function plot(data) {
             plotShadow: false
         },
         title: {
-            text: 'NZ Government Income by departments'
+            text: 'NZ Government Income by departments [2011]'
         },
         tooltip: {
             formatter: function() {
@@ -47,15 +47,6 @@ function plot(data) {
                 cursor: 'pointer',
                 dataLabels: {
                     enabled: false
-                },
-                events: {
-                    click: function (event) {
-                        var cost = event.point.y;
-                        var text = "$" + (1000 * cost / NZ_POPULATION).toFixed(2) 
-                                       + " per person.";
-                        $("#chart_container").attr("title", text);
-                        $("#chart_container").tooltip();
-                    }
                 },
                 showInLegend: true
             }
