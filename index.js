@@ -51,7 +51,7 @@ function plot(depts_data) {
             href: 'http://www.treasury.govt.nz/budget/2010/data'
         },
         title: {
-            text: 'All Departments',
+            text: '',
         },
         tooltip: {
             formatter: function() {
