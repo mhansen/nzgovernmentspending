@@ -1,9 +1,13 @@
-var NZ_POPULATION = 4405193;
 var YEAR = 2011;
 var raw_expenses;
 var main_chart;
 var detail_chart;
 var expense_series_by_dept = {};
+
+function dollars_per_person(dollars_per_country_thousands) {
+    var NZ_POPULATION = 4405193; // From Statistics NZ Population Counter.
+    return "$" + (1000 * dollars_per_country_thousands / NZ_POPULATION).toFixed(2);
+}
 
 $(function () {
     $.getJSON("expenses.json", function (data) {
@@ -52,8 +56,7 @@ function plot(depts_data) {
         },
         tooltip: {
             formatter: function() {
-                var perperson = "$" + (1000 * this.y / NZ_POPULATION).toFixed(2) 
-                + " per person.";
+                var perperson = dollars_per_person(this.y) + " per person."
                 var total = "$" + (this.y / 1000000).toFixed(2) + " Billion";
                 return '<b>'+ this.point.name +'</b><br>'+ total + '<br>' + perperson;
             }
@@ -76,9 +79,8 @@ function plot(depts_data) {
                 point: {
                     events: {
                         select: function (event) {
-                            plot_detail(this.name);
-                            console.log(this);
-                            console.log(event);
+                            plot_detail_pie(this.name);
+                            fill_detail_receipt(this.name);
                         },
                         unselect: function (event) {
                         }
@@ -98,7 +100,21 @@ function plot(depts_data) {
     });
 }
 
-function plot_detail(dept_name) {
+function fill_detail_receipt(dept_name) {
+    var dept_data = expense_series_by_dept[dept_name];
+    $("#detail_receipt table").remove();
+    var $list = $("<table>").appendTo("#detail_receipt");
+
+    $.each(dept_data, function (i, subdept) {
+
+        $("<tr>").
+            append($("<td>").text(subdept[0])).
+            append($("<td>").text(dollars_per_person(subdept[1]))).
+                appendTo($list);
+    });
+}
+
+function plot_detail_pie(dept_name) {
     var dept_data = expense_series_by_dept[dept_name];
     if (detail_chart) {
         detail_chart.destroy();
@@ -125,11 +141,10 @@ function plot_detail(dept_name) {
         },
         tooltip: {
             formatter: function() {
-                var perperson = "$" + (1000 * this.y / NZ_POPULATION).toFixed(2) 
-                + " per person.";
+                var perperson = dollars_per_person(this.y) + " per person.";
                 var total = "$" + (this.y / 1000000).toFixed(2) + " Billion";
                 return '<b>'+ this.point.name +'</b><br>'+ total + '<br>' + perperson;
             }
-        },
+        }
     });
 }
