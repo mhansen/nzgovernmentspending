@@ -45,20 +45,16 @@ function plot(depts_data) {
     main_chart = new Highcharts.Chart({
         chart: {
             renderTo: 'chart_container',
+            backgroundColor: null
         },
         credits: {
-            text: 'Source: New Zealand Treasury',
-            href: 'http://www.treasury.govt.nz/budget/2010/data'
+            enabled: false
         },
         title: {
             text: '',
         },
         tooltip: {
-            formatter: function() {
-                var perperson = dollars_per_person(this.y) + " per person."
-                var total = "$" + (this.y / 1000000).toFixed(2) + " Billion";
-                return '<b>'+ this.point.name +'</b><br>'+ total + '<br>' + perperson;
-            }
+            formatter: format_tooltip
         },
         plotOptions: {
             pie: {
@@ -121,13 +117,13 @@ function plot_detail_pie(dept_name) {
     detail_chart = new Highcharts.Chart({
         chart: {
             renderTo: "detail_container",
+            backgroundColor: null
         },
         credits: {
-            text: 'Source: New Zealand Treasury',
-            href: 'http://www.treasury.govt.nz/budget/2010/data'
+            enabled: false
         },
         title: {
-            text: dept_name
+            text: ''
         },
         series: [{
             type: 'pie',
@@ -145,11 +141,14 @@ function plot_detail_pie(dept_name) {
             }
         },
         tooltip: {
-            formatter: function() {
-                var perperson = dollars_per_person(this.y) + " per person.";
-                var total = "$" + (this.y / 1000000).toFixed(2) + " Billion";
-                return '<b>'+ this.point.name +'</b><br>'+ total + '<br>' + perperson;
-            }
+            formatter: format_tooltip
         }
     });
+}
+
+function format_tooltip() {
+    var perperson = dollars_per_person(this.y) + " per person.";
+    var total = "$" + (this.y / 1000000).toFixed(2) + " Billion";
+    var splitName = '<b>'+this.point.name.split(" - ").join("<br/><b>");
+    return splitName +'<br/>'+ total + '<br/>' + perperson;
 }
