@@ -15,7 +15,6 @@ $(function () {
             return b[1] - a[1];
         });
         plot(treatedData);
-        $('tspan').last().remove();
     });
 });
 
@@ -23,15 +22,22 @@ function plot(data) {
     var chart;
     chart = new Highcharts.Chart({
         chart: {
-            width: 1000,
-            height: 800,
+            animation: false,
             renderTo: 'chart_container',
             plotBackgroundColor: null,
             plotBorderWidth: null,
-            plotShadow: false
+            plotShadow: false,
+            spacingTop: 0,
+            spacingLeft: 0,
+            spacingRight: 0,
+            spacingBottom: 0
+        },
+        credits: {
+            text: 'markhansen.co.nz/nzgovernmentspending',
+            href: 'http://www.markhanmsen.co.nz/nzgovernmentspending'
         },
         title: {
-            text: 'NZ Government Income by departments [2011]'
+            text: '',
         },
         tooltip: {
             formatter: function() {
@@ -56,13 +62,18 @@ function plot(data) {
                         "font": "normal 12px sans-serif"
                     }
                 },
+                point: {
+                    events: {
+                        click: function (event) {
+                            alert("You clicked: " + this.name);
+                        }
+                    }
+                },
                 showInLegend: true
             }
         },
         legend: {
-            layout: "vertical",
-            align: "left",
-            verticalAlign: "middle"
+            enabled: false,
         },
         series: [{
             type: 'pie',
