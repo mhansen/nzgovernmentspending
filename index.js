@@ -66,11 +66,11 @@ function plot(depts_data) {
                             return this.point.name.replace(/(\w+ \w+)/g, "$1<br/>");
                         }
                     },
-                    distance: -60,
+                    distance: -70,
                     style: {
                         "font": "normal 12px sans-serif"
                     },
-                    y: -5
+                    y: -4
                 },
                 point: {
                     events: {

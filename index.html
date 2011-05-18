@@ -2,21 +2,30 @@
 <html>
   <head>
     <title>Your NZ Budget</title>
+    <meta charset="utf-8">
     <style>
       body {
+        background-color: #fff;
         min-width: 1000px;
-        background-color: #e6e7e8;
+        background: url("background.gif") repeat-x;
       }
       #chart_container {
         width: 700px;
         height: 600px;
+        position: absolute;
+        left: -100px;
+        top: 200px;
       }
       #detail_container {
         width: 350px;
         height: 350px;
         position: absolute;
-        top: 20px;
-        left: 500px;
+        top: 90px;
+        left: 50%;
+        margin-left: -175px;
+      }
+      #title {
+        margin-top: 20px;
       }
       table tr.lineitem td {
         vertical-align: top;
@@ -32,29 +41,50 @@
       #detail_receipt {
         overflow-y: auto;
         height: 500px;
-        width: 250px;
+        width: 280px;
         position: absolute;
-        left: 850px;
-        top: 170px;
-        padding: 10px;
+        right: 50px;
+        top: 280px;
+        padding: 30px;
         background-color: #ddd;
       }
       #detail_receipt table {
         font-family: Helvetica, Arial, sans-serif;
         font-size: 11px;
       }
-
-      html body h1 {
+      #call_to_action {
+        color: #bbb;
+        font-size: 20px;
         font-family: Helvetica, Arial, sans-serif;
-        color: #8c8c8c;
-        margin-left: 165px;
+        width: 180px;
+        position: absolute;
+        top: 500px;
+        left: 50%;
+        margin-left: -90px;
+        text-align: center;
+      }
+      h2.title {
+        font-family: Cambria, Times New Roman, Times, serif;
+      }
+      #all_depts.title {
+        position: absolute;
+        top: 200px;
+        left: 253px;
+        color: #58595b;
+        font-weight: normal;
+        width: 300px;
+        margin-left: -150px;
+        font-size: 18pt;
+        text-align: center;
       }
     </style>
   </head>
   <body>
-    <h1>Where are my taxes?</h1>
+    <center><img id="title" src="title.png" alt="Where are my taxes?"></center>
+    <h2 id="all_depts" class="title">All Departments</h2>
     <div id="chart_container">Loading...</div>
     <div id="detail_container"></div>
+    <div id="call_to_action">&lt;&lt; Click on a segment to expand the department<br/></div>
     <div id="detail_receipt"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
     <script src="highcharts/js/highcharts.js"></script>
