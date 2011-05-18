@@ -77,7 +77,7 @@ function plot(data) {
         },
         series: [{
             type: 'pie',
-            name: 'Government Income',
+            name: 'Government Expenses',
             data: data
         }]
     });
