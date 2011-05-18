@@ -51,7 +51,12 @@ function plot(depts_data) {
             enabled: false
         },
         title: {
-            text: '',
+            text: 'All Departments',
+            margin: 20,
+            style: {
+                "fontSize": "16px",
+                "font-family": "Cambria, Times New Roman, Time, serif"
+            }
         },
         tooltip: {
             formatter: format_tooltip
@@ -81,8 +86,7 @@ function plot(depts_data) {
                         unselect: function (event) {
                         }
                     }
-                },
-                showInLegend: true
+                }
             }
         },
         legend: {
@@ -91,14 +95,17 @@ function plot(depts_data) {
         series: [{
             type: 'pie',
             name: 'Government Expenses',
-            data: depts_data
+            data: depts_data,
+            size: "100%"
         }]
     });
+    console.log(main_chart)
 }
 
 function fill_detail_receipt(dept_name) {
     var dept_data = expense_series_by_dept[dept_name];
     $("#detail_receipt table").remove();
+    $("#receipt_header").text(dept_name);
     var $list = $("<table>").appendTo("#detail_receipt");
 
     $.each(dept_data, function (i, subdept) {
@@ -124,7 +131,12 @@ function plot_detail_pie(dept_name) {
             enabled: false
         },
         title: {
-            text: ''
+            text: dept_name,
+            margin: 20,
+            style: {
+                "fontSize": "16px",
+                "font-family": "Cambria, Times New Roman, Time, serif"
+            }
         },
         series: [{
             type: 'pie',
@@ -138,7 +150,8 @@ function plot_detail_pie(dept_name) {
                 dataLabels: {
                     enabled: false
                 },
-                innerSize: 150
+                innerSize: 150,
+                size: "100%"
             }
         },
         tooltip: {
