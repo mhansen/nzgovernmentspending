@@ -48,8 +48,8 @@ function plot(depts_data) {
             renderTo: 'chart_container',
         },
         credits: {
-            text: 'markhansen.co.nz/nzgovernmentspending',
-            href: 'http://www.markhanmsen.co.nz/nzgovernmentspending'
+            text: 'Source: New Zealand Treasury',
+            href: 'http://www.treasury.govt.nz/budget/2010/data'
         },
         title: {
             text: 'All Departments',
@@ -122,6 +122,10 @@ function plot_detail_pie(dept_name) {
     detail_chart = new Highcharts.Chart({
         chart: {
             renderTo: "detail_container",
+        },
+        credits: {
+            text: 'Source: New Zealand Treasury',
+            href: 'http://www.treasury.govt.nz/budget/2010/data'
         },
         title: {
             text: dept_name
