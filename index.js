@@ -48,7 +48,7 @@ function plot(depts_data) {
             href: 'http://www.markhanmsen.co.nz/nzgovernmentspending'
         },
         title: {
-            text: '',
+            text: 'All Departments',
         },
         tooltip: {
             formatter: function() {
@@ -76,7 +76,7 @@ function plot(depts_data) {
                 point: {
                     events: {
                         select: function (event) {
-                            plot_detail(expense_series_by_dept[this.name]);
+                            plot_detail(this.name);
                             console.log(this);
                             console.log(event);
                         },
@@ -98,7 +98,8 @@ function plot(depts_data) {
     });
 }
 
-function plot_detail(dept_data) {
+function plot_detail(dept_name) {
+    var dept_data = expense_series_by_dept[dept_name];
     if (detail_chart) {
         detail_chart.destroy();
     }
@@ -107,7 +108,7 @@ function plot_detail(dept_data) {
             renderTo: "detail_container",
         },
         title: {
-            text: ''
+            text: dept_name
         },
         series: [{
             type: 'pie',
