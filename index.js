@@ -55,7 +55,7 @@ function plot(depts_data) {
             margin: 20,
             style: {
                 "fontSize": "16px",
-                "font-family": "Cambria, Times New Roman, Time, serif"
+                "font-family": "Helvetica, Arial, sans-serif"
             }
         },
         tooltip: {
@@ -73,7 +73,7 @@ function plot(depts_data) {
                     },
                     distance: -70,
                     style: {
-                        "font": "normal 12px sans-serif"
+                        "font": "normal 11px sans-serif"
                     },
                     y: -4
                 },
@@ -105,7 +105,7 @@ function plot(depts_data) {
 function fill_detail_receipt(dept_name) {
     var dept_data = expense_series_by_dept[dept_name];
     $("#detail_receipt table").remove();
-    $("#receipt_header").text(dept_name);
+    $("#receipt_header").text("Your Receipt");
     var $list = $("<table>").appendTo("#detail_receipt");
 
     $.each(dept_data, function (i, subdept) {
@@ -135,7 +135,7 @@ function plot_detail_pie(dept_name) {
             margin: 20,
             style: {
                 "fontSize": "16px",
-                "font-family": "Cambria, Times New Roman, Time, serif"
+                "font-family": "Helvetica, Arial, sans-serif"
             }
         },
         series: [{
