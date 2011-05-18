@@ -105,7 +105,7 @@ function plot(depts_data) {
 function fill_detail_receipt(dept_name) {
     var dept_data = expense_series_by_dept[dept_name];
     $("#detail_receipt table").remove();
-    $("#receipt_header").text("Your Receipt");
+    $("#receipt_header").text("Per Capita Tax Receipt");
     var $list = $("<table>").appendTo("#detail_receipt");
 
     $.each(dept_data, function (i, subdept) {

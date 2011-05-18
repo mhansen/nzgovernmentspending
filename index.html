@@ -3,11 +3,15 @@
   <head>
     <title>Where's My Taxes?</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
     <style>
       body {
         background-color: #fff;
         min-width: 1000px;
         background: url("background.gif") repeat-x;
+        min-height: 750px;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #6D6E71;
       }
       #chart_container {
         width: 466px;
@@ -32,7 +36,6 @@
         padding-bottom: 2px;
       }
       .lineitem .expense {
-        /*font-family: monospace;*/
         font-weight: bold;
         text-align: right;
         font-size: 1.2em;
@@ -75,6 +78,35 @@
         margin-right: -100px;
         text-align: center;
       }
+      #footer {
+        position:absolute;
+        top: 720px;
+        width:90%;
+        margin-left:5%;
+        border-top: 2px solid #eaeaea;
+        font-size: 8pt;
+        padding-top: 1em;
+      }
+      #footer #links {
+        float:right;
+      }
+      #footer #copyright {
+        float:left;
+      }
+      #footer #links a {
+        padding-left: 20px;
+        text-decoration: none;
+        transition: color 200ms ease-in 100ms;
+        -webkit-transition: color 200ms ease-in 100ms;
+        -moz-transition: color 200ms ease-in 100ms;
+        -o-transition: color 200ms ease-in 100ms;
+        color: inherit;
+      }
+
+      #footer #links a:hover {
+        color: #4290c3;
+      }
+
     </style>
   </head>
   <body>
@@ -84,9 +116,21 @@
     <div id="call_to_action">&lt;&lt; Click on a segment to expand the department<br/></div>
     <div id="receipt_header"></div>
     <div id="detail_receipt"></div>
+    <div id="footer">
+      <div id="copyright">
+        Copyright, 2011 Mark Hansen, Luke Bjerring, Ryan Delaney
+      </div>
+      <div id="links">
+        <a href="http://www.treasury.govt.nz/budget/2010/data">SOURCE</a>
+        <a id="inline" href="#credits">CREDITS</a>
+        <div style="display:none;"><div id="credits">Lorem n shit</div></div>
+        <a href="#about">ABOUT</a>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
     <script src="highcharts/js/highcharts.js"></script>
     <script src="jquery.tools.min.js"></script>
+    <script src="jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
