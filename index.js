@@ -1,7 +1,7 @@
 var NZ_POPULATION = 4405193;
 
 $(function () {
-    $.getJSON("income.json", function (data) {
+    $.getJSON("expenses.json", function (data) {
         var currentExpenses = data[2011];
         var treatedData = [];
         $.each(currentExpenses, function (name, deptExpenses) {
@@ -23,8 +23,8 @@ function plot(data) {
     var chart;
     chart = new Highcharts.Chart({
         chart: {
-            width: 800,
-            height: 500,
+            width: 1000,
+            height: 800,
             renderTo: 'chart_container',
             plotBackgroundColor: null,
             plotBorderWidth: null,
@@ -46,7 +46,15 @@ function plot(data) {
                 allowPointSelect: true,
                 cursor: 'pointer',
                 dataLabels: {
-                    enabled: false
+                    formatter: function () {
+                        if (this.percentage > 4) {
+                            return this.point.name;
+                        }
+                    },
+                    distance: -80,
+                    style: {
+                        "font": "normal 12px sans-serif"
+                    }
                 },
                 showInLegend: true
             }
