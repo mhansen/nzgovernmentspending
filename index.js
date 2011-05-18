@@ -63,13 +63,14 @@ function plot(depts_data) {
                 dataLabels: {
                     formatter: function () {
                         if (this.percentage > 4) {
-                            return this.point.name;
+                            return this.point.name.replace(/(\w+ \w+)/g, "$1<br/>");
                         }
                     },
-                    distance: -80,
+                    distance: -60,
                     style: {
                         "font": "normal 12px sans-serif"
-                    }
+                    },
+                    y: -5
                 },
                 point: {
                     events: {
