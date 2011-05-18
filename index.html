@@ -7,16 +7,19 @@
         min-width: 1000px;
       }
       #chart_container {
-        float:left;
         width: 600px;
-        height: 600px;
+        height: 500px;
       }
-      #department {
-        float:right;
-        width: 400px;
+      #detail_receipt {
+        width: 250px;
+        margin-right: 100px;
       }
       #detail_container {
-        height: 400px;
+        width: 350px;
+        height: 200px;
+        position: absolute;
+        top: 100px;
+        left: 510px;
       }
       table tr td {
         vertical-align: top;
@@ -25,17 +28,25 @@
         /*font-family: monospace;*/
         font-weight: bold;
         text-align: right;
+        font-size: 1.3em;
+      }
+      #detail_receipt table {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 11px;
+      }
+
+      html body h1 {
+        font-family: Helvetica, Arial, sans-serif;
+        color: #8c8c8c;
+        margin-left: 165px;
       }
     </style>
   </head>
   <body>
     <h1>Your NZ Budget</h1>
     <div id="chart_container">Loading...</div>
-    <div id="department">
-      <div id="detail_container"></div>
-      <div id="detail_receipt">
-      </div>
-    </div>
+    <div id="detail_container"></div>
+    <div id="detail_receipt"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
     <script src="highcharts/js/highcharts.js"></script>
     <script src="jquery.tools.min.js"></script>
