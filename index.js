@@ -104,7 +104,10 @@ function plot_detail(dept_data) {
     }
     detail_chart = new Highcharts.Chart({
         chart: {
-            renderTo: "detail_container"
+            renderTo: "detail_container",
+        },
+        title: {
+            text: ''
         },
         series: [{
             type: 'pie',
@@ -113,7 +116,19 @@ function plot_detail(dept_data) {
         }],
         plotOptions: {
             pie: {
+                dataLabels: {
+                    enabled: false
+                },
+                innerSize: 150
             }
-        }
+        },
+        tooltip: {
+            formatter: function() {
+                var perperson = "$" + (1000 * this.y / NZ_POPULATION).toFixed(2) 
+                + " per person.";
+                var total = "$" + (this.y / 1000000).toFixed(2) + " Billion";
+                return '<b>'+ this.point.name +'</b><br>'+ total + '<br>' + perperson;
+            }
+        },
     });
 }
