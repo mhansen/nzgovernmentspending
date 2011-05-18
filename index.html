@@ -4,12 +4,12 @@
     <title>Your NZ Budget</title>
     <style>
       body {
-        min-width: 1100px;
+        min-width: 1000px;
       }
       #chart_container {
         float:left;
-        width: 700px;
-        height: 700px;
+        width: 600px;
+        height: 600px;
       }
       #department {
         float:right;
@@ -18,13 +18,21 @@
       #detail_container {
         height: 400px;
       }
+      table tr td {
+        vertical-align: top;
+      }
+      .lineitem .expense {
+        /*font-family: monospace;*/
+        font-weight: bold;
+        text-align: right;
+      }
     </style>
   </head>
   <body>
     <h1>Your NZ Budget</h1>
     <div id="chart_container">Loading...</div>
     <div id="department">
-      <div id="detail_container">Detail...</div>
+      <div id="detail_container"></div>
       <div id="detail_receipt">
       </div>
     </div>

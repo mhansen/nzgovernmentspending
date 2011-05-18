@@ -1,4 +1,3 @@
-var YEAR = 2011;
 var raw_expenses;
 var main_chart;
 var detail_chart;
@@ -10,10 +9,10 @@ function dollars_per_person(dollars_per_country_thousands) {
 }
 
 $(function () {
-    $.getJSON("expenses.json", function (data) {
-        raw_expenses = data;
+    $.getJSON("expenses-2011.json", function (budget) {
+        raw_expenses = budget;
 
-        $.each(data[YEAR], function (dept_name, dept_expenses) {
+        $.each(raw_expenses, function (dept_name, dept_expenses) {
             expense_series_by_dept[dept_name] = [];
             $.each(dept_expenses, function (subdept_name, subdept_expense) {
                 expense_series_by_dept[dept_name].push([subdept_name, subdept_expense]);
@@ -23,13 +22,13 @@ $(function () {
             });
         });
 
-        plot(expense_series_for_all_depts(data[YEAR]));
+        plot(expense_series_for_all_depts(raw_expenses));
     });
 });
 
-function expense_series_for_all_depts(yearData) {
+function expense_series_for_all_depts(budget) {
     var expense_series = [];
-    $.each(yearData, function (name, dept_expenses) {
+    $.each(budget, function (name, dept_expenses) {
         var sum = 0;
         $.each(dept_expenses, function (subdept_name, cost) {
             sum += cost;
@@ -107,9 +106,9 @@ function fill_detail_receipt(dept_name) {
 
     $.each(dept_data, function (i, subdept) {
 
-        $("<tr>").
-            append($("<td>").text(subdept[0])).
-            append($("<td>").text(dollars_per_person(subdept[1]))).
+        $("<tr class='lineitem'>").
+            append($("<td class='expense'>").text(dollars_per_person(subdept[1]))).
+            append($("<td class='description'>").text(subdept[0])).
                 appendTo($list);
     });
 }
@@ -137,6 +136,8 @@ function plot_detail_pie(dept_name) {
         }],
         plotOptions: {
             pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
                 dataLabels: {
                     enabled: false
                 },
