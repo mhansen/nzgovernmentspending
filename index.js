@@ -144,7 +144,7 @@ function plot_detail_pie(dept_name) {
             enabled: false
         },
         title: {
-            text: dept_name,
+            text: wrap_long_sentence(dept_name, "<br/>"),
             margin: 20,
             style: {
                 "fontSize": "16px",
@@ -177,11 +177,17 @@ $(function () {
     $("a#inline").fancybox();
 });
 
+function wrap_long_sentence(sentence, replacer) {
+    return sentence.replace(/([^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+)/g, "$1" + replacer);
+}
+
 function format_tooltip() {
-    console.log(this);
+     this.point.name.replace();
     var perperson = dollars_per_person(this.y) + " per capita.";
     var total = "$" + (this.y / 1000000).toFixed(2) + " Billion ";
     var splitName = '<b>'+this.point.name.split(" - ").join("<br/><b>");
+    // long line items suck. break after 8 words
+    splitName = wrap_long_sentence(splitName, "<br/><b>");
     var percentage = "<i>(" +((this.y / total_expenses) * 100).toFixed(2) + "% of total)</i>";
     return splitName +'<br/>'+ total + percentage + '<br/>' + perperson;
 }
