@@ -3,11 +3,13 @@
   <head>
     <title>Where's My Taxes?</title>
     <meta charset="utf-8">
+    <meta name="description" content="Where's your money going? Breakdown the spending in the 2011 Government Budget by department, and find out how they're spending your money."/>
     <link rel="stylesheet" href="jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
     <style>
       body {
+        position: relative;
         background-color: #fff;
-        min-width: 1000px;
+        min-width: 1100px;
         background: url("background.gif") repeat-x;
         min-height: 750px;
         font-family: Helvetica, Arial, sans-serif;
@@ -89,9 +91,13 @@
       }
       #footer #links {
         float:right;
+        clear: both;
       }
       #footer #copyright {
-        float:left;
+        float:right;
+        clear: both;
+        color: #bbb;
+        padding-top: 5px;
       }
       #footer #links a {
         padding-left: 20px;
@@ -106,7 +112,6 @@
       #footer #links a:hover {
         color: #4290c3;
       }
-
     </style>
   </head>
   <body>
@@ -117,20 +122,42 @@
     <div id="receipt_header"></div>
     <div id="detail_receipt"></div>
     <div id="footer">
-      <div id="copyright">
-        Copyright, 2011 Mark Hansen, Luke Bjerring, Ryan Delaney
-      </div>
+      <iframe src="http://www.facebook.com/plugins/like.php?app_id=110821432339192&href=http%3A%2F%2Fwheresmytaxes.co.nz%2F&send=false&layout=standard&width=450&show_faces=false&action=like&colorscheme=light&font&height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true" id="likebutton"></iframe>
       <div id="links">
-        <a href="http://www.treasury.govt.nz/budget/2010/data">SOURCE</a>
+        <a href="http://markhansen.co.nz/budget-visualisation/#disqus_thread">FEEDBACK</a>
+        <a href="http://www.treasury.govt.nz/">SOURCE</a>
         <a id="inline" href="#credits">CREDITS</a>
-        <div style="display:none;"><div id="credits">Lorem n shit</div></div>
-        <a href="#about">ABOUT</a>
+        <div style="display:none;">
+          <div id="credits">
+            <ul>
+              <li>Public data helpfully provided by the <a href="http://www.treasury.govt.nz/">New Zealand Treasury</a>.</li>
+              <li>Design by <a href="mailto:ryadel08@gmail.com">Ryan Delaney</a>.</li>
+              <li>Code by <a href="http://markhansen.co.nz/">Mark Hansen</a> and Luke Bjerring.</li>
+              <li>Inspired by the <a href="http://datavizchallenge.org/">DataVizChallenge</a>, and <a href="http://www.wheredidmytaxdollarsgo.com/">Where Did My Tax Dollars Go?</a>.</li>
+            </div>
+          </div>
+          <a href="http://markhansen.co.nz/budget-visualisation/">ABOUT</a>
+        </div>
+        <div id="copyright">
+          Copyright, 2011 Mark Hansen, Luke Bjerring, Ryan Delaney
+        </div>
       </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-    <script src="highcharts/js/highcharts.js"></script>
-    <script src="jquery.tools.min.js"></script>
-    <script src="jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-    <script src="index.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+      <script src="highcharts/js/highcharts.js"></script>
+      <script src="jquery.tools.min.js"></script>
+      <script src="jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+      <script src="index.js"></script>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-23449217-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+</script>
   </body>
 </html>
