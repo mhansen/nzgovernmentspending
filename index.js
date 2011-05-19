@@ -4,6 +4,7 @@ var main_chart;
 var detail_chart;
 var expense_series_by_dept = {};
 var total_expenses = 0;
+var viewing_income = $.url.param("income") == "true";
 
 function dollars_per_person(dollars_per_country_thousands) {
     var NZ_POPULATION = 4405193; // From Statistics NZ Population Counter.
@@ -11,7 +12,14 @@ function dollars_per_person(dollars_per_country_thousands) {
 }
 
 $(function () {
-    $.getJSON("expenses-2011and2012.json", function (budget) {
+    if (viewing_income) {
+        var filename_to_fetch = "incomes-2011and2012.json";
+        $("#incomes_or_expenses").html("<a href='/?income=false'>View Expenses</a> \u25CF <b>Viewing Incomes</b>");
+    } else {
+        var filename_to_fetch = "expenses-2011and2012.json";
+        $("#incomes_or_expenses").html("<b>Viewing Expenses</b> \u25CF <a href='/?income=true'>View Incomes</a>");
+    }
+    $.getJSON(filename_to_fetch, function (budget) {
         estimates_2011 = budget[2011];
         estimates_2012 = budget[2012];
 
@@ -37,6 +45,7 @@ $(function () {
 
         plot(expense_series_for_all_depts(estimates_2012));
     });
+    $("a#inline").fancybox();
 });
 
 function expense_series_for_all_depts(budget) {
@@ -64,7 +73,7 @@ function plot(depts_data) {
             enabled: false
         },
         title: {
-            text: 'Government Expenses [Budget 2011]',
+            text: 'Government ' + (viewing_income ? 'Incomes' : 'Expenses') +' [Budget 2011]',
             margin: 20,
             style: {
                 "fontSize": "16px",
@@ -80,7 +89,7 @@ function plot(depts_data) {
                 cursor: 'pointer',
                 dataLabels: {
                     formatter: function () {
-                        if (this.percentage > 4) {
+                        if (this.percentage > 5) {
                             return this.point.name.replace(/(\w+ \w+)/g, "$1<br/>");
                         }
                     },
@@ -108,7 +117,6 @@ function plot(depts_data) {
         },
         series: [{
             type: 'pie',
-            name: 'Government Expenses',
             data: depts_data,
             size: "100%"
         }]
@@ -153,7 +161,6 @@ function plot_detail_pie(dept_name) {
         },
         series: [{
             type: 'pie',
-            name: 'Detail Expenses',
             data: dept_data
         }],
         plotOptions: {
@@ -173,9 +180,6 @@ function plot_detail_pie(dept_name) {
     });
 }
 
-$(function () {
-    $("a#inline").fancybox();
-});
 
 function wrap_long_sentence(sentence, replacer) {
     return sentence.replace(/([^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+)/g, "$1" + replacer);
@@ -185,9 +189,8 @@ function format_tooltip() {
      this.point.name.replace();
     var perperson = dollars_per_person(this.y) + " per capita.";
     var total = "$" + (this.y / 1000000).toFixed(2) + " Billion ";
-    var splitName = '<b>'+this.point.name.split(" - ").join("<br/><b>");
     // long line items suck. break after 8 words
-    splitName = wrap_long_sentence(splitName, "<br/><b>");
+    var splitName = '<b>' + wrap_long_sentence(this.point.name, "<br/><b>");
     var percentage = "<i>(" +((this.y / total_expenses) * 100).toFixed(2) + "% of total)</i>";
     return splitName +'<br/>'+ total + percentage + '<br/>' + perperson;
 }
