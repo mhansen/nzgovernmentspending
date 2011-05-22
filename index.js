@@ -8,7 +8,7 @@ var viewing_income = $.url.param("income") == "true";
 
 function dollars_per_person(dollars_per_country_thousands) {
     var NZ_POPULATION = 4405193; // From Statistics NZ Population Counter.
-    return "$" + (1000 * dollars_per_country_thousands / NZ_POPULATION).toFixed(2);
+    return (1000 * dollars_per_country_thousands / NZ_POPULATION);
 }
 
 $(function () {
@@ -74,8 +74,10 @@ function plot(depts_data) {
         },
         title: {
             text: 'Government ' + 
-                  (viewing_income ? 'Incomes' : 'Expenses') + 
-                  ': $' + (total_expenses / 1000000).toFixed(2) + ' Billion',
+                  (viewing_income ? 'Incomes' : 'Expenses') + ": $" +
+                      dollars_per_person(total_expenses).toFixed(0).replace(/(\d{3})$/, ",$1") + 
+                          " per capita",
+                  //': $' + (total_expenses / 1000000).toFixed(2) + ' Billion',
             margin: 20,
             style: {
                 "fontSize": "16px",
@@ -134,7 +136,7 @@ function fill_detail_receipt(dept_name) {
     $.each(dept_data, function (i, subdept) {
 
         $("<tr class='lineitem'>").
-            append($("<td class='expense'>").text(dollars_per_person(subdept['y']))).
+            append($("<td class='expense'>").text("$" + dollars_per_person(subdept['y']).toFixed(2))).
             append($("<td class='description'>").text(subdept['name'])).
                 appendTo($list);
     });
@@ -189,7 +191,7 @@ function wrap_long_sentence(sentence, replacer) {
 
 function format_tooltip() {
      this.point.name.replace();
-    var perperson = dollars_per_person(this.y) + " per capita.";
+    var perperson = "$" + dollars_per_person(this.y).toFixed(2) + " per capita.";
     var total = "$" + (this.y / 1000000).toFixed(2) + " Billion ";
     // long line items suck. break after 8 words
     var splitName = '<b>' + wrap_long_sentence(this.point.name, "<br/><b>");
