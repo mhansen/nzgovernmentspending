@@ -18,7 +18,10 @@ for line in sys.stdin:
     description = fields[1]
     amount = int(fields[2].rstrip().lstrip().replace(",",""))
     year = int(fields[3].rstrip())
-    
-    data[year][unitname][description] = amount
+
+    if description in data[year][unitname]:
+        data[year][unitname][description] += amount
+    else:
+        data[year][unitname][description] = amount
 
 print json.dumps(data)
