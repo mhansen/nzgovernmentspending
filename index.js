@@ -73,7 +73,9 @@ function plot(depts_data) {
             enabled: false
         },
         title: {
-            text: 'Government ' + (viewing_income ? 'Incomes' : 'Expenses') +' [Budget 2011]',
+            text: 'Government ' + 
+                  (viewing_income ? 'Incomes' : 'Expenses') + 
+                  ': $' + (total_expenses / 1000000).toFixed(2) + ' Billion',
             margin: 20,
             style: {
                 "fontSize": "16px",
