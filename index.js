@@ -70,7 +70,8 @@ function plot(depts_data) {
             backgroundColor: null
         },
         credits: {
-            enabled: false
+            text: "[Budget 2011]",
+            href: "http://www.treasury.govt.nz/"
         },
         title: {
             text: 'Government ' + 
