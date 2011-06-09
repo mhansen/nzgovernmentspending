@@ -26,16 +26,21 @@ $(function () {
         $.each(estimates_2012, function (dept_name, dept_expenses) {
             expense_series_by_dept[dept_name] = [];
             $.each(dept_expenses, function (subdept_name, subdept_expense) {
-                var lastYearExpense;
                 if (estimates_2011[dept_name]) {
-                    lastYearExpense = estimates_2011[dept_name][subdept_expense]
+                    var lastYearExpense = estimates_2011[dept_name][subdept_name] || 0;
+                    var thisYearExpense = estimates_2012[dept_name][subdept_name];
+
+                    if (lastYearExpense != 0) {
+                        var subDeptPercentChange = ((thisYearExpense - lastYearExpense) / lastYearExpense) * 100;
+                    }
                 }
 
                 expense_series_by_dept[dept_name].push({
                     name: subdept_name, 
                     y: subdept_expense,
-                    lastYearY: lastYearExpense
+                    percentChange: subDeptPercentChange
                 });
+
                 total_expenses += subdept_expense;
             });
             expense_series_by_dept[dept_name].sort(function (a, b) {
@@ -136,11 +141,31 @@ function fill_detail_receipt(dept_name) {
 
     $.each(dept_data, function (i, subdept) {
 
+        var color = (subdept['percentChange'] < 0) ? 'red' : 'limegreen';
+
         $("<tr class='lineitem'>").
             append($("<td class='expense'>").text("$" + dollars_per_person(subdept['y']).toFixed(2))).
+            append($("<td class='delta' style='padding-right:10px;text-align:right;'>").html(format_percent(subdept['percentChange']))).
             append($("<td class='description'>").text(subdept['name'])).
                 appendTo($list);
     });
+    $("td.delta").attr('title', 'Percentage change over last year\'s Budget');
+}
+
+function format_percent(n) {
+    if (n === undefined) return "";
+
+    var dp = (Math.abs(n) < 10) ? 1 : 0;
+    var s = Math.abs(n).toFixed(dp) + "%";
+
+    if (n < -0.05) {
+        s = "<span style='color:red;'>\u21e9" + s + "</span>";
+    }
+    if (n > 0.05) {
+        s = "<span style='color:limegreen;'>\u21e7" + s + "</span>";
+    }
+
+    return s;
 }
 
 function plot_detail_pie(dept_name) {
