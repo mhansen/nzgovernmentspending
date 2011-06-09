@@ -33,6 +33,24 @@
         left: 50%;
         margin-left: -150px;
       }
+      #detail_graph {
+        width: 100%;
+        height: 100%;
+      }
+      #detail_delta {
+        position: absolute;
+        top: 50%;
+        margin-top: -12px;
+        width: 100%;
+        text-align: center;
+        z-index: -1;
+      }
+      #detail_delta_percent {
+        font-size: 30px;
+      }
+      #detail_delta_caption {
+        font-size: 10px;
+      }
       #title {
         margin-top: 20px;
       }
@@ -141,7 +159,13 @@
       <b>Viewing Expenses</b> &#x25CF; <a href="#">View Incomes</a>
     </div>
     <div id="chart_container">Loading...</div>
-    <div id="detail_container"></div>
+    <div id="detail_container">
+      <div id="detail_graph"></div>
+      <div id="detail_delta">
+        <div id="detail_delta_percent"></div>
+        <div id="detail_delta_caption"></div>
+      </div>
+    </div>
     <div id="call_to_action">&lt;&lt; Click on a segment to expand the department<br/></div>
     <div id="receipt_header"></div>
     <div id="detail_receipt"></div>

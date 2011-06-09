@@ -168,14 +168,34 @@ function format_percent(n) {
     return s;
 }
 
+function calculateDeptPercentChange(dept_name) {
+    if (!estimates_2011[dept_name]) return NaN;
+
+    var total_2011 = 0;
+    var total_2012 = 0;
+
+    $.each(estimates_2011[dept_name], function (subdept_name, subdept_expense) {
+        total_2011 += subdept_expense;
+    });
+    $.each(estimates_2012[dept_name], function (subdept_name, subdept_expense) {
+        total_2012 += subdept_expense;
+    });
+    return ((total_2012 - total_2011) / total_2011) * 100;
+}
+
 function plot_detail_pie(dept_name) {
     var dept_data = expense_series_by_dept[dept_name];
     if (detail_chart) {
         detail_chart.destroy();
     }
+
+    var dept_percent_change = calculateDeptPercentChange(dept_name);
+
+    $("#detail_delta_percent").html(format_percent(dept_percent_change));
+    $("#detail_delta_caption").text("over last year");
     detail_chart = new Highcharts.Chart({
         chart: {
-            renderTo: "detail_container",
+            renderTo: "detail_graph",
             backgroundColor: null
         },
         credits: {
