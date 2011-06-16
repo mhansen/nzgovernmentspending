@@ -141,7 +141,7 @@ function fill_detail_receipt(dept_name) {
 
     $.each(dept_data, function (i, subdept) {
 
-        var color = (subdept['percentChange'] < 0) ? 'red' : 'limegreen';
+        var color = (subdept['percentChange'] < 0) ? 'pink' : 'limegreen';
 
         $("<tr class='lineitem'>").
             append($("<td class='expense'>").text("$" + dollars_per_person(subdept['y']).toFixed(2))).
