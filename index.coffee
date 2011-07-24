@@ -1,18 +1,9 @@
 dollars_per_person = (dollars_per_country_thousands) ->
-  NZ_POPULATION = 4405193
+  NZ_POPULATION = 4405193 # hardcoded - from the Statistics NZ Population Clock.
   1000 * dollars_per_country_thousands / NZ_POPULATION
 
-expense_series_for_all_depts = (budget) ->
-  expense_series = []
-  $.each budget, (name, dept_expenses) ->
-    sum = 0
-    $.each dept_expenses, (subdept_name, cost) -> sum += cost
-    expense_series.push [ name, sum ]
-  expense_series.sort (a, b) -> b[1] - a[1]
-  expense_series
-
 plot = (depts_data) ->
-  main_chart = new Highcharts.Chart {
+  new Highcharts.Chart {
     chart:
       renderTo: "chart_container"
       backgroundColor: null
@@ -20,7 +11,7 @@ plot = (depts_data) ->
       text: "[Budget 2011]"
       href: "http://www.treasury.govt.nz/"
     title:
-      text: "Government " + (if viewing_income then "Incomes" else "Expenses") + ": $" + dollars_per_person(total_expenses).toFixed(0).replace(/(\d{3})$/, ",$1") + " per capita"
+      text: "Government " + (if viewing_income then "Incomes" else "Expenses") + ": $" + dollars_per_person(model.grand_total.nzd).toFixed(0).replace(/(\d{3})$/, ",$1") + " per capita"
       margin: 20
       style:
         fontSize: "16px"
@@ -47,22 +38,27 @@ plot = (depts_data) ->
           y: -4
         point: events:
           select: (event) ->
-            plot_detail_pie @name
-            fill_detail_receipt @name
-            $.ajax "/gen204?" + @name
+            dept_expense_series = expense_series_for_dept @name
+
+            view_dept_pie @name, dept_expense_series, calculate_dept_percent_change(@name)
+            view_dept_receipt dept_expense_series
+
+            $.ajax "/gen204?" + @name # log the click
   }
 
-fill_detail_receipt = (dept_name) ->
-  dept_data = expense_series_by_dept[dept_name]
+view_dept_receipt = (dept_data) ->
   $("#detail_receipt table").remove()
   $("#receipt_header").text "Per Capita Tax Receipt"
   $list = $("<table>").appendTo("#detail_receipt")
   $.each dept_data, (i, subdept) ->
     color = (if (subdept["percentChange"] < 0) then "pink" else "limegreen")
     $("<tr class='lineitem'>").
-        append($("<td class='expense'>").text("$" + dollars_per_person(subdept["y"]).toFixed(2))).
-        append($("<td class='delta' style='padding-right:10px;text-align:right;'>").html(format_percent(subdept["percentChange"]))).
-        append($("<td class='description'>").text(subdept["name"])).
+        append($("<td class='expense'>").
+                 text("$" + dollars_per_person(subdept["y"]).toFixed(2))).
+        append($("<td class='delta' style='padding-right:10px;text-align:right;'>").
+                 html(format_percent(subdept["percentChange"]))).
+        append($("<td class='description'>").
+                 text(subdept["name"])).
         appendTo $list
   
   $("td.delta").attr "title", "Percentage change over last year's Budget"
@@ -75,25 +71,15 @@ format_percent = (n) ->
   s = "(<span style='color:limegreen;'>⇧" + s + "</span>)" if n > 0.05 # increase in funding
   s
 
-calculateDeptPercentChange = (dept_name) ->
-  return NaN  unless estimates_2011[dept_name]
-  total_2011 = 0
-  total_2012 = 0
-  $.each estimates_2011[dept_name], (subdept_name, subdept_expense) ->
-    total_2011 += subdept_expense
-  
-  $.each estimates_2012[dept_name], (subdept_name, subdept_expense) ->
-    total_2012 += subdept_expense
-  
-  ((total_2012 - total_2011) / total_2011) * 100
+calculate_dept_percent_change = (dept_name) ->
+  dept = model.dept_totals[dept_name]
+  100 * ((dept.nzd - dept.previous_nzd) / dept.nzd)
 
-plot_detail_pie = (dept_name) ->
-  dept_data = expense_series_by_dept[dept_name]
-  detail_chart.destroy()  if detail_chart
-  dept_percent_change = calculateDeptPercentChange(dept_name)
+view_dept_pie = (dept_name, dept_data, dept_percent_change) ->
   $("#detail_delta_percent").html format_percent(dept_percent_change)
   $("#detail_delta_caption").text "over last year"
-  detail_chart = new Highcharts.Chart {
+  dept_chart.destroy() if dept_chart
+  dept_chart = new Highcharts.Chart {
     chart:
       renderTo: "detail_graph"
       backgroundColor: null
@@ -121,6 +107,9 @@ plot_detail_pie = (dept_name) ->
       formatter: format_tooltip
   }
 
+# Long sentences aren't autowrapped by the highcharts library, and they go over
+# the edges of the graph and get clipped. This looks horrible; we have to wrap
+# them ourselves.
 split_long_sentence = (sentence, joiner) ->
   sentence.replace /([^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+)/g, "$1" + joiner
 
@@ -129,46 +118,49 @@ format_tooltip = ->
   perperson = "$" + dollars_per_person(@y).toFixed(2) + " per capita."
   total = "$" + (@y / 1000000).toFixed(2) + " Billion "
   splitName = "<b>" + split_long_sentence(@point.name, "<br/><b>")
-  percentage = "<i>(" + ((@y / total_expenses) * 100).toFixed(2) + "% of total)</i>"
+  percentage = "<i>(" + ((@y / model.grand_total.nzd) * 100).toFixed(2) + "% of total)</i>"
   splitName + "<br/>" + total + percentage + "<br/>" + perperson
 
-estimates_2011 = undefined
-estimates_2012 = undefined
-main_chart = undefined
-detail_chart = undefined
-expense_series_by_dept = {}
-total_expenses = 0
+model = {}
+
+expense_series_for_dept = (dept_name) ->
+  series = []
+  for lineItemName, item of model.budget[dept_name]
+    if item.nzd
+      series.push {
+        name: lineItemName
+        y: item.nzd
+        percentChange: 100 * ((item.nzd - item.previous_nzd) / item.nzd) if item.previous_nzd
+        scope: item.scope
+      }
+  series.sort (a, b) -> b['y'] - a['y']
+  series
+
+expense_series_for_all_depts = (budget) ->
+  series = []
+  for name, dept_expenses of budget
+    sum = 0
+    for subdept_name, item of dept_expenses
+      sum += item.nzd if item.nzd
+    series.push [ name, sum ]
+  series.sort (a, b) -> b[1] - a[1]
+  series
+
+dept_chart = undefined
 viewing_income = $.url.param("income") == "true"
 
 $ ->
-  if viewing_income
-    filename_to_fetch = "incomes-2011and2012.json"
-    $("#incomes_or_expenses").html "<a href='/?income=false'>View Expenses</a> ● <b>Viewing Incomes</b>"
-  else
-    filename_to_fetch = "expenses-2011and2012.json"
-    $("#incomes_or_expenses").html "<b>Viewing Expenses</b> ● <a href='/?income=true'>View Incomes</a>"
-
-  $.getJSON filename_to_fetch, (budget) ->
-    estimates_2011 = budget[2011]
-    estimates_2012 = budget[2012]
-    $.each estimates_2012, (dept_name, dept_expenses) ->
-      expense_series_by_dept[dept_name] = []
-      $.each dept_expenses, (subdept_name, subdept_expense) ->
-        if estimates_2011[dept_name]
-          lastYearExpense = estimates_2011[dept_name][subdept_name] or 0
-          thisYearExpense = estimates_2012[dept_name][subdept_name]
-          subDeptPercentChange = ((thisYearExpense - lastYearExpense) / lastYearExpense) * 100  unless lastYearExpense == 0
-        expense_series_by_dept[dept_name].push {
-          name: subdept_name
-          y: subdept_expense
-          percentChange: subDeptPercentChange
-        }
-        
-        total_expenses += subdept_expense
-      
-      expense_series_by_dept[dept_name].sort (a, b) ->
-        b["y"] - a["y"]
-    
-    plot expense_series_for_all_depts(estimates_2012)
-  
   $("a#inline").fancybox()
+  # update links
+  if viewing_income
+    filename_to_fetch = "incomes-2011.json"
+    $("#incomes_or_expenses").html "<a href='/?income=false'>View Expenses</a>" +
+                                   " ● <b>Viewing Incomes</b>"
+  else
+    filename_to_fetch = "expenses-2011.json"
+    $("#incomes_or_expenses").html "<b>Viewing Expenses</b>" +
+                                   " ● <a href='/?income=true'>View Incomes</a>"
+  # plot the data
+  $.getJSON filename_to_fetch, (fetched_data) ->
+    model = fetched_data
+    plot expense_series_for_all_depts(model.budget)
