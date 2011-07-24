@@ -30,20 +30,26 @@ view_budget = (budget) ->
         cursor: "pointer"
         dataLabels:
           formatter: ->
-              @point.name.replace /(\w+ \w+)/g, "$1<br/>"  if @percentage > 5
+            # Draw a label for only thick slices.
+            if @percentage > 5
+              # Split long labels every two words.
+              @point.name.replace /(\w+ \w+)/g, "$1<br/>"
           distance: -70
           style:
             font: "normal 11px sans-serif"
+          # A little nudging to keep text inside their slices.
           y: -4
         point: events:
           select: (event) ->
-            dept_expense_series = expense_series_for_dept @name
+            dept_name = @name
+            dept_expense_series = expense_series_for_dept dept_name
 
-            view_dept_pie @name, dept_expense_series, calculate_dept_percent_change(@name)
-            view_dept_receipt dept_expense_series
+            view_dept_pie dept_name, dept_expense_series, calculate_dept_percent_change(dept_name)
+
+            view_dept_receipt model.budget[dept_name]
 
             # Log which department was clicked on, for statistics.
-            $.ajax "/gen204?" + @name
+            $.ajax "/gen204?" + dept_name
   }
 
 dept_pie = undefined
@@ -83,17 +89,18 @@ view_dept_receipt = (dept_data) ->
   $("#detail_receipt table").remove()
   $("#receipt_header").text "Per Capita Tax Receipt"
   $list = $("<table>").appendTo("#detail_receipt")
-  $.each dept_data, (i, subdept) ->
-    color = (if (subdept["percentChange"] < 0) then "pink" else "limegreen")
-    $("<tr class='lineitem'>").
-        append($("<td class='expense'>").
-                 text("$" + dollars_per_person(subdept["y"]).toFixed(2))).
-        append($("<td class='delta' style='padding-right:10px;text-align:right;'>").
-                 html(format_percent(subdept["percentChange"]))).
-        append($("<td class='description'>").
-                 text(subdept["name"])).
-        appendTo $list
-  
+  for name, item of dept_data
+    if item.nzd and item.previous_nzd
+      percentChange = 100 * ((item.nzd - item.previous_nzd) / item.nzd)
+    if item.nzd
+      $("<tr class='lineitem'>").
+          append($("<td class='expense'>").
+                  text("$" + dollars_per_person(item.nzd).toFixed(2))).
+          append($("<td class='delta' style='padding-right:10px;text-align:right;'>").
+                  html(format_percent(percentChange))).
+          append($("<td class='description'>").
+                  text(name).attr("title", item.scope)).
+          appendTo $list
   $("td.delta").attr "title", "Percentage change over last year's Budget"
 
 #### Helper Methods
@@ -101,7 +108,8 @@ view_dept_receipt = (dept_data) ->
 # Format a percentage for display, with colors and an arrow pointing up or down.
 format_percent = (n) ->
   return ""  if n == undefined
-  # Round to 2 significant figures.
+  # Round to 2 significant figures - JavaScript doesn't have a
+  # builtin function for this.
   num_decimal_points = (if (Math.abs(n) < 10) then 1 else 0)
   s = Math.abs(n).toFixed(num_decimal_points) + "%"
   # Show a decrease in funding in red.
@@ -136,7 +144,6 @@ expense_series_for_dept = (dept_name) ->
       series.push {
         name: lineItemName
         y: item.nzd
-        percentChange: 100 * ((item.nzd - item.previous_nzd) / item.nzd) if item.previous_nzd
         scope: item.scope
       }
   series.sort (a, b) -> b['y'] - a['y']
