@@ -1,7 +1,10 @@
+## Main client-side logic for the wheresmytaxes site.
+#
+# Compile with coffeescript: `coffee -c index.coffee`
+#
 #### Views
 
-view_budget = (budget) ->
-  series = expense_series_for_all_depts budget
+view_budget = (budget_expense_series) ->
   new Highcharts.Chart {
     chart:
       renderTo: "chart_container"
@@ -21,7 +24,7 @@ view_budget = (budget) ->
       enabled: false
     series: [ {
         type: "pie"
-        data: series
+        data: budget_expense_series
         size: "100%"
     } ]
     plotOptions:
@@ -42,11 +45,14 @@ view_budget = (budget) ->
         point: events:
           select: (event) ->
             dept_name = @name
-            dept_expense_series = expense_series_for_dept dept_name
+            dept_expense_series = model.series_for_dept[dept_name]
 
-            view_dept_pie dept_name, dept_expense_series, calculate_dept_percent_change(dept_name)
+            d = model.dept_totals[dept_name]
+            dept_percent_change = 100 * ((d.nzd - d.previous_nzd) / d.previous_nzd)
 
-            view_dept_receipt model.budget[dept_name]
+            view_dept_pie dept_name, dept_expense_series, dept_percent_change
+
+            view_dept_receipt model.series_for_dept[dept_name]
 
             # Log which department was clicked on, for statistics.
             $.ajax "/gen204?" + dept_name
@@ -85,22 +91,21 @@ view_dept_pie = (dept_name, dept_data, dept_percent_change) ->
       formatter: format_tooltip
   }
 
-view_dept_receipt = (dept_data) ->
+view_dept_receipt = (series_for_dept) ->
   $("#detail_receipt table").remove()
   $("#receipt_header").text "Per Capita Tax Receipt"
   $list = $("<table>").appendTo("#detail_receipt")
-  for name, item of dept_data
-    if item.nzd and item.previous_nzd
-      percentChange = 100 * ((item.nzd - item.previous_nzd) / item.nzd)
-    if item.nzd
-      $("<tr class='lineitem'>").
-          append($("<td class='expense'>").
-                  text("$" + dollars_per_person(item.nzd).toFixed(2))).
-          append($("<td class='delta' style='padding-right:10px;text-align:right;'>").
-                  html(format_percent(percentChange))).
-          append($("<td class='description'>").
-                  text(name).attr("title", item.scope)).
-          appendTo $list
+  for item in series_for_dept
+    if item.previous_y
+      percentChange = 100 * ((item.y - item.previous_y) / item.previous_y)
+    $("<tr class='lineitem'>").
+        append($("<td class='expense'>").
+                text("$" + dollars_per_person(item.y).toFixed(2))).
+        append($("<td class='delta' style='padding-right:10px;text-align:right;'>").
+                html(format_percent(percentChange))).
+        append($("<td class='description'>").
+                text(item.name).attr("title", item.scope)).
+        appendTo $list
   $("td.delta").attr "title", "Percentage change over last year's Budget"
 
 #### Helper Methods
@@ -118,10 +123,6 @@ format_percent = (n) ->
   s = "(<span style='color:limegreen;'>⇧" + s + "</span>)" if n > 0.05
   s
 
-calculate_dept_percent_change = (dept_name) ->
-  dept = model.dept_totals[dept_name]
-  100 * ((dept.nzd - dept.previous_nzd) / dept.nzd)
-
 # Long sentences aren't autowrapped by the highcharts library, and they go over
 # the edges of the graph and get clipped. This looks horrible; we have to wrap
 # them ourselves.
@@ -132,42 +133,20 @@ split_long_sentence = (sentence, joiner) ->
 format_tooltip = ->
   @point.name.replace()
   perperson = "$" + dollars_per_person(@y).toFixed(2) + " per capita."
-  total = "$" + (@y / 1000000).toFixed(2) + " Billion "
+  total = "$" + (@y / 1000000000).toFixed(2) + " Billion "
   splitName = "<b>" + split_long_sentence(@point.name, "<br/><b>")
   percentage = "<i>(" + ((@y / model.grand_total.nzd) * 100).toFixed(2) + "% of total)</i>"
   splitName + "<br/>" + total + percentage + "<br/>" + perperson
 
-expense_series_for_dept = (dept_name) ->
-  series = []
-  for lineItemName, item of model.budget[dept_name]
-    if item.nzd
-      series.push {
-        name: lineItemName
-        y: item.nzd
-        scope: item.scope
-      }
-  series.sort (a, b) -> b['y'] - a['y']
-  series
-
-dollars_per_person = (dollars_per_country_thousands) ->
+dollars_per_person = (dollars_per_country) ->
   # Hardcoded - from the Statistics NZ Population Clock.
   NZ_POPULATION = 4405193
-  1000 * dollars_per_country_thousands / NZ_POPULATION
-
-expense_series_for_all_depts = (budget) ->
-  series = []
-  for name, dept_expenses of budget
-    sum = 0
-    for subdept_name, item of dept_expenses
-      sum += item.nzd if item.nzd
-    series.push [ name, sum ]
-  series.sort (a, b) -> b[1] - a[1]
-  series
+  dollars_per_country / NZ_POPULATION
 
 model = {}
 viewing_income = $.url.param("income") == "true"
 
-# Controller
+#### Controller
 $ ->
   $("a#inline").fancybox()
   # Are we looking at income or expenses? Fetch the right file, and link to the
@@ -183,4 +162,4 @@ $ ->
   # Fetch the file, save the model data, and plot the budget.
   $.getJSON filename_to_fetch, (fetched_data) ->
     model = fetched_data
-    view_budget model.budget
+    view_budget model.series_for_budget

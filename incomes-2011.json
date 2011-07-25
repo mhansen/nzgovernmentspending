@@ -1,808 +1,991 @@
 {
-    "budget": {
-        "Department of Building and Housing": {
-            "Acquisition and Development of properties under the Housing Act 1955": {
-                "nzd": 16873
-            }, 
-            "Dividend from HNZC": {
-                "nzd": 62000, 
-                "previous_nzd": 71000
-            }, 
-            "Interest on Housing New Zealand Corporation Loans": {
-                "nzd": 116600, 
-                "previous_nzd": 114200
-            }, 
-            "Loans to support Homeownership": {
-                "previous_nzd": 1500
-            }, 
-            "Services to support Homeownership": {
-                "previous_nzd": 150
-            }, 
-            "Weathertight Services: Loan Guarantee Fees": {
-                "nzd": 200, 
-                "previous_nzd": 100
-            }
-        }, 
-        "Department of Conservation": {
-            "Concessions, Leases and Licences": {
-                "nzd": 12200, 
-                "previous_nzd": 13500
-            }, 
-            "Contributions for Crown Property, Plant and Equipment": {
-                "nzd": 100
-            }, 
-            "Disposal of Conservation Land": {
-                "nzd": 6000, 
-                "previous_nzd": 6000
-            }, 
-            "Disposal of Reserves": {
-                "nzd": 1800, 
-                "previous_nzd": 260
-            }, 
-            "Old Government Building Rental": {
-                "nzd": 1760, 
-                "previous_nzd": 1760
-            }, 
-            "Rates Recovery from Concessionaires": {
-                "nzd": 964, 
-                "previous_nzd": 500
-            }, 
-            "Revenue for Land Purchases": {
-                "nzd": 500, 
-                "previous_nzd": 250
-            }, 
-            "Turnbull House Revenue": {
-                "nzd": 200, 
-                "previous_nzd": 200
-            }
-        }, 
-        "Department of Internal Affairs": {
-            "Interest received from the Auckland Transition Agency": {
-                "previous_nzd": 250
-            }, 
-            "Lake Taupo fee revenue": {
-                "nzd": 414
-            }, 
-            "Local Government Debt Vehicle Interest Received": {
-                "nzd": 250, 
-                "previous_nzd": 125
-            }, 
-            "Refund of Non-Departmental grants": {
-                "previous_nzd": 130
-            }, 
-            "Repayment of loan from the Auckland Transition Agency": {
-                "nzd": 59700
-            }
-        }, 
-        "Department of Labour": {
-            "Employment Relations Authority Fees": {
-                "nzd": 193, 
-                "previous_nzd": 193
-            }, 
-            "Health and Safety Fees and Licences": {
-                "nzd": 33, 
-                "previous_nzd": 33
-            }, 
-            "Health and Safety in Employment Levy": {
-                "nzd": 43911, 
-                "previous_nzd": 43911
-            }, 
-            "Immigration Adviser Levy": {
-                "nzd": 982, 
-                "previous_nzd": 982
-            }, 
-            "Infringement Notice Fines": {
-                "nzd": 247, 
-                "previous_nzd": 247
-            }, 
-            "Migrant Levy": {
-                "nzd": 9715, 
-                "previous_nzd": 9715
-            }, 
-            "Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration": {
-                "nzd": 262, 
-                "previous_nzd": 262
-            }
-        }, 
-        "Department of the Prime Minister and Cabinet": {
-            "Proceeds from sale of Crown assets": {
-                "previous_nzd": 30
-            }
-        }, 
-        "Inland Revenue Department": {
-            "Adverse Income Equalisation Account": {
-                "nzd": 1500, 
-                "previous_nzd": 1500
-            }, 
-            "Child Support Collections": {
-                "nzd": 910000, 
-                "previous_nzd": 747000
-            }, 
-            "Companies": {
-                "nzd": 8423000, 
-                "previous_nzd": 7834000
-            }, 
-            "Environmental Restoration Accounts Scheme": {
-                "nzd": 20000, 
-                "previous_nzd": 20000
-            }, 
-            "Fringe Benefit Tax": {
-                "nzd": 430000, 
-                "previous_nzd": 461000
-            }, 
-            "Gaming Duties": {
-                "nzd": 268000, 
-                "previous_nzd": 263000
-            }, 
-            "Goods and Services Tax (IRD)": {
-                "nzd": 13235000, 
-                "previous_nzd": 12090000
-            }, 
-            "Income Equalisation Reserve Account": {
-                "nzd": 90000, 
-                "previous_nzd": 90000
-            }, 
-            "Interest on Impaired Student Loans": {
-                "nzd": 480000, 
-                "previous_nzd": 437000
-            }, 
-            "Other Direct Taxes": {
-                "previous_nzd": 2000
-            }, 
-            "Other Indirect Taxes": {
-                "nzd": 84000, 
-                "previous_nzd": 84000
-            }, 
-            "Other Persons": {
-                "nzd": 2686000, 
-                "previous_nzd": 2141000
-            }, 
-            "Source Deductions": {
-                "nzd": 21636000, 
-                "previous_nzd": 21161000
-            }, 
-            "Stamp and Cheque Duties": {
-                "nzd": 4000, 
-                "previous_nzd": 4000
-            }, 
-            "Student Loans - Receipts": {
-                "nzd": 727000, 
-                "previous_nzd": 683000
-            }, 
-            "Unclaimed Monies": {
-                "nzd": 7000, 
-                "previous_nzd": 7000
-            }, 
-            "Withholding Taxes": {
-                "nzd": 2383000, 
-                "previous_nzd": 2409000
-            }
-        }, 
-        "Land Information New Zealand": {
-            "Land Tenure Reform Sales": {
-                "nzd": 959, 
-                "previous_nzd": 3401
-            }, 
-            "Pastoral Lease Rentals": {
-                "nzd": 1902, 
-                "previous_nzd": 1893
-            }, 
-            "Sundry Operating Revenue": {
-                "nzd": 71, 
-                "previous_nzd": 40
-            }, 
-            "Surplus Government Properties - Rents": {
-                "nzd": 2235, 
-                "previous_nzd": 2184
-            }, 
-            "Surplus Government Properties - Sales": {
-                "nzd": 6000, 
-                "previous_nzd": 21354
-            }, 
-            "Transit Sales": {
-                "nzd": 33000, 
-                "previous_nzd": 27188
-            }
-        }, 
-        "Ministry for Culture and Heritage": {
-            "Broadcasting Standards Authority - Costs Awarded to Crown": {
-                "previous_nzd": 7
-            }
-        }, 
-        "Ministry for the Environment": {
-            "Coastal Royalties": {
-                "nzd": 400, 
-                "previous_nzd": 400
-            }, 
-            "Emissions Trading": {
-                "nzd": 379130, 
-                "previous_nzd": 378211
-            }, 
-            "Revision in Forecast Carbon Units under Kyoto Protocol": {
-                "previous_nzd": 205702
-            }, 
-            "Waste Disposal Levy": {
-                "nzd": 26000, 
-                "previous_nzd": 26000
-            }
-        }, 
-        "Ministry of Agriculture and Forestry": {
-            "Biosecurity Act 1993 Fines": {
-                "nzd": 1000, 
-                "previous_nzd": 1595
-            }, 
-            "Conservation Levy": {
-                "nzd": 1053, 
-                "previous_nzd": 1879
-            }, 
-            "Cost Recovery": {
-                "nzd": 33273, 
-                "previous_nzd": 30523
-            }, 
-            "Crown Forestry Assets": {
-                "nzd": 128010, 
-                "previous_nzd": 126133
-            }, 
-            "Deemed Values": {
-                "nzd": 2500, 
-                "previous_nzd": 4300
-            }, 
-            "Fisheries Revenue from Forfeitures": {
-                "nzd": 150, 
-                "previous_nzd": 1700
-            }, 
-            "Forestry Encouragement Loan Interest": {
-                "nzd": 2100, 
-                "previous_nzd": 2351
-            }, 
-            "Forestry Encouragement Loans": {
-                "nzd": 1900, 
-                "previous_nzd": 3198
-            }, 
-            "Global Research Alliance funding from other countries": {
-                "previous_nzd": 34
-            }, 
-            "Infringement Notice Revenue": {
-                "nzd": 125, 
-                "previous_nzd": 160
-            }, 
-            "Levy Charged Under the Dairy Industry Restructuring Act": {
-                "nzd": 250, 
-                "previous_nzd": 697
-            }, 
-            "New Zealand Emissions Trading Scheme Fees": {
-                "nzd": 200, 
-                "previous_nzd": 242
-            }, 
-            "Other Revenue": {
-                "nzd": 50, 
-                "previous_nzd": 60
-            }, 
-            "Sale of Forestry Assets": {
-                "previous_nzd": 2925
-            }, 
-            "Sale of Quota Shares and ACE": {
-                "nzd": 100, 
-                "previous_nzd": 2320
-            }
-        }, 
-        "Ministry of Defence": {
-            "Crown Interest": {
-                "nzd": 100, 
-                "previous_nzd": 200
-            }, 
-            "Defence Equipment": {
-                "nzd": 236837, 
-                "previous_nzd": 135797
-            }
-        }, 
-        "Ministry of Economic Development": {
-            "Accounting Standards Review Board": {
-                "nzd": 830, 
-                "previous_nzd": 830
-            }, 
-            "Concession Fees": {
-                "previous_nzd": 271
-            }, 
-            "Control of Natural Gas Services": {
-                "nzd": 1300, 
-                "previous_nzd": 1439
-            }, 
-            "Energy Resource Levies - Coal": {
-                "nzd": 7784, 
-                "previous_nzd": 7784
-            }, 
-            "Energy Resource Levies - Gas": {
-                "nzd": 30090, 
-                "previous_nzd": 28000
-            }, 
-            "Financial Advisers Act (FAA) Fees and Charges": {
-                "nzd": 6263, 
-                "previous_nzd": 6091
-            }, 
-            "Financial Service Providers Reserve Dispute Resolution Scheme": {
-                "nzd": 1694, 
-                "previous_nzd": 250
-            }, 
-            "Ironsands Royalties": {
-                "nzd": 63, 
-                "previous_nzd": 63
-            }, 
-            "Levy on Electricity Industry": {
-                "nzd": 92243, 
-                "previous_nzd": 70954
-            }, 
-            "Levy on Electricity Industry Participants": {
-                "nzd": -2000, 
-                "previous_nzd": 26175
-            }, 
-            "Levy on Electricity Line Businesses": {
-                "nzd": 4522, 
-                "previous_nzd": 7327
-            }, 
-            "Levy on Regulated Airports": {
-                "nzd": 400, 
-                "previous_nzd": 1319
-            }, 
-            "Proceeds of Crime": {
-                "nzd": 9250, 
-                "previous_nzd": 9250
-            }, 
-            "Radio Spectrum Financing": {
-                "nzd": 4156
-            }, 
-            "Radio Spectrum Rights": {
-                "nzd": 22584, 
-                "previous_nzd": 12450
-            }, 
-            "Rent from Reserve Lands": {
-                "nzd": 40, 
-                "previous_nzd": 113
-            }, 
-            "Repayment of Crown Energy Efficiency Loans.": {
-                "nzd": 2000, 
-                "previous_nzd": 2000
-            }, 
-            "Residual Ministry of Energy Commitments": {
-                "nzd": 80, 
-                "previous_nzd": 80
-            }, 
-            "Royalties - Coal": {
-                "nzd": 1912, 
-                "previous_nzd": 1912
-            }, 
-            "Royalties - Minerals": {
-                "nzd": 3388, 
-                "previous_nzd": 5000
-            }, 
-            "Royalties - Petroleum": {
-                "nzd": 345950, 
-                "previous_nzd": 380000
-            }, 
-            "Telecommunications Levy": {
-                "nzd": 7791, 
-                "previous_nzd": 7290
-            }, 
-            "Trade Measurement Unit Infringement Fees": {
-                "nzd": 20, 
-                "previous_nzd": 20
-            }, 
-            "Whirinaki Availability": {
-                "previous_nzd": 4000
-            }, 
-            "Whirinaki Availability Recovered": {
-                "nzd": 4300, 
-                "previous_nzd": 13000
-            }, 
-            "Whirinaki Electricity Generation": {
-                "nzd": 100, 
-                "previous_nzd": 100
-            }, 
-            "Whirinaki Operating and Maintenance Recovered": {
-                "nzd": 1700, 
-                "previous_nzd": 4250
-            }, 
-            "Whirinaki Operating and Maintenance Recoveries": {
-                "previous_nzd": 1750
-            }
-        }, 
-        "Ministry of Education ": {
-            "Asset Sales": {
-                "previous_nzd": 669
-            }, 
-            "Export Education Levies": {
-                "nzd": 3521, 
-                "previous_nzd": 3521
-            }, 
-            "Miscellaneous Receipts": {
-                "nzd": 617, 
-                "previous_nzd": 592
-            }, 
-            "Overseas Students' Fees": {
-                "nzd": 3757, 
-                "previous_nzd": 3757
-            }, 
-            "Payroll Receipts": {
-                "nzd": 25, 
-                "previous_nzd": 25
-            }, 
-            "Roll Audit and Staffing Recoveries": {
-                "nzd": 110, 
-                "previous_nzd": 110
-            }, 
-            "State Sector Retirement Savings Scheme Recoveries": {
-                "nzd": 64647, 
-                "previous_nzd": 61998
-            }, 
-            "Tertiary Investments - Interest": {
-                "nzd": 122, 
-                "previous_nzd": 122
-            }, 
-            "Tertiary Recoveries": {
-                "previous_nzd": 12576
-            }
-        }, 
-        "Ministry of Health": {
-            "ACC - Reimbursement of Complex Burns Costs": {
-                "nzd": 7579, 
-                "previous_nzd": 7325
-            }, 
-            "ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs": {
-                "nzd": 77563, 
-                "previous_nzd": 75278
-            }, 
-            "ACC - Reimbursement of Medical Misadventure Costs": {
-                "nzd": 2362, 
-                "previous_nzd": 2292
-            }, 
-            "ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs": {
-                "nzd": 64255, 
-                "previous_nzd": 62360
-            }, 
-            "ACC - Reimbursement of Non-Earners Account": {
-                "nzd": 255516, 
-                "previous_nzd": 248002
-            }, 
-            "ACC - Reimbursement of Self-Employed Public Hospital Costs": {
-                "nzd": 7388, 
-                "previous_nzd": 7170
-            }, 
-            "ACC - Reimbursement of Work-Related Public Hospital Costs": {
-                "nzd": 27060, 
-                "previous_nzd": 26264
-            }, 
-            "Equity repayments by DHBs": {
-                "nzd": 12499, 
-                "previous_nzd": 12499
-            }, 
-            "Payment of Capital Charge by DHBs": {
-                "nzd": 158464, 
-                "previous_nzd": 158464
-            }, 
-            "Principal Repayments from the Residual Health Management Unit": {
-                "previous_nzd": 14800
-            }, 
-            "Repayment of Residential Care Loans": {
-                "nzd": 24000, 
-                "previous_nzd": 24000
-            }, 
-            "Residual Health Management Rental": {
-                "nzd": 651, 
-                "previous_nzd": 633
-            }
-        }, 
-        "Ministry of Justice": {
-            "Court Fines": {
-                "nzd": 200028, 
-                "previous_nzd": 198382
-            }, 
-            "Landbank Properties": {
-                "nzd": 8130, 
-                "previous_nzd": 7200
-            }, 
-            "Licensing Fund": {
-                "nzd": 200, 
-                "previous_nzd": 200
-            }, 
-            "Miscellaneous receipts received on behalf of the Crown": {
-                "nzd": 28000
-            }, 
-            "Money Forfeited to the Crown": {
-                "nzd": 49, 
-                "previous_nzd": 49
-            }, 
-            "Receipts from the Law Society's Special Fund for Community Law Centres": {
-                "nzd": 3853
-            }, 
-            "Recoveries from Legally Aided Persons": {
-                "nzd": 33000
-            }, 
-            "Repayments of Judicial Salaries from Crown Entities": {
-                "nzd": 476, 
-                "previous_nzd": 476
-            }
-        }, 
-        "Ministry of Science and Innovation": {
-            "Technology Partnership Programme Revenue": {
-                "previous_nzd": 4371
-            }
-        }, 
-        "Ministry of Social Development": {
-            "Benefit Recoveries - Current Debt": {
-                "nzd": 255996, 
-                "previous_nzd": 249246
-            }, 
-            "Benefit Recoveries - Liable Parent Contributions": {
-                "nzd": 1406, 
-                "previous_nzd": 1624
-            }, 
-            "Benefit Recoveries - Non-Current Debt": {
-                "nzd": 84126, 
-                "previous_nzd": 81138
-            }, 
-            "Interest Revenue": {
-                "nzd": 53591, 
-                "previous_nzd": 64159
-            }, 
-            "Maintenance Capitalisation": {
-                "nzd": 264, 
-                "previous_nzd": 264
-            }, 
-            "Overseas Pension Recoveries": {
-                "nzd": 192608, 
-                "previous_nzd": 173940
-            }, 
-            "Student Loan - Administration Fee": {
-                "nzd": 12495, 
-                "previous_nzd": 12020
-            }, 
-            "Student Loans - Repayment of Principal": {
-                "nzd": 106529, 
-                "previous_nzd": 103455
-            }
-        }, 
-        "Ministry of Transport": {
-            "Fuel Excise Duty Refunds": {
-                "nzd": -37178, 
-                "previous_nzd": -34750
-            }, 
-            "Infringements": {
-                "nzd": 100, 
-                "previous_nzd": 100
-            }, 
-            "Motor Vehicle Registration": {
-                "nzd": 167811, 
-                "previous_nzd": 168987
-            }, 
-            "Motor Vehicle Registration Recoveries": {
-                "nzd": 10500, 
-                "previous_nzd": 10500
-            }, 
-            "Motor Vehicle Registration fee-administration cost": {
-                "nzd": 46206, 
-                "previous_nzd": 45327
-            }, 
-            "Northern Gateway Toll Road Revenue": {
-                "nzd": 7000, 
-                "previous_nzd": 5803
-            }, 
-            "Road User Charge transaction fee": {
-                "nzd": 16886, 
-                "previous_nzd": 15137
-            }, 
-            "Road User Charges": {
-                "nzd": 1049109, 
-                "previous_nzd": 995446
-            }
-        }, 
-        "New Zealand Customs Service": {
-            "Customs Duty": {
-                "nzd": 2053000, 
-                "previous_nzd": 1991000
-            }, 
-            "Excise Duty": {
-                "nzd": 1839000, 
-                "previous_nzd": 1760000
-            }, 
-            "Goods and Services Tax": {
-                "nzd": 7842000, 
-                "previous_nzd": 6824000
-            }, 
-            "Sale of Seized Goods": {
-                "nzd": 80, 
-                "previous_nzd": 80
-            }
-        }, 
-        "New Zealand Police": {
-            "Infringement Fees": {
-                "nzd": 82700, 
-                "previous_nzd": 82700
-            }, 
-            "Sale of Unclaimed Property": {
-                "nzd": 500, 
-                "previous_nzd": 500
-            }
-        }, 
-        "State Services Commission": {
-            "Reimbursement of Chief Executives' Remuneration": {
-                "nzd": 12909, 
-                "previous_nzd": 11410
-            }
-        }, 
-        "Te Puni Kokiri": {
-            "Mortgage Repayments Intended for HNZC": {
-                "nzd": 10, 
-                "previous_nzd": 10
-            }
-        }, 
-        "The Treasury": {
-            "Capital Charge - Departments": {
-                "nzd": 1790182, 
-                "previous_nzd": 1650368
-            }, 
-            "Crown Deposit Guarantee Scheme Fees": {
-                "nzd": 6336, 
-                "previous_nzd": 35498
-            }, 
-            "Crown Wholesale Guarantee Facility Fees": {
-                "nzd": 67451, 
-                "previous_nzd": 80356
-            }, 
-            "Dividends - Other": {
-                "nzd": 2351, 
-                "previous_nzd": 2269
-            }, 
-            "Dividends from Crown Entities": {
-                "nzd": 12132, 
-                "previous_nzd": 4871
-            }, 
-            "Dividends from Crown Research Institutes": {
-                "previous_nzd": 817
-            }, 
-            "Dividends from SOEs": {
-                "nzd": 408990, 
-                "previous_nzd": 888758
-            }, 
-            "Earthquake Commission Guarantee Fee": {
-                "nzd": 10000, 
-                "previous_nzd": 10000
-            }, 
-            "Employers' Superannuation Contributions": {
-                "nzd": 55000, 
-                "previous_nzd": 55000
-            }, 
-            "Export Credit Office": {
-                "nzd": 5189, 
-                "previous_nzd": 4802
-            }, 
-            "Interest from Securities and Deposits": {
-                "nzd": 425895, 
-                "previous_nzd": 347159
-            }, 
-            "Loan Repayments from Other Parties": {
-                "previous_nzd": 177362
-            }, 
-            "Other Current Revenue": {
-                "nzd": 472830, 
-                "previous_nzd": 311158
-            }, 
-            "Other Fees": {
-                "previous_nzd": 15000
-            }, 
-            "Other Interest": {
-                "nzd": 1369, 
-                "previous_nzd": 5661
-            }, 
-            "Rentals from Crown Overseas Properties": {
-                "nzd": 14500, 
-                "previous_nzd": 10600
-            }, 
-            "Reserve Bank Surplus": {
-                "nzd": 210000, 
-                "previous_nzd": 290000
-            }, 
-            "Unclaimed Money": {
-                "nzd": 500, 
-                "previous_nzd": 1724
-            }
-        }
-    }, 
     "dept_totals": {
         "Department of Building and Housing": {
-            "nzd": 195673, 
-            "previous_nzd": 186950
+            "nzd": 195673000, 
+            "previous_nzd": 186950000
         }, 
         "Department of Conservation": {
-            "nzd": 23524, 
-            "previous_nzd": 22470
+            "nzd": 23524000, 
+            "previous_nzd": 22470000
         }, 
         "Department of Internal Affairs": {
-            "nzd": 60364, 
-            "previous_nzd": 505
+            "nzd": 60364000, 
+            "previous_nzd": 505000
         }, 
         "Department of Labour": {
-            "nzd": 55343, 
-            "previous_nzd": 55343
+            "nzd": 55343000, 
+            "previous_nzd": 55343000
         }, 
         "Department of the Prime Minister and Cabinet": {
             "nzd": 0, 
-            "previous_nzd": 30
+            "previous_nzd": 30000
         }, 
         "Inland Revenue Department": {
-            "nzd": 51384500, 
-            "previous_nzd": 48434500
+            "nzd": 51384500000, 
+            "previous_nzd": 48434500000
         }, 
         "Land Information New Zealand": {
-            "nzd": 44167, 
-            "previous_nzd": 56060
+            "nzd": 44167000, 
+            "previous_nzd": 56060000
         }, 
         "Ministry for Culture and Heritage": {
             "nzd": 0, 
-            "previous_nzd": 7
+            "previous_nzd": 7000
         }, 
         "Ministry for the Environment": {
-            "nzd": 405530, 
-            "previous_nzd": 610313
+            "nzd": 405530000, 
+            "previous_nzd": 610313000
         }, 
         "Ministry of Agriculture and Forestry": {
-            "nzd": 170711, 
-            "previous_nzd": 178117
+            "nzd": 170711000, 
+            "previous_nzd": 178117000
         }, 
         "Ministry of Defence": {
-            "nzd": 236937, 
-            "previous_nzd": 135997
+            "nzd": 236937000, 
+            "previous_nzd": 135997000
         }, 
         "Ministry of Economic Development": {
-            "nzd": 546460, 
-            "previous_nzd": 591718
+            "nzd": 546460000, 
+            "previous_nzd": 591718000
         }, 
         "Ministry of Education ": {
-            "nzd": 72799, 
-            "previous_nzd": 83370
+            "nzd": 72799000, 
+            "previous_nzd": 83370000
         }, 
         "Ministry of Health": {
-            "nzd": 637337, 
-            "previous_nzd": 639087
+            "nzd": 637337000, 
+            "previous_nzd": 639087000
         }, 
         "Ministry of Justice": {
-            "nzd": 273736, 
-            "previous_nzd": 206307
+            "nzd": 273736000, 
+            "previous_nzd": 206307000
         }, 
         "Ministry of Science and Innovation": {
             "nzd": 0, 
-            "previous_nzd": 4371
+            "previous_nzd": 4371000
         }, 
         "Ministry of Social Development": {
-            "nzd": 707015, 
-            "previous_nzd": 685846
+            "nzd": 707015000, 
+            "previous_nzd": 685846000
         }, 
         "Ministry of Transport": {
-            "nzd": 1260434, 
-            "previous_nzd": 1206550
+            "nzd": 1260434000, 
+            "previous_nzd": 1206550000
         }, 
         "New Zealand Customs Service": {
-            "nzd": 11734080, 
-            "previous_nzd": 10575080
+            "nzd": 11734080000, 
+            "previous_nzd": 10575080000
         }, 
         "New Zealand Police": {
-            "nzd": 83200, 
-            "previous_nzd": 83200
+            "nzd": 83200000, 
+            "previous_nzd": 83200000
         }, 
         "State Services Commission": {
-            "nzd": 12909, 
-            "previous_nzd": 11410
+            "nzd": 12909000, 
+            "previous_nzd": 11410000
         }, 
         "Te Puni Kokiri": {
-            "nzd": 10, 
-            "previous_nzd": 10
+            "nzd": 10000, 
+            "previous_nzd": 10000
         }, 
         "The Treasury": {
-            "nzd": 3482725, 
-            "previous_nzd": 3891403
+            "nzd": 3482725000, 
+            "previous_nzd": 3891403000
         }
     }, 
     "grand_total": {
-        "nzd": 71387454, 
-        "previous_nzd": 67658644
+        "nzd": 71387454000, 
+        "previous_nzd": 67658644000
+    }, 
+    "series_for_budget": [
+        [
+            "Inland Revenue Department", 
+            51384500000
+        ], 
+        [
+            "New Zealand Customs Service", 
+            11734080000
+        ], 
+        [
+            "The Treasury", 
+            3482725000
+        ], 
+        [
+            "Ministry of Transport", 
+            1260434000
+        ], 
+        [
+            "Ministry of Social Development", 
+            707015000
+        ], 
+        [
+            "Ministry of Health", 
+            637337000
+        ], 
+        [
+            "Ministry of Economic Development", 
+            546460000
+        ], 
+        [
+            "Ministry for the Environment", 
+            405530000
+        ], 
+        [
+            "Ministry of Justice", 
+            273736000
+        ], 
+        [
+            "Ministry of Defence", 
+            236937000
+        ], 
+        [
+            "Department of Building and Housing", 
+            195673000
+        ], 
+        [
+            "Ministry of Agriculture and Forestry", 
+            170711000
+        ], 
+        [
+            "New Zealand Police", 
+            83200000
+        ], 
+        [
+            "Ministry of Education ", 
+            72799000
+        ], 
+        [
+            "Department of Internal Affairs", 
+            60364000
+        ], 
+        [
+            "Department of Labour", 
+            55343000
+        ], 
+        [
+            "Land Information New Zealand", 
+            44167000
+        ], 
+        [
+            "Department of Conservation", 
+            23524000
+        ], 
+        [
+            "State Services Commission", 
+            12909000
+        ], 
+        [
+            "Te Puni Kokiri", 
+            10000
+        ], 
+        [
+            "Ministry of Science and Innovation", 
+            0
+        ], 
+        [
+            "Department of the Prime Minister and Cabinet", 
+            0
+        ], 
+        [
+            "Ministry for Culture and Heritage", 
+            0
+        ]
+    ], 
+    "series_for_dept": {
+        "Department of Building and Housing": [
+            {
+                "name": "Interest on Housing New Zealand Corporation Loans", 
+                "previous_y": 114200000, 
+                "y": 116600000
+            }, 
+            {
+                "name": "Dividend from HNZC", 
+                "previous_y": 71000000, 
+                "y": 62000000
+            }, 
+            {
+                "name": "Acquisition and Development of properties under the Housing Act 1955", 
+                "y": 16873000
+            }, 
+            {
+                "name": "Weathertight Services: Loan Guarantee Fees", 
+                "previous_y": 100000, 
+                "y": 200000
+            }
+        ], 
+        "Department of Conservation": [
+            {
+                "name": "Concessions, Leases and Licences", 
+                "previous_y": 13500000, 
+                "y": 12200000
+            }, 
+            {
+                "name": "Disposal of Conservation Land", 
+                "previous_y": 6000000, 
+                "y": 6000000
+            }, 
+            {
+                "name": "Disposal of Reserves", 
+                "previous_y": 260000, 
+                "y": 1800000
+            }, 
+            {
+                "name": "Old Government Building Rental", 
+                "previous_y": 1760000, 
+                "y": 1760000
+            }, 
+            {
+                "name": "Rates Recovery from Concessionaires", 
+                "previous_y": 500000, 
+                "y": 964000
+            }, 
+            {
+                "name": "Revenue for Land Purchases", 
+                "previous_y": 250000, 
+                "y": 500000
+            }, 
+            {
+                "name": "Turnbull House Revenue", 
+                "previous_y": 200000, 
+                "y": 200000
+            }, 
+            {
+                "name": "Contributions for Crown Property, Plant and Equipment", 
+                "y": 100000
+            }
+        ], 
+        "Department of Internal Affairs": [
+            {
+                "name": "Repayment of loan from the Auckland Transition Agency", 
+                "y": 59700000
+            }, 
+            {
+                "name": "Lake Taupo fee revenue", 
+                "y": 414000
+            }, 
+            {
+                "name": "Local Government Debt Vehicle Interest Received", 
+                "previous_y": 125000, 
+                "y": 250000
+            }
+        ], 
+        "Department of Labour": [
+            {
+                "name": "Health and Safety in Employment Levy", 
+                "previous_y": 43911000, 
+                "y": 43911000
+            }, 
+            {
+                "name": "Migrant Levy", 
+                "previous_y": 9715000, 
+                "y": 9715000
+            }, 
+            {
+                "name": "Immigration Adviser Levy", 
+                "previous_y": 982000, 
+                "y": 982000
+            }, 
+            {
+                "name": "Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration", 
+                "previous_y": 262000, 
+                "y": 262000
+            }, 
+            {
+                "name": "Infringement Notice Fines", 
+                "previous_y": 247000, 
+                "y": 247000
+            }, 
+            {
+                "name": "Employment Relations Authority Fees", 
+                "previous_y": 193000, 
+                "y": 193000
+            }, 
+            {
+                "name": "Health and Safety Fees and Licences", 
+                "previous_y": 33000, 
+                "y": 33000
+            }
+        ], 
+        "Department of the Prime Minister and Cabinet": [], 
+        "Inland Revenue Department": [
+            {
+                "name": "Source Deductions", 
+                "previous_y": 21161000000, 
+                "y": 21636000000
+            }, 
+            {
+                "name": "Goods and Services Tax (IRD)", 
+                "previous_y": 12090000000, 
+                "y": 13235000000
+            }, 
+            {
+                "name": "Companies", 
+                "previous_y": 7834000000, 
+                "y": 8423000000
+            }, 
+            {
+                "name": "Other Persons", 
+                "previous_y": 2141000000, 
+                "y": 2686000000
+            }, 
+            {
+                "name": "Withholding Taxes", 
+                "previous_y": 2409000000, 
+                "y": 2383000000
+            }, 
+            {
+                "name": "Child Support Collections", 
+                "previous_y": 747000000, 
+                "y": 910000000
+            }, 
+            {
+                "name": "Student Loans - Receipts", 
+                "previous_y": 683000000, 
+                "y": 727000000
+            }, 
+            {
+                "name": "Interest on Impaired Student Loans", 
+                "previous_y": 437000000, 
+                "y": 480000000
+            }, 
+            {
+                "name": "Fringe Benefit Tax", 
+                "previous_y": 461000000, 
+                "y": 430000000
+            }, 
+            {
+                "name": "Gaming Duties", 
+                "previous_y": 263000000, 
+                "y": 268000000
+            }, 
+            {
+                "name": "Income Equalisation Reserve Account", 
+                "previous_y": 90000000, 
+                "y": 90000000
+            }, 
+            {
+                "name": "Other Indirect Taxes", 
+                "previous_y": 84000000, 
+                "y": 84000000
+            }, 
+            {
+                "name": "Environmental Restoration Accounts Scheme", 
+                "previous_y": 20000000, 
+                "y": 20000000
+            }, 
+            {
+                "name": "Unclaimed Monies", 
+                "previous_y": 7000000, 
+                "y": 7000000
+            }, 
+            {
+                "name": "Stamp and Cheque Duties", 
+                "previous_y": 4000000, 
+                "y": 4000000
+            }, 
+            {
+                "name": "Adverse Income Equalisation Account", 
+                "previous_y": 1500000, 
+                "y": 1500000
+            }
+        ], 
+        "Land Information New Zealand": [
+            {
+                "name": "Transit Sales", 
+                "previous_y": 27188000, 
+                "y": 33000000
+            }, 
+            {
+                "name": "Surplus Government Properties - Sales", 
+                "previous_y": 21354000, 
+                "y": 6000000
+            }, 
+            {
+                "name": "Surplus Government Properties - Rents", 
+                "previous_y": 2184000, 
+                "y": 2235000
+            }, 
+            {
+                "name": "Pastoral Lease Rentals", 
+                "previous_y": 1893000, 
+                "y": 1902000
+            }, 
+            {
+                "name": "Land Tenure Reform Sales", 
+                "previous_y": 3401000, 
+                "y": 959000
+            }, 
+            {
+                "name": "Sundry Operating Revenue", 
+                "previous_y": 40000, 
+                "y": 71000
+            }
+        ], 
+        "Ministry for Culture and Heritage": [], 
+        "Ministry for the Environment": [
+            {
+                "name": "Emissions Trading", 
+                "previous_y": 378211000, 
+                "y": 379130000
+            }, 
+            {
+                "name": "Waste Disposal Levy", 
+                "previous_y": 26000000, 
+                "y": 26000000
+            }, 
+            {
+                "name": "Coastal Royalties", 
+                "previous_y": 400000, 
+                "y": 400000
+            }
+        ], 
+        "Ministry of Agriculture and Forestry": [
+            {
+                "name": "Crown Forestry Assets", 
+                "previous_y": 126133000, 
+                "y": 128010000
+            }, 
+            {
+                "name": "Cost Recovery", 
+                "previous_y": 30523000, 
+                "y": 33273000
+            }, 
+            {
+                "name": "Deemed Values", 
+                "previous_y": 4300000, 
+                "y": 2500000
+            }, 
+            {
+                "name": "Forestry Encouragement Loan Interest", 
+                "previous_y": 2351000, 
+                "y": 2100000
+            }, 
+            {
+                "name": "Forestry Encouragement Loans", 
+                "previous_y": 3198000, 
+                "y": 1900000
+            }, 
+            {
+                "name": "Conservation Levy", 
+                "previous_y": 1879000, 
+                "y": 1053000
+            }, 
+            {
+                "name": "Biosecurity Act 1993 Fines", 
+                "previous_y": 1595000, 
+                "y": 1000000
+            }, 
+            {
+                "name": "Levy Charged Under the Dairy Industry Restructuring Act", 
+                "previous_y": 697000, 
+                "y": 250000
+            }, 
+            {
+                "name": "New Zealand Emissions Trading Scheme Fees", 
+                "previous_y": 242000, 
+                "y": 200000
+            }, 
+            {
+                "name": "Fisheries Revenue from Forfeitures", 
+                "previous_y": 1700000, 
+                "y": 150000
+            }, 
+            {
+                "name": "Infringement Notice Revenue", 
+                "previous_y": 160000, 
+                "y": 125000
+            }, 
+            {
+                "name": "Sale of Quota Shares and ACE", 
+                "previous_y": 2320000, 
+                "y": 100000
+            }, 
+            {
+                "name": "Other Revenue", 
+                "previous_y": 60000, 
+                "y": 50000
+            }
+        ], 
+        "Ministry of Defence": [
+            {
+                "name": "Defence Equipment", 
+                "previous_y": 135797000, 
+                "y": 236837000
+            }, 
+            {
+                "name": "Crown Interest", 
+                "previous_y": 200000, 
+                "y": 100000
+            }
+        ], 
+        "Ministry of Economic Development": [
+            {
+                "name": "Royalties - Petroleum", 
+                "previous_y": 380000000, 
+                "y": 345950000
+            }, 
+            {
+                "name": "Levy on Electricity Industry", 
+                "previous_y": 70954000, 
+                "y": 92243000
+            }, 
+            {
+                "name": "Energy Resource Levies - Gas", 
+                "previous_y": 28000000, 
+                "y": 30090000
+            }, 
+            {
+                "name": "Radio Spectrum Rights", 
+                "previous_y": 12450000, 
+                "y": 22584000
+            }, 
+            {
+                "name": "Proceeds of Crime", 
+                "previous_y": 9250000, 
+                "y": 9250000
+            }, 
+            {
+                "name": "Telecommunications Levy", 
+                "previous_y": 7290000, 
+                "y": 7791000
+            }, 
+            {
+                "name": "Energy Resource Levies - Coal", 
+                "previous_y": 7784000, 
+                "y": 7784000
+            }, 
+            {
+                "name": "Financial Advisers Act (FAA) Fees and Charges", 
+                "previous_y": 6091000, 
+                "y": 6263000
+            }, 
+            {
+                "name": "Levy on Electricity Line Businesses", 
+                "previous_y": 7327000, 
+                "y": 4522000
+            }, 
+            {
+                "name": "Whirinaki Availability Recovered", 
+                "previous_y": 13000000, 
+                "y": 4300000
+            }, 
+            {
+                "name": "Radio Spectrum Financing", 
+                "y": 4156000
+            }, 
+            {
+                "name": "Royalties - Minerals", 
+                "previous_y": 5000000, 
+                "y": 3388000
+            }, 
+            {
+                "name": "Repayment of Crown Energy Efficiency Loans.", 
+                "previous_y": 2000000, 
+                "y": 2000000
+            }, 
+            {
+                "name": "Royalties - Coal", 
+                "previous_y": 1912000, 
+                "y": 1912000
+            }, 
+            {
+                "name": "Whirinaki Operating and Maintenance Recovered", 
+                "previous_y": 4250000, 
+                "y": 1700000
+            }, 
+            {
+                "name": "Financial Service Providers Reserve Dispute Resolution Scheme", 
+                "previous_y": 250000, 
+                "y": 1694000
+            }, 
+            {
+                "name": "Control of Natural Gas Services", 
+                "previous_y": 1439000, 
+                "y": 1300000
+            }, 
+            {
+                "name": "Accounting Standards Review Board", 
+                "previous_y": 830000, 
+                "y": 830000
+            }, 
+            {
+                "name": "Levy on Regulated Airports", 
+                "previous_y": 1319000, 
+                "y": 400000
+            }, 
+            {
+                "name": "Whirinaki Electricity Generation", 
+                "previous_y": 100000, 
+                "y": 100000
+            }, 
+            {
+                "name": "Residual Ministry of Energy Commitments", 
+                "previous_y": 80000, 
+                "y": 80000
+            }, 
+            {
+                "name": "Ironsands Royalties", 
+                "previous_y": 63000, 
+                "y": 63000
+            }, 
+            {
+                "name": "Rent from Reserve Lands", 
+                "previous_y": 113000, 
+                "y": 40000
+            }, 
+            {
+                "name": "Trade Measurement Unit Infringement Fees", 
+                "previous_y": 20000, 
+                "y": 20000
+            }, 
+            {
+                "name": "Levy on Electricity Industry Participants", 
+                "previous_y": 26175000, 
+                "y": -2000000
+            }
+        ], 
+        "Ministry of Education ": [
+            {
+                "name": "State Sector Retirement Savings Scheme Recoveries", 
+                "previous_y": 61998000, 
+                "y": 64647000
+            }, 
+            {
+                "name": "Overseas Students' Fees", 
+                "previous_y": 3757000, 
+                "y": 3757000
+            }, 
+            {
+                "name": "Export Education Levies", 
+                "previous_y": 3521000, 
+                "y": 3521000
+            }, 
+            {
+                "name": "Miscellaneous Receipts", 
+                "previous_y": 592000, 
+                "y": 617000
+            }, 
+            {
+                "name": "Tertiary Investments - Interest", 
+                "previous_y": 122000, 
+                "y": 122000
+            }, 
+            {
+                "name": "Roll Audit and Staffing Recoveries", 
+                "previous_y": 110000, 
+                "y": 110000
+            }, 
+            {
+                "name": "Payroll Receipts", 
+                "previous_y": 25000, 
+                "y": 25000
+            }
+        ], 
+        "Ministry of Health": [
+            {
+                "name": "ACC - Reimbursement of Non-Earners Account", 
+                "previous_y": 248002000, 
+                "y": 255516000
+            }, 
+            {
+                "name": "Payment of Capital Charge by DHBs", 
+                "previous_y": 158464000, 
+                "y": 158464000
+            }, 
+            {
+                "name": "ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs", 
+                "previous_y": 75278000, 
+                "y": 77563000
+            }, 
+            {
+                "name": "ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs", 
+                "previous_y": 62360000, 
+                "y": 64255000
+            }, 
+            {
+                "name": "ACC - Reimbursement of Work-Related Public Hospital Costs", 
+                "previous_y": 26264000, 
+                "y": 27060000
+            }, 
+            {
+                "name": "Repayment of Residential Care Loans", 
+                "previous_y": 24000000, 
+                "y": 24000000
+            }, 
+            {
+                "name": "Equity repayments by DHBs", 
+                "previous_y": 12499000, 
+                "y": 12499000
+            }, 
+            {
+                "name": "ACC - Reimbursement of Complex Burns Costs", 
+                "previous_y": 7325000, 
+                "y": 7579000
+            }, 
+            {
+                "name": "ACC - Reimbursement of Self-Employed Public Hospital Costs", 
+                "previous_y": 7170000, 
+                "y": 7388000
+            }, 
+            {
+                "name": "ACC - Reimbursement of Medical Misadventure Costs", 
+                "previous_y": 2292000, 
+                "y": 2362000
+            }, 
+            {
+                "name": "Residual Health Management Rental", 
+                "previous_y": 633000, 
+                "y": 651000
+            }
+        ], 
+        "Ministry of Justice": [
+            {
+                "name": "Court Fines", 
+                "previous_y": 198382000, 
+                "y": 200028000
+            }, 
+            {
+                "name": "Recoveries from Legally Aided Persons", 
+                "y": 33000000
+            }, 
+            {
+                "name": "Miscellaneous receipts received on behalf of the Crown", 
+                "y": 28000000
+            }, 
+            {
+                "name": "Landbank Properties", 
+                "previous_y": 7200000, 
+                "y": 8130000
+            }, 
+            {
+                "name": "Receipts from the Law Society's Special Fund for Community Law Centres", 
+                "y": 3853000
+            }, 
+            {
+                "name": "Repayments of Judicial Salaries from Crown Entities", 
+                "previous_y": 476000, 
+                "y": 476000
+            }, 
+            {
+                "name": "Licensing Fund", 
+                "previous_y": 200000, 
+                "y": 200000
+            }, 
+            {
+                "name": "Money Forfeited to the Crown", 
+                "previous_y": 49000, 
+                "y": 49000
+            }
+        ], 
+        "Ministry of Science and Innovation": [], 
+        "Ministry of Social Development": [
+            {
+                "name": "Benefit Recoveries - Current Debt", 
+                "previous_y": 249246000, 
+                "y": 255996000
+            }, 
+            {
+                "name": "Overseas Pension Recoveries", 
+                "previous_y": 173940000, 
+                "y": 192608000
+            }, 
+            {
+                "name": "Student Loans - Repayment of Principal", 
+                "previous_y": 103455000, 
+                "y": 106529000
+            }, 
+            {
+                "name": "Benefit Recoveries - Non-Current Debt", 
+                "previous_y": 81138000, 
+                "y": 84126000
+            }, 
+            {
+                "name": "Interest Revenue", 
+                "previous_y": 64159000, 
+                "y": 53591000
+            }, 
+            {
+                "name": "Student Loan - Administration Fee", 
+                "previous_y": 12020000, 
+                "y": 12495000
+            }, 
+            {
+                "name": "Benefit Recoveries - Liable Parent Contributions", 
+                "previous_y": 1624000, 
+                "y": 1406000
+            }, 
+            {
+                "name": "Maintenance Capitalisation", 
+                "previous_y": 264000, 
+                "y": 264000
+            }
+        ], 
+        "Ministry of Transport": [
+            {
+                "name": "Road User Charges", 
+                "previous_y": 995446000, 
+                "y": 1049109000
+            }, 
+            {
+                "name": "Motor Vehicle Registration", 
+                "previous_y": 168987000, 
+                "y": 167811000
+            }, 
+            {
+                "name": "Motor Vehicle Registration fee-administration cost", 
+                "previous_y": 45327000, 
+                "y": 46206000
+            }, 
+            {
+                "name": "Road User Charge transaction fee", 
+                "previous_y": 15137000, 
+                "y": 16886000
+            }, 
+            {
+                "name": "Motor Vehicle Registration Recoveries", 
+                "previous_y": 10500000, 
+                "y": 10500000
+            }, 
+            {
+                "name": "Northern Gateway Toll Road Revenue", 
+                "previous_y": 5803000, 
+                "y": 7000000
+            }, 
+            {
+                "name": "Infringements", 
+                "previous_y": 100000, 
+                "y": 100000
+            }, 
+            {
+                "name": "Fuel Excise Duty Refunds", 
+                "previous_y": -34750000, 
+                "y": -37178000
+            }
+        ], 
+        "New Zealand Customs Service": [
+            {
+                "name": "Goods and Services Tax", 
+                "previous_y": 6824000000, 
+                "y": 7842000000
+            }, 
+            {
+                "name": "Customs Duty", 
+                "previous_y": 1991000000, 
+                "y": 2053000000
+            }, 
+            {
+                "name": "Excise Duty", 
+                "previous_y": 1760000000, 
+                "y": 1839000000
+            }, 
+            {
+                "name": "Sale of Seized Goods", 
+                "previous_y": 80000, 
+                "y": 80000
+            }
+        ], 
+        "New Zealand Police": [
+            {
+                "name": "Infringement Fees", 
+                "previous_y": 82700000, 
+                "y": 82700000
+            }, 
+            {
+                "name": "Sale of Unclaimed Property", 
+                "previous_y": 500000, 
+                "y": 500000
+            }
+        ], 
+        "State Services Commission": [
+            {
+                "name": "Reimbursement of Chief Executives' Remuneration", 
+                "previous_y": 11410000, 
+                "y": 12909000
+            }
+        ], 
+        "Te Puni Kokiri": [
+            {
+                "name": "Mortgage Repayments Intended for HNZC", 
+                "previous_y": 10000, 
+                "y": 10000
+            }
+        ], 
+        "The Treasury": [
+            {
+                "name": "Capital Charge - Departments", 
+                "previous_y": 1650368000, 
+                "y": 1790182000
+            }, 
+            {
+                "name": "Other Current Revenue", 
+                "previous_y": 311158000, 
+                "y": 472830000
+            }, 
+            {
+                "name": "Interest from Securities and Deposits", 
+                "previous_y": 347159000, 
+                "y": 425895000
+            }, 
+            {
+                "name": "Dividends from SOEs", 
+                "previous_y": 888758000, 
+                "y": 408990000
+            }, 
+            {
+                "name": "Reserve Bank Surplus", 
+                "previous_y": 290000000, 
+                "y": 210000000
+            }, 
+            {
+                "name": "Crown Wholesale Guarantee Facility Fees", 
+                "previous_y": 80356000, 
+                "y": 67451000
+            }, 
+            {
+                "name": "Employers' Superannuation Contributions", 
+                "previous_y": 55000000, 
+                "y": 55000000
+            }, 
+            {
+                "name": "Rentals from Crown Overseas Properties", 
+                "previous_y": 10600000, 
+                "y": 14500000
+            }, 
+            {
+                "name": "Dividends from Crown Entities", 
+                "previous_y": 4871000, 
+                "y": 12132000
+            }, 
+            {
+                "name": "Earthquake Commission Guarantee Fee", 
+                "previous_y": 10000000, 
+                "y": 10000000
+            }, 
+            {
+                "name": "Crown Deposit Guarantee Scheme Fees", 
+                "previous_y": 35498000, 
+                "y": 6336000
+            }, 
+            {
+                "name": "Export Credit Office", 
+                "previous_y": 4802000, 
+                "y": 5189000
+            }, 
+            {
+                "name": "Dividends - Other", 
+                "previous_y": 2269000, 
+                "y": 2351000
+            }, 
+            {
+                "name": "Other Interest", 
+                "previous_y": 5661000, 
+                "y": 1369000
+            }, 
+            {
+                "name": "Unclaimed Money", 
+                "previous_y": 1724000, 
+                "y": 500000
+            }
+        ]
     }
 }
