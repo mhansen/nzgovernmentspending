@@ -3,6 +3,7 @@
 # Compile with coffeescript: `coffee -c index.coffee`
 
 #### Controller
+window.model = {}
 $ ->
   $("a#inline").fancybox()
   # Are we looking at income or expenses? Fetch the right file, and link to the
@@ -17,7 +18,7 @@ $ ->
                                    " ● <a href='/?income=true'>View Incomes</a>"
   # Fetch the file, save the model data, and plot the budget.
   $.getJSON filename_to_fetch, (fetched_data) ->
-    model = fetched_data
+    window.model = fetched_data
     view_budget model.series_for_budget
 #### Views
 
@@ -104,6 +105,8 @@ view_dept_pie = (dept_name, dept_data, dept_percent_change) ->
       style:
         fontSize: "16px"
         "font-family": "Helvetica, Arial, sans-serif"
+        whiteSpace: 'normal !important'
+        width: '300px'
     series: [ {
       type: "pie"
       data: dept_data
@@ -118,6 +121,9 @@ view_dept_pie = (dept_name, dept_data, dept_percent_change) ->
         size: "100%"
     tooltip:
       formatter: format_tooltip
+      style:
+        whiteSpace: 'normal'
+        width: '200px'
   }
 
 # Show a receipt-like view of a department's line items.
@@ -133,8 +139,7 @@ view_dept_receipt = (series_for_dept) ->
                 text("$" + dollars_per_person(item.y).toFixed(2))).
         append($("<td class='delta' style='padding-right:10px;text-align:right;'>").
                 html(format_percent(percentChange))).
-        append($("<td class='description'>").
-                text(item.name).attr("title", item.scope)).
+        append($("<td class='description'>").text(item.name).attr("title", item.scope or "")).
         appendTo $list
   $("td.delta").attr "title", "Percentage change over last year's Budget"
 
@@ -166,17 +171,25 @@ split_long_sentence = (sentence, joiner) ->
 # pie slice. Returns some subsetted-HTML for HighCharts to convert into SVG.
 format_tooltip = ->
   @point.name.replace()
-  perperson = "$" + dollars_per_person(@y).toFixed(2) + " per capita."
-  total = "$" + (@y / 1000000000).toFixed(2) + " Billion "
+  total = format_big_dollars @y
   splitName = "<b>" + split_long_sentence(@point.name, "<br/><b>")
   proportion_of_total = @y / model.grand_total.nzd
   percentage = "<i>(" + (proportion_of_total * 100).toFixed(2) + "% of total)</i>"
-  splitName + "<br/>" + total + percentage + "<br/>" + perperson
+  perperson = "$" + dollars_per_person(@y).toFixed(2) + " per capita."
+  scope = if @point.scope? then @point.scope else ""
+  splitName + "<br/>" + total + percentage + "<br/>" + perperson + "<br/>" + scope
+
+format_big_dollars = (big_dollars) ->
+  a_billion = 1000000000
+  a_million = 1000000
+  if big_dollars > a_billion
+   "$" + (big_dollars / a_billion).toFixed(2) + " Billion "
+  else
+   "$" + (big_dollars / a_million).toFixed(2) + " Million "
 
 # Hardcoded - from the Statistics NZ Population Clock.
 dollars_per_person = (dollars_per_country) ->
   NZ_POPULATION = 4405193
   dollars_per_country / NZ_POPULATION
 
-model = {}
 viewing_income = $.url.param("income") == "true"
