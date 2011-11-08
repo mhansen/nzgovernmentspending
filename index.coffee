@@ -9,14 +9,17 @@ $ ->
     mpq.track "Clicked Credits Button"
   # Are we looking at income or expenses? Fetch the right file, and link to the
   # other page.
+  window.viewing_income = $.url.param("income") == "true"
   if viewing_income
     filename_to_fetch = "incomes-2011.json"
     $("#incomes_or_expenses").html "<a href='/?income=false'>View Expenses</a>" +
                                    " ● <b>Viewing Incomes</b>"
+    mpq.track "View Incomes"
   else
     filename_to_fetch = "expenses-2011.json"
     $("#incomes_or_expenses").html "<b>Viewing Expenses</b>" +
                                    " ● <a href='/?income=true'>View Incomes</a>"
+    mpq.track "View Expenses"
   # Fetch the file, save the model data, and plot the budget.
   $.getJSON filename_to_fetch, (fetched_data) ->
     window.model = fetched_data
@@ -194,4 +197,3 @@ dollars_per_person = (dollars_per_country) ->
   NZ_POPULATION = 4405193
   dollars_per_country / NZ_POPULATION
 
-viewing_income = $.url.param("income") == "true"
