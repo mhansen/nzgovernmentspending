@@ -89,8 +89,9 @@ view_budget = (budget_expense_series) ->
             # Log which department was clicked on, for statistics.
             $.ajax "/gen204?#{dept_name}"
 
-            i_or_e = if viewing_income then 'Incomes' else 'Expenses'
-            mpq.track "#{i_or_e} - #{dept_name}"
+            mpq.track "Opened a segment"
+              viewing_income: viewing_income
+              dept: dept_name
   }
 
 
