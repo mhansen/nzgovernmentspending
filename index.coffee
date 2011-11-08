@@ -24,6 +24,10 @@ $ ->
   $.getJSON filename_to_fetch, (fetched_data) ->
     window.model = fetched_data
     view_budget model.series_for_budget
+
+  throttled_track_scrolling = _.throttle -> mpq.track "Scrolled Receipt", 1000
+  $("#dept_receipt").on "scroll", throttled_track_scrolling
+
 #### Views
 
 # The main budget graph title changes 
