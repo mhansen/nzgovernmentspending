@@ -5,7 +5,8 @@
 #### Controller
 window.model = {}
 $ ->
-  $("a#inline").fancybox()
+  $("a#creditslink").fancybox().on "click", ->
+    mpq.track "Clicked Credits Button"
   # Are we looking at income or expenses? Fetch the right file, and link to the
   # other page.
   if viewing_income
@@ -83,7 +84,8 @@ view_budget = (budget_expense_series) ->
             view_dept_receipt model.series_for_dept[dept_name]
 
             # Log which department was clicked on, for statistics.
-            $.ajax "/gen204?" + dept_name
+            $.ajax "/gen204?#{dept_name}"
+            mpq.track dept_name
   }
 
 
