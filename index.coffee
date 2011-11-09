@@ -25,7 +25,8 @@ $ ->
     window.model = fetched_data
     view_budget model.series_for_budget
 
-  throttled_track_scrolling = _.throttle -> mpq.track "Scrolled Receipt", 1000
+  track_scrolling = -> mpq.track("Scrolled Receipt")
+  throttled_track_scrolling = _.throttle track_scrolling, 1000
   $("#dept_receipt").on "scroll", throttled_track_scrolling
 
 #### Views
@@ -93,9 +94,11 @@ view_budget = (budget_expense_series) ->
             # Log which department was clicked on, for statistics.
             $.ajax "/gen204?#{dept_name}"
 
+            type = if viewing_income then "Income" else "Expense"
             mpq.track "Opened a segment"
-              viewing_income: viewing_income
+              type: type
               dept: dept_name
+              deptAndType: "#{type} - #{dept_name}"
   }
 
 
