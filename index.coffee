@@ -40,6 +40,12 @@ view_budget_pie_title_text = (viewing_income, grand_total) ->
   "$" + add_comma_to_number_string(dollars_per_person(grand_total).toFixed(0)) +
   " per capita"
 
+track_dept_mouseover = (event) -> mpq.track "Hovered Over Dept", name: @name
+track_subdept_mouseover = (event) -> mpq.track "Hovered Over Subdept", name: @name
+
+throttled_track_dept_mouseover = _.throttle track_dept_mouseover, 1000
+throttled_track_subdept_mouseover = _.throttle track_subdept_mouseover, 1000
+
 # Plot the main pie chart of all departments.
 view_budget = (budget_expense_series) ->
   new Highcharts.Chart {
@@ -80,6 +86,7 @@ view_budget = (budget_expense_series) ->
           # A little nudging to keep text inside their slices.
           y: -4
         point: events:
+          mouseOver: throttled_track_dept_mouseover
           select: (event) ->
             dept_name = @name
             dept_expense_series = model.series_for_dept[dept_name]
@@ -134,6 +141,9 @@ view_dept_pie = (dept_name, dept_data, dept_percent_change) ->
           enabled: false
         innerSize: 150
         size: "100%"
+        point:
+          events:
+            mouseOver: throttled_track_subdept_mouseover
     tooltip:
       formatter: format_tooltip
       style:
