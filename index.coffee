@@ -20,11 +20,11 @@ $ ->
   if viewing_income
     filename_to_fetch = "incomes-2011.json"
     $("#incomes_or_expenses").html "<a href='/?income=false'>View Expenses</a>" +
-                                   " ● <b>Viewing Incomes</b>"
+                                   " ● <em>Viewing Incomes</em>"
     mpq.track "View Incomes"
   else
     filename_to_fetch = "expenses-2011.json"
-    $("#incomes_or_expenses").html "<b>Viewing Expenses</b>" +
+    $("#incomes_or_expenses").html "<em>Viewing Expenses</em>" +
                                    " ● <a href='/?income=true'>View Incomes</a>"
     mpq.track "View Expenses"
   # Fetch the file, save the model data, and plot the budget.
