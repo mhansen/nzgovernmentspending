@@ -40,8 +40,10 @@ view_budget_pie_title_text = (viewing_income, grand_total) ->
   "$" + add_comma_to_number_string(dollars_per_person(grand_total).toFixed(0)) +
   " per capita"
 
-track_dept_mouseover = (event) -> mpq.track "Hovered Over Dept", name: @name
-track_subdept_mouseover = (event) -> mpq.track "Hovered Over Subdept", name: @name
+track_dept_mouseover = (event) ->
+  mpq.track "Hovered Over Dept", name: @name, mp_note: @name
+track_subdept_mouseover = (event) ->
+  mpq.track "Hovered Over Subdept", name: @name, mp_note: @name
 
 throttled_track_dept_mouseover = _.throttle track_dept_mouseover, 1000
 throttled_track_subdept_mouseover = _.throttle track_subdept_mouseover, 1000
@@ -106,6 +108,7 @@ view_budget = (budget_expense_series) ->
               type: type
               dept: dept_name
               deptAndType: "#{type} - #{dept_name}"
+              mp_note: "#{type} - #{dept_name}"
   }
 
 
@@ -216,4 +219,3 @@ format_big_dollars = (big_dollars) ->
 dollars_per_person = (dollars_per_country) ->
   NZ_POPULATION = 4405193
   dollars_per_country / NZ_POPULATION
-
