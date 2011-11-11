@@ -10,6 +10,13 @@ $ ->
   # Are we looking at income or expenses? Fetch the right file, and link to the
   # other page.
   window.viewing_income = $.url.param("income") == "true"
+
+  # IE <9 and android <3.0 don't support SVG, so we can't render the charts. :(
+  if not hasSvgSupport()
+    alert "Sorry, your browser doesn't support inline SVG.\n" +
+          "We can't show render the graphs without it."
+    return
+
   if viewing_income
     filename_to_fetch = "incomes-2011.json"
     $("#incomes_or_expenses").html "<a href='/?income=false'>View Expenses</a>" +
@@ -219,3 +226,10 @@ format_big_dollars = (big_dollars) ->
 dollars_per_person = (dollars_per_country) ->
   NZ_POPULATION = 4405193
   dollars_per_country / NZ_POPULATION
+
+# Tests specifically for SVG inline in HTML, not within XHTML
+# Nicked from the Modernizr lib.
+hasSvgSupport = ->
+  div = document.createElement('div')
+  div.innerHTML = '<svg/>'
+  (div.firstChild && div.firstChild.namespaceURI) == "http://www.w3.org/2000/svg"
