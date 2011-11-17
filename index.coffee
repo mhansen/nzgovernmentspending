@@ -5,6 +5,14 @@
 if document.location.hostname == "localhost"
   mpq.track = -> console.log arguments
 
+window.events = new Backbone.Model
+
+events.bind "page_load", (type, filename) ->
+  # Fetch the file, save the model data, and plot the budget.
+  $.getJSON filename, (fetched_data) ->
+    window.model = fetched_data
+    view_budget model.series_for_budget
+
 #### Controller
 window.model = {}
 $ ->
@@ -21,30 +29,19 @@ $ ->
     return
 
   if viewing_income
-    filename_to_fetch = "incomes-2011.json"
+    events.trigger "page_load", "Incomes", "incomes-2011.json"
+  else
+    events.trigger "page_load", "Expenses", "expenses-2011.json"
+
+events.bind "page_load", (type) ->
+  if type = "Incomes"
     $("#incomes_or_expenses").html "<a href='/?income=false'>View Expenses</a>" +
                                    " ● <em>Viewing Incomes</em>"
-    mpq.track "View Incomes"
   else
-    filename_to_fetch = "expenses-2011.json"
     $("#incomes_or_expenses").html "<em>Viewing Expenses</em>" +
                                    " ● <a href='/?income=true'>View Incomes</a>"
-    mpq.track "View Expenses"
-  # Fetch the file, save the model data, and plot the budget.
-  $.getJSON filename_to_fetch, (fetched_data) ->
-    window.model = fetched_data
-    view_budget model.series_for_budget
 
 #### Views
-
-# The main budget graph title changes 
-view_budget_pie_title_text = (viewing_income, grand_total) ->
-  # Add a comma before the last three numbers in the string.
-  add_comma_to_number_string = (s) -> s.replace(/(\d{3})$/, ",$1")
-
-  "Government " + (if viewing_income then "Incomes" else "Expenses") + ": " +
-  "$" + add_comma_to_number_string(dollars_per_person(grand_total).toFixed(0)) +
-  " per capita"
 
 # Plot the main pie chart of all departments.
 view_budget = (budget_expense_series) ->
@@ -150,7 +147,6 @@ view_dept_receipt = (series_for_dept) ->
         appendTo $list
   $("td.delta").attr "title", "Percentage change over last year's Budget"
 
-window.events = new Backbone.Model
 
 events.bind "dept_select", (dept_name) ->
   d = model.dept_totals[dept_name]

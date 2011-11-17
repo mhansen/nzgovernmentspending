@@ -1,7 +1,7 @@
 #### Helper Methods
 
 # Format a percentage for display, with colors and an arrow pointing up or down.
-format_percent = (n) ->
+window.format_percent = (n) ->
   return ""  if n == undefined
   # Round to 2 significant figures - JavaScript doesn't have a
   # builtin function for this.
@@ -19,12 +19,12 @@ format_percent = (n) ->
 # Long sentences aren't autowrapped by the highcharts library, and they go over
 # the edges of the graph and get clipped. This looks horrible; we have to wrap
 # them ourselves. Do this by splitting every fifth word.
-split_long_sentence = (sentence, joiner) ->
+window.split_long_sentence = (sentence, joiner) ->
   sentence.replace /([^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+)/g, "$1" + joiner
 
 # A formatter function that gives the tooltip information when hovering over a
 # pie slice. Returns some subsetted-HTML for HighCharts to convert into SVG.
-format_tooltip = ->
+window.format_tooltip = ->
   @point.name.replace()
   total = format_big_dollars @y
   splitName = "<b>" + split_long_sentence(@point.name, "<br/><b>")
@@ -34,7 +34,7 @@ format_tooltip = ->
   scope = if @point.scope? then @point.scope else ""
   splitName + "<br/>" + total + percentage + "<br/>" + perperson + "<br/>" + scope
 
-format_big_dollars = (big_dollars) ->
+window.format_big_dollars = (big_dollars) ->
   a_billion = 1000000000
   a_million = 1000000
   if big_dollars > a_billion
@@ -43,14 +43,22 @@ format_big_dollars = (big_dollars) ->
    "$" + (big_dollars / a_million).toFixed(2) + " Million "
 
 # Hardcoded - from the Statistics NZ Population Clock.
-dollars_per_person = (dollars_per_country) ->
+window.dollars_per_person = (dollars_per_country) ->
   NZ_POPULATION = 4405193
   dollars_per_country / NZ_POPULATION
 
 # Tests specifically for SVG inline in HTML, not within XHTML
 # Nicked from the Modernizr lib.
-hasSvgSupport = ->
+window.hasSvgSupport = ->
   div = document.createElement('div')
   div.innerHTML = '<svg/>'
   (div.firstChild && div.firstChild.namespaceURI) == "http://www.w3.org/2000/svg"
 
+# The main budget graph title changes 
+window.view_budget_pie_title_text = (viewing_income, grand_total) ->
+  # Add a comma before the last three numbers in the string.
+  add_comma_to_number_string = (s) -> s.replace(/(\d{3})$/, ",$1")
+
+  "Government " + (if viewing_income then "Incomes" else "Expenses") + ": " +
+  "$" + add_comma_to_number_string(dollars_per_person(grand_total).toFixed(0)) +
+  " per capita"
