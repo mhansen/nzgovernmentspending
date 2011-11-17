@@ -2,6 +2,9 @@
 #
 # Compile with coffeescript: `coffee -c index.coffee`
 
+if document.location.hostname == "localhost"
+  mpq.track = -> console.log arguments
+
 #### Controller
 window.model = {}
 $ ->
@@ -47,13 +50,10 @@ view_budget_pie_title_text = (viewing_income, grand_total) ->
   "$" + add_comma_to_number_string(dollars_per_person(grand_total).toFixed(0)) +
   " per capita"
 
-track_dept_mouseover = (event) ->
-  mpq.track "Hovered Over Dept", name: @name, mp_note: @name
-track_subdept_mouseover = (event) ->
-  mpq.track "Hovered Over Subdept", name: @name, mp_note: @name
-
-throttled_track_dept_mouseover = _.throttle track_dept_mouseover, 1000
-throttled_track_subdept_mouseover = _.throttle track_subdept_mouseover, 1000
+track_dept_mouseover = (name) ->
+  mpq.track "Hovered Over Dept", name: name, mp_note: name
+track_subdept_mouseover = (name) ->
+  mpq.track "Hovered Over Subdept", name: name, mp_note: name
 
 # Plot the main pie chart of all departments.
 view_budget = (budget_expense_series) ->
@@ -95,7 +95,7 @@ view_budget = (budget_expense_series) ->
           # A little nudging to keep text inside their slices.
           y: -4
         point: events:
-          mouseOver: throttled_track_dept_mouseover
+          mouseOver: -> events.trigger "dept_mouseover", @name
           select: (event) ->
             dept_name = @name
             dept_expense_series = model.series_for_dept[dept_name]
@@ -153,7 +153,7 @@ view_dept_pie = (dept_name, dept_data, dept_percent_change) ->
         size: "100%"
         point:
           events:
-            mouseOver: throttled_track_subdept_mouseover
+            mouseOver: -> events.trigger "subdept_mouseover", @name
     tooltip:
       formatter: format_tooltip
       style:
@@ -233,3 +233,8 @@ hasSvgSupport = ->
   div = document.createElement('div')
   div.innerHTML = '<svg/>'
   (div.firstChild && div.firstChild.namespaceURI) == "http://www.w3.org/2000/svg"
+
+window.events = new Backbone.Model
+
+events.bind "dept_mouseover", (_.throttle track_dept_mouseover, 1000)
+events.bind "subdept_mouseover",(_.throttle track_subdept_mouseover, 1000)
