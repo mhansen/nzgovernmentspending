@@ -10,7 +10,8 @@ dept_selection_count = 0
 appModel.bind "dept_select", (dept_name) ->
   dept_selection_count++
   # ab test: don't log the first dept selection - its done by mouseover
-  return if abTests.openDeptOnFirstMouseover and dept_selection_count == 1
+  return if dept_selection_count == 1 and
+    abTests.openDeptOnFirstHover.inCohort("openOnHover")
 
   type = if appModel.get "viewingIncome" then "Income" else "Expense"
   mpq.track "Opened a segment"

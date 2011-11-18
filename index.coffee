@@ -1,5 +1,9 @@
 # Main client-side logic for the wheresmytaxes site.
 
+if document.location.hostname == "localhost"
+  mpq.track = -> console.log "tracking:", arguments
+  mpq.register = -> console.log "registering:", arguments
+
 # window.appModel - a convenient place to hold triggers
 window.appModel = new Backbone.Model
 
@@ -8,23 +12,6 @@ accountLinksView = new AccountLinksView el: "#account_links"
 govtPieView = new GovtPieView el: "#budget_container"
 deptPieView = new DeptPieView el: "#dept_graph"
 deptReceiptView = new DeptReceiptView el: "#receipt_wrapper"
-
-window.abTests =
-  "openDeptOnFirstMouseover": Math.random() < 0.5
-
-mpq.register abTests
-
-console.log abTests
-
-if abTests.openDeptOnFirstMouseover
-  openedFirstSubdept = false
-  appModel.bind "dept_mouseover", (deptName) ->
-    if not openedFirstSubdept
-      appModel.trigger "dept_select", deptName
-      openedFirstSubdept = true
-
-if document.location.hostname == "localhost"
-  mpq.track = -> console.log arguments
 
 # IE <9 and android <3.0 don't support SVG, so we can't render the charts. :(
 if not hasSvgSupport()
