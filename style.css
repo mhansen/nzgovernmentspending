@@ -126,7 +126,12 @@ table tr.lineitem td {
     position: absolute;
     right: 50px;
     top: 67px;
+}
+#account_links.small {
     font-size: 13px;
+}
+#account_links.large {
+    font-size: 16px;
 }
 #account_links a {
     color: #666;

@@ -19,6 +19,15 @@ window.abTests =
       openOnHover: {}
       openOnClick: {}
     storageAdapter: mixpanelStorageAdapter
+  sizeOfAccountLinks: new Cohorts.Test
+    name: 'sizeOfAccountLinks'
+    sample: 1.0
+    cohorts:
+      large:
+        onChosen: -> $("#account_links").addClass("large")
+      small:
+        onChosen: -> $("#account_links").addClass("small")
+    storageAdapter: mixpanelStorageAdapter
 
 console.log abTests
 
