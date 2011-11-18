@@ -47,6 +47,6 @@ window.GovtPieView = Backbone.View.extend
             # A little nudging to keep text inside their slices.
             y: -4
           point: events:
-            mouseOver: -> events.trigger "dept_mouseover", @name
-            select: -> events.trigger "dept_select", @name
+            mouseOver: -> appModel.trigger "dept_mouseover", @name
+            select: -> appModel.trigger "dept_select", @name
     }

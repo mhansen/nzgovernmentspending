@@ -32,7 +32,7 @@ window.DeptPieView = Backbone.View.extend
           size: "100%"
           point:
             events:
-              mouseOver: -> events.trigger "subdept_mouseover", @name
+              mouseOver: -> appModel.trigger "subdept_mouseover", @name
       tooltip:
         formatter: format_tooltip
         style:

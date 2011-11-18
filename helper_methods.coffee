@@ -8,13 +8,13 @@ window.format_percent = (n) ->
   num_decimal_points = (if (Math.abs(n) < 10) then 1 else 0)
   s = Math.abs(n).toFixed(num_decimal_points) + "%"
   if n < -0.05
-    # Show a decrease in funding in red.
-    "(<span style='color:red;'>⇩" + s + "</span>)"
+    # Show a significant funding decrease in red.
+    return "(<span style='color:red;'>⇩" + s + "</span>)"
   else if n > 0.05
-    # Show a funding increase in green.
-    s = "(<span style='color:limegreen;'>⇧" + s + "</span>)"
+    # Show a significant funding increase in green.
+    return "(<span style='color:limegreen;'>⇧" + s + "</span>)"
   else
-    s
+    return s
 
 # Long sentences aren't autowrapped by the highcharts library, and they go over
 # the edges of the graph and get clipped. This looks horrible; we have to wrap
@@ -53,6 +53,3 @@ window.hasSvgSupport = ->
   div = document.createElement('div')
   div.innerHTML = '<svg/>'
   (div.firstChild && div.firstChild.namespaceURI) == "http://www.w3.org/2000/svg"
-
-# The main budget graph title changes 
-window.view_budget_pie_title_text = (viewing_income, grand_total) ->
