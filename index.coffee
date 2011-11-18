@@ -26,6 +26,8 @@ appModel.bind "dept_select", (dept_name) ->
   d = model.dept_totals[dept_name]
   dept_percent_change = 100 * ((d.nzd - d.previous_nzd) / d.previous_nzd)
 
+  appModel.set activeDept: dept_name
+
   deptPieView.render dept_name, model.series_for_dept[dept_name], dept_percent_change
   deptReceiptView.render model.series_for_dept[dept_name]
 

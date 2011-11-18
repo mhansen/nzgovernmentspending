@@ -1,7 +1,11 @@
 track_dept_mouseover = (name) ->
   mpq.track "Hovered Over Dept", name: name, mp_note: name
 track_subdept_mouseover = (name) ->
-  mpq.track "Hovered Over Subdept", name: name, mp_note: name
+  dept = appModel.get "activeDept"
+  mpq.track "Hovered Over Subdept",
+    name: name
+    dept: dept
+    mp_note: "#{dept} # #{name}"
 
 appModel.bind "dept_mouseover", (_.throttle track_dept_mouseover, 1000)
 appModel.bind "subdept_mouseover",(_.throttle track_subdept_mouseover, 1000)
