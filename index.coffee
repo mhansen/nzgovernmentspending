@@ -19,7 +19,8 @@ if not hasSvgSupport()
         "We can't show render the graphs without it."
   return
 
-appModel.bind "page_load", (type) -> accountLinksView.render type
+appModel.bind "change:viewingIncome", (model, viewingIncome) ->
+  accountLinksView.render viewingIncome
 
 appModel.bind "dept_select", (dept_name) ->
   d = model.dept_totals[dept_name]
