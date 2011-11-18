@@ -7,17 +7,16 @@ if document.location.hostname == "localhost"
 
 window.events = new Backbone.Model
 
-govtPieView = new GovtPieView
-  el: "#budget_container"
+govtPieView = new GovtPieView el: "#budget_container"
+deptPieView = new DeptPieView el: "#dept_graph"
+deptReceiptView = new DeptReceiptView el: "#receipt_wrapper"
 
 events.bind "page_load", (type, filename) ->
   # Fetch the file, save the model data, and plot the budget.
   $.getJSON filename, (fetched_data) ->
     window.model = fetched_data
-    view_budget model.series_for_budget
-    govtPieView.render(budget_expense_series)
+    govtPieView.render model.series_for_budget, viewing_income, model.grand_total.nzd
 
-#### Controller
 window.model = {}
 $ ->
   $("a#creditslink").fancybox().on "click", ->
@@ -45,70 +44,8 @@ events.bind "page_load", (type) ->
     $("#incomes_or_expenses").html "<em>Viewing Expenses</em>" +
                                    " ● <a href='/?income=true'>View Incomes</a>"
 
-#### Views
-
-dept_pie = undefined
-# Plot the smaller graph of items within a department.
-view_dept_pie = (dept_name, dept_data, dept_percent_change) ->
-  $("#dept_delta_percent").html format_percent(dept_percent_change)
-  $("#dept_delta_caption").text "over last year"
-  dept_pie.destroy() if dept_pie
-  dept_pie = new Highcharts.Chart {
-    chart:
-      renderTo: "dept_graph"
-      backgroundColor: null
-    credits:
-      enabled: false
-    title:
-      text: split_long_sentence(dept_name, "<br/>")
-      margin: 20
-      style:
-        fontSize: "16px"
-        "font-family": "Helvetica, Arial, sans-serif"
-        whiteSpace: 'normal !important'
-        width: '300px'
-    series: [ {
-      type: "pie"
-      data: dept_data
-    } ]
-    plotOptions:
-      pie:
-        allowPointSelect: true
-        cursor: "pointer"
-        dataLabels:
-          enabled: false
-        innerSize: 150
-        size: "100%"
-        point:
-          events:
-            mouseOver: -> events.trigger "subdept_mouseover", @name
-    tooltip:
-      formatter: format_tooltip
-      style:
-        whiteSpace: 'normal'
-        width: '200px'
-  }
-
-# Show a receipt-like view of a department's line items.
-view_dept_receipt = (series_for_dept) ->
-  $("#dept_receipt table").remove()
-  $("#receipt_header").text "Per Capita Tax Receipt"
-  $list = $("<table>").appendTo("#dept_receipt")
-  for item in series_for_dept
-    if item.previous_y
-      percentChange = 100 * ((item.y - item.previous_y) / item.previous_y)
-    $("<tr class='lineitem'>").
-        append($("<td class='expense'>").
-                text("$" + dollars_per_person(item.y).toFixed(2))).
-        append($("<td class='delta' style='padding-right:10px;text-align:right;'>").
-                html(format_percent(percentChange))).
-        append($("<td class='description'>").text(item.name).attr("title", item.scope or "")).
-        appendTo $list
-  $("td.delta").attr "title", "Percentage change over last year's Budget"
-
-
 events.bind "dept_select", (dept_name) ->
   d = model.dept_totals[dept_name]
   dept_percent_change = 100 * ((d.nzd - d.previous_nzd) / d.previous_nzd)
-  view_dept_pie dept_name, model.series_for_dept[dept_name], dept_percent_change
-  view_dept_receipt model.series_for_dept[dept_name]
+  deptPieView.render dept_name, model.series_for_dept[dept_name], dept_percent_change
+  deptReceiptView.render model.series_for_dept[dept_name]

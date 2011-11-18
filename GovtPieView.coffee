@@ -1,6 +1,14 @@
 window.GovtPieView = Backbone.View.extend
+  render_title_text: (viewing_income, grand_total) ->
+    # Add a comma before the last three numbers in the string.
+    add_comma_to_number_string = (s) -> s.replace(/(\d{3})$/, ",$1")
+
+    "Government " + (if viewing_income then "Incomes" else "Expenses") + ": " +
+    "$" + add_comma_to_number_string(dollars_per_person(grand_total).toFixed(0)) +
+    " per capita"
+
   # Plot the main pie chart of all departments.
-  render: (budget_expense_series) ->
+  render: (budget_expense_series, viewing_income, grand_total) ->
     @chart = new Highcharts.Chart {
       chart:
         renderTo: @el
@@ -9,7 +17,7 @@ window.GovtPieView = Backbone.View.extend
         text: "[Budget 2011]"
         href: "http://www.treasury.govt.nz/"
       title:
-        text: view_budget_pie_title_text viewing_income, model.grand_total.nzd
+        text: @render_title_text viewing_income, grand_total
         margin: 20
         style:
           fontSize: "16px"

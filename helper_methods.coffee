@@ -56,9 +56,3 @@ window.hasSvgSupport = ->
 
 # The main budget graph title changes 
 window.view_budget_pie_title_text = (viewing_income, grand_total) ->
-  # Add a comma before the last three numbers in the string.
-  add_comma_to_number_string = (s) -> s.replace(/(\d{3})$/, ",$1")
-
-  "Government " + (if viewing_income then "Incomes" else "Expenses") + ": " +
-  "$" + add_comma_to_number_string(dollars_per_person(grand_total).toFixed(0)) +
-  " per capita"
