@@ -6,9 +6,11 @@ track_subdept_mouseover = (name) ->
 appModel.bind "dept_mouseover", (_.throttle track_dept_mouseover, 1000)
 appModel.bind "subdept_mouseover",(_.throttle track_subdept_mouseover, 1000)
 
+dept_selection_count = 0
 appModel.bind "dept_select", (dept_name) ->
-  # Log which department was clicked on, for statistics.
-  $.ajax "/gen204?#{dept_name}"
+  dept_selection_count++
+  # ab test: don't log the first dept selection - its done by mouseover
+  return if abTests.openDeptOnFirstMouseover and dept_selection_count == 1
 
   type = if appModel.get "viewingIncome" then "Income" else "Expense"
   mpq.track "Opened a segment"

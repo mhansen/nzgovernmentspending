@@ -1,5 +1,28 @@
 # Main client-side logic for the wheresmytaxes site.
 
+# window.appModel - a convenient place to hold triggers
+window.appModel = new Backbone.Model
+
+# Construct views
+accountLinksView = new AccountLinksView el: "#account_links"
+govtPieView = new GovtPieView el: "#budget_container"
+deptPieView = new DeptPieView el: "#dept_graph"
+deptReceiptView = new DeptReceiptView el: "#receipt_wrapper"
+
+window.abTests =
+  "openDeptOnFirstMouseover": Math.random() < 0.5
+
+mpq.register abTests
+
+console.log abTests
+
+if abTests.openDeptOnFirstMouseover
+  openedFirstSubdept = false
+  appModel.bind "dept_mouseover", (deptName) ->
+    if not openedFirstSubdept
+      appModel.trigger "dept_select", deptName
+      openedFirstSubdept = true
+
 if document.location.hostname == "localhost"
   mpq.track = -> console.log arguments
 
@@ -9,20 +32,12 @@ if not hasSvgSupport()
         "We can't show render the graphs without it."
   return
 
-# Construct views
-accountLinksView = new AccountLinksView el: "#account_links"
-govtPieView = new GovtPieView el: "#budget_container"
-deptPieView = new DeptPieView el: "#dept_graph"
-deptReceiptView = new DeptReceiptView el: "#receipt_wrapper"
-
-# window.appModel - a convenient place to hold triggers
-window.appModel = new Backbone.Model
-
 appModel.bind "page_load", (type) -> accountLinksView.render type
 
 appModel.bind "dept_select", (dept_name) ->
   d = model.dept_totals[dept_name]
   dept_percent_change = 100 * ((d.nzd - d.previous_nzd) / d.previous_nzd)
+
   deptPieView.render dept_name, model.series_for_dept[dept_name], dept_percent_change
   deptReceiptView.render model.series_for_dept[dept_name]
 
