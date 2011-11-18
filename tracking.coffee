@@ -20,3 +20,5 @@ events.bind "dept_select", (dept_name) ->
 $("#dept_receipt").on "scroll", _.throttle((-> mpq.track "Scrolled Receipt"), 1000)
 
 events.bind "page_load", (type) -> mpq.track "View #{type}"
+
+$("a#creditslink").on "click", -> mpq.track "Clicked Credits Button"

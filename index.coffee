@@ -19,8 +19,7 @@ events.bind "page_load", (type, filename) ->
 
 window.model = {}
 $ ->
-  $("a#creditslink").fancybox().on "click", ->
-    mpq.track "Clicked Credits Button"
+  $("a#creditslink").fancybox()
   # Are we looking at income or expenses? Fetch the right file, and link to the
   # other page.
   window.viewing_income = $.url.param("income") == "true"
