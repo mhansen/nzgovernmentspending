@@ -3,6 +3,12 @@
 if document.location.hostname == "localhost"
   mpq.track = -> console.log arguments
 
+# IE <9 and android <3.0 don't support SVG, so we can't render the charts. :(
+if not hasSvgSupport()
+  alert "Sorry, your browser doesn't support inline SVG.\n" +
+        "We can't show render the graphs without it."
+  return
+
 # Construct views
 accountLinksView = new AccountLinksView el: "#account_links"
 govtPieView = new GovtPieView el: "#budget_container"
@@ -32,9 +38,3 @@ $("a#creditslink").fancybox()
 # other page.
 appModel.set
   viewingIncome: $.url.param("income") == "true"
-
-# IE <9 and android <3.0 don't support SVG, so we can't render the charts. :(
-if not hasSvgSupport()
-  alert "Sorry, your browser doesn't support inline SVG.\n" +
-        "We can't show render the graphs without it."
-  return
