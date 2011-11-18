@@ -7,11 +7,15 @@ if document.location.hostname == "localhost"
 
 window.events = new Backbone.Model
 
+govtPieView = new GovtPieView
+  el: "#budget_container"
+
 events.bind "page_load", (type, filename) ->
   # Fetch the file, save the model data, and plot the budget.
   $.getJSON filename, (fetched_data) ->
     window.model = fetched_data
     view_budget model.series_for_budget
+    govtPieView.render(budget_expense_series)
 
 #### Controller
 window.model = {}
@@ -42,51 +46,6 @@ events.bind "page_load", (type) ->
                                    " ● <a href='/?income=true'>View Incomes</a>"
 
 #### Views
-
-# Plot the main pie chart of all departments.
-view_budget = (budget_expense_series) ->
-  new Highcharts.Chart {
-    chart:
-      renderTo: "budget_container"
-      backgroundColor: null
-    credits:
-      text: "[Budget 2011]"
-      href: "http://www.treasury.govt.nz/"
-    title:
-      text: view_budget_pie_title_text viewing_income, model.grand_total.nzd
-      margin: 20
-      style:
-        fontSize: "16px"
-        "font-family": "Helvetica, Arial, sans-serif"
-    tooltip:
-      formatter: format_tooltip
-    legend:
-      enabled: false
-    series: [ {
-        type: "pie"
-        data: budget_expense_series
-        size: "100%"
-    } ]
-    plotOptions:
-      pie:
-        allowPointSelect: true
-        cursor: "pointer"
-        dataLabels:
-          formatter: ->
-            # Draw a label for only thick slices.
-            if @percentage > 5
-              # Split long labels every two words.
-              @point.name.replace /(\w+ \w+)/g, "$1<br/>"
-          distance: -70
-          style:
-            font: "normal 11px sans-serif"
-          # A little nudging to keep text inside their slices.
-          y: -4
-        point: events:
-          mouseOver: -> events.trigger "dept_mouseover", @name
-          select: -> events.trigger "dept_select", @name
-  }
-
 
 dept_pie = undefined
 # Plot the smaller graph of items within a department.
