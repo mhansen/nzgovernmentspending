@@ -122,13 +122,13 @@ table tr.lineitem td {
 #footer #links a:hover {
     color: #4290c3;
 }
-#incomes_or_expenses {
+#account_links {
     position: absolute;
     right: 50px;
     top: 67px;
     font-size: 13px;
 }
-#incomes_or_expenses a {
+#account_links a {
     color: #666;
     text-decoration: none;
     transition: color 200ms ease-in 100ms;
@@ -136,7 +136,7 @@ table tr.lineitem td {
     -moz-transition: color 200ms ease-in 100ms;
     -o-transition: color 200ms ease-in 100ms;
 }
-#incomes_or_expenses a:hover {
+#account_links a:hover {
     color: #4290c3;
     text-decoration: none;
 }
