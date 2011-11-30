@@ -38,8 +38,9 @@ appModel.bind "change:viewingIncome", (m, viewingIncome) ->
     window.model = fetched_data
     govtPieView.render model.series_for_budget, viewingIncome, model.grand_total.nzd
 
-$("a#creditslink").fancybox()
-# Are we looking at income or expenses? Fetch the right file, and link to the
-# other page.
-appModel.set
-  viewingIncome: $.url.param("income") == "true"
+$(document).ready ->
+  $("a#creditslink").fancybox()
+  # Are we looking at income or expenses? Fetch the right file, and
+  # link to the other page.
+  appModel.set
+    viewingIncome: $.url.param("income") == "true"
