@@ -1,0 +1,3 @@
+#!/bin/sh
+THISDIR=$(dirname $0)
+rsync -r --delete $THISDIR/ vps:www/wheresmytaxes.co.nz/

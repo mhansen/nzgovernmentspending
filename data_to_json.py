@@ -4,7 +4,6 @@ Converts tab separated fields into JSON ready to be eaten by javascript.
 """
 import sys
 import json
-import re
 import collections
 
 def factory():
@@ -15,22 +14,22 @@ budget = collections.defaultdict(factory)
 
 for line in sys.stdin:
     fields = line.split("\t")
-    year = int(fields[0].rstrip())
+    year = int(fields[0].rstrip()) # $10
 
-    if year == 2011:
+    if year == 2012:
         key = "previous_nzd"
-    elif year == 2012:
+    elif year == 2013:
         key = "nzd"
     else:
         continue # We skip years we don't visualise
 
-    dept = fields[1]
-    lineitem = fields[2]
-    amount = int(fields[3].rstrip().lstrip().replace(",",""))
+    dept = fields[1] #$1
+    lineitem = fields[2] #$5
+    amount = int(fields[3].rstrip().lstrip().replace(",","")) #$9
 
     # we don't always have Scope data, parse it if we do.
-    if len(fields) > 4 and year == 2012:
-        scope = fields[4].rstrip()
+    if len(fields) > 4 and year == 2013:
+        scope = fields[4].rstrip() #$13
         budget[dept][lineitem]["scope"] = scope
 
     # A very few items have more than one line item with the same identifiers,

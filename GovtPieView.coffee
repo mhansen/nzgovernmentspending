@@ -14,7 +14,7 @@ window.GovtPieView = Backbone.View.extend
         renderTo: @el
         backgroundColor: null
       credits:
-        text: "[Budget 2011]"
+        text: "[Budget 2012]"
         href: "http://www.treasury.govt.nz/"
       title:
         text: @render_title_text viewing_income, grand_total
