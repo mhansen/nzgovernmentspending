@@ -33,7 +33,7 @@ appModel.bind "dept_select", (dept_name) ->
 
 appModel.bind "change:viewingIncome", (m, viewingIncome) ->
   # Fetch the file, save the model data, and plot the budget.
-  filename = if viewingIncome then "incomes-2011.json" else "expenses-2011.json"
+  filename = if viewingIncome then "incomes-2012.json" else "expenses-2012.json"
   $.getJSON filename, (fetched_data) ->
     window.model = fetched_data
     govtPieView.render model.series_for_budget, viewingIncome, model.grand_total.nzd

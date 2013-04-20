@@ -1,7 +1,8 @@
 window.DeptReceiptView = Backbone.View.extend
 # Show a receipt-like view of a department's line items.
   render: (series_for_dept) ->
-    @$(".receipt table tr").remove()
+    debugger
+    @$(".receipt table").remove()
     @$(".header").text "Per Capita Tax Receipt"
     @$(".receipt").append("<table>")
 
