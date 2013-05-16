@@ -14,7 +14,7 @@ window.GovtPieView = Backbone.View.extend({
         backgroundColor: null
       },
       credits: {
-        text: "[Budget 2012]",
+        text: "[Budget 2013]",
         href: "http://www.treasury.govt.nz/"
       },
       title: {
@@ -44,7 +44,7 @@ window.GovtPieView = Backbone.View.extend({
           cursor: "pointer",
           dataLabels: {
             formatter: function() {
-              if (this.percentage > 5) {
+              if (this.percentage > 5.6) {
                 return this.point.name.replace(/(\w+ \w+)/g, "$1<br/>");
               }
             },

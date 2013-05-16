@@ -1,0 +1,996 @@
+Department,Vote,App id,MCOA id,Description,Revenue Type,Functional Classification,Amount ($000),Year,Amount_Type_Desc,Periodicity
+Department of Conservation,Conservation,1243,1243,Turnbull House Revenue,Non-Tax Revenue,No Functional Classification,176,2009,Actuals,A
+Department of Conservation,Conservation,1243,1243,Turnbull House Revenue,Non-Tax Revenue,No Functional Classification,173,2010,Actuals,A
+Department of Conservation,Conservation,1243,1243,Turnbull House Revenue,Non-Tax Revenue,No Functional Classification,168,2011,Actuals,A
+Department of Conservation,Conservation,1243,1243,Turnbull House Revenue,Non-Tax Revenue,No Functional Classification,82,2012,Actuals,A
+Department of Conservation,Conservation,1243,1243,Turnbull House Revenue,Non-Tax Revenue,No Functional Classification,200,2013,Estimated Actual,A
+Department of Conservation,Conservation,1243,1243,Turnbull House Revenue,Non-Tax Revenue,No Functional Classification,200,2014,Main Estimates,A
+Department of Conservation,Conservation,1247,1247,Disposal of Reserves,Non-Tax Revenue,No Functional Classification,3302,2009,Actuals,A
+Department of Conservation,Conservation,1247,1247,Disposal of Reserves,Non-Tax Revenue,No Functional Classification,8327,2010,Actuals,A
+Department of Conservation,Conservation,1247,1247,Disposal of Reserves,Non-Tax Revenue,No Functional Classification,278,2011,Actuals,A
+Department of Conservation,Conservation,1247,1247,Disposal of Reserves,Non-Tax Revenue,No Functional Classification,2805,2012,Actuals,A
+Department of Conservation,Conservation,3295,3295,Old Government Building Rental,Non-Tax Revenue,No Functional Classification,1776,2009,Actuals,A
+Department of Conservation,Conservation,3295,3295,Old Government Building Rental,Non-Tax Revenue,No Functional Classification,1793,2010,Actuals,A
+Department of Conservation,Conservation,3295,3295,Old Government Building Rental,Non-Tax Revenue,No Functional Classification,1985,2011,Actuals,A
+Department of Conservation,Conservation,3295,3295,Old Government Building Rental,Non-Tax Revenue,No Functional Classification,2177,2012,Actuals,A
+Department of Conservation,Conservation,3295,3295,Old Government Building Rental,Non-Tax Revenue,No Functional Classification,2161,2013,Estimated Actual,A
+Department of Conservation,Conservation,3295,3295,Old Government Building Rental,Non-Tax Revenue,No Functional Classification,2161,2014,Main Estimates,A
+Department of Conservation,Conservation,4071,4071,"Concessions, Leases and Licences",Non-Tax Revenue,No Functional Classification,13564,2009,Actuals,A
+Department of Conservation,Conservation,4071,4071,"Concessions, Leases and Licences",Non-Tax Revenue,No Functional Classification,13390,2010,Actuals,A
+Department of Conservation,Conservation,4071,4071,"Concessions, Leases and Licences",Non-Tax Revenue,No Functional Classification,13835,2011,Actuals,A
+Department of Conservation,Conservation,4071,4071,"Concessions, Leases and Licences",Non-Tax Revenue,No Functional Classification,13799,2012,Actuals,A
+Department of Conservation,Conservation,4071,4071,"Concessions, Leases and Licences",Non-Tax Revenue,No Functional Classification,13500,2013,Estimated Actual,A
+Department of Conservation,Conservation,4071,4071,"Concessions, Leases and Licences",Non-Tax Revenue,No Functional Classification,13800,2014,Main Estimates,A
+Department of Conservation,Conservation,8617,8617,Rates Recovery from Concessionaires,Non-Tax Revenue,No Functional Classification,486,2009,Actuals,A
+Department of Conservation,Conservation,8617,8617,Rates Recovery from Concessionaires,Non-Tax Revenue,No Functional Classification,519,2010,Actuals,A
+Department of Conservation,Conservation,8617,8617,Rates Recovery from Concessionaires,Non-Tax Revenue,No Functional Classification,539,2011,Actuals,A
+Department of Conservation,Conservation,8617,8617,Rates Recovery from Concessionaires,Non-Tax Revenue,No Functional Classification,515,2012,Actuals,A
+Department of Conservation,Conservation,8617,8617,Rates Recovery from Concessionaires,Non-Tax Revenue,No Functional Classification,964,2013,Estimated Actual,A
+Department of Conservation,Conservation,8617,8617,Rates Recovery from Concessionaires,Non-Tax Revenue,No Functional Classification,964,2014,Main Estimates,A
+Department of Conservation,Conservation,9186,9186,Revenue for Land Purchases,Non-Tax Revenue,No Functional Classification,421,2009,Actuals,A
+Department of Conservation,Conservation,9186,9186,Revenue for Land Purchases,Non-Tax Revenue,No Functional Classification,159,2010,Actuals,A
+Department of Conservation,Conservation,9186,9186,Revenue for Land Purchases,Non-Tax Revenue,No Functional Classification,22,2011,Actuals,A
+Department of Conservation,Conservation,9186,9186,Revenue for Land Purchases,Non-Tax Revenue,No Functional Classification,22,2012,Actuals,A
+Department of Conservation,Conservation,9186,9186,Revenue for Land Purchases,Non-Tax Revenue,No Functional Classification,711,2013,Estimated Actual,A
+Department of Conservation,Conservation,9186,9186,Revenue for Land Purchases,Non-Tax Revenue,No Functional Classification,547,2014,Main Estimates,A
+Department of Conservation,Conservation,10130,10130,"Contributions for Crown Property, Plant and Equipment",Non-Tax Revenue,No Functional Classification,100,2012,Actuals,A
+Department of Conservation,Conservation,10275,10275,Dominion Observatory Rental,Non-Tax Revenue,No Functional Classification,25,2013,Estimated Actual,A
+Department of Conservation,Conservation,10275,10275,Dominion Observatory Rental,Non-Tax Revenue,No Functional Classification,25,2014,Main Estimates,A
+Department of Conservation,Conservation,10336,10336,"Fines, Penalties and Levies",Non-Tax Revenue,No Functional Classification,2,2012,Actuals,A
+Department of Conservation,Conservation,10053,10053,Disposal of Conservation Land,Capital Receipts,No Functional Classification,332,2011,Actuals,A
+Department of Conservation,Conservation,10053,10053,Disposal of Conservation Land,Capital Receipts,No Functional Classification,3665,2012,Actuals,A
+Department of Conservation,Conservation,10053,10053,Disposal of Conservation Land,Capital Receipts,No Functional Classification,4800,2013,Estimated Actual,A
+Department of Conservation,Conservation,10053,10053,Disposal of Conservation Land,Capital Receipts,No Functional Classification,1300,2014,Main Estimates,A
+Department of Conservation,Conservation,10054,10054,Disposal of Reserves,Capital Receipts,No Functional Classification,280,2011,Actuals,A
+Department of Conservation,Conservation,10054,10054,Disposal of Reserves,Capital Receipts,No Functional Classification,648,2012,Actuals,A
+Department of Conservation,Conservation,10054,10054,Disposal of Reserves,Capital Receipts,No Functional Classification,1800,2013,Estimated Actual,A
+Department of Conservation,Conservation,10054,10054,Disposal of Reserves,Capital Receipts,No Functional Classification,1800,2014,Main Estimates,A
+Ministry for Culture and Heritage,"Arts, Culture and Heritage",8731,8731,Broadcasting Standards Authority - Costs Awarded to Crown,Non-Tax Revenue,No Functional Classification,14,2009,Actuals,A
+Ministry for Culture and Heritage,"Arts, Culture and Heritage",8731,8731,Broadcasting Standards Authority - Costs Awarded to Crown,Non-Tax Revenue,No Functional Classification,14,2011,Actuals,A
+Ministry for Culture and Heritage,"Arts, Culture and Heritage",8731,8731,Broadcasting Standards Authority - Costs Awarded to Crown,Non-Tax Revenue,No Functional Classification,9,2012,Actuals,A
+Ministry for Culture and Heritage,"Arts, Culture and Heritage",9597,9597,London Memorial - Return of funds,Non-Tax Revenue,No Functional Classification,196,2009,Actuals,A
+Ministry for Culture and Heritage,"Arts, Culture and Heritage",10730,10730,Contribution to National War Memorial Park,Capital Receipts,No Functional Classification,5000,2013,Estimated Actual,A
+New Zealand Customs Service,Customs,179,179,Customs Duty,Tax Revenue,No Functional Classification,1879811,2009,Actuals,A
+New Zealand Customs Service,Customs,179,179,Customs Duty,Tax Revenue,No Functional Classification,1873112,2010,Actuals,A
+New Zealand Customs Service,Customs,179,179,Customs Duty,Tax Revenue,No Functional Classification,1916354,2011,Actuals,A
+New Zealand Customs Service,Customs,179,179,Customs Duty,Tax Revenue,No Functional Classification,2037636,2012,Actuals,A
+New Zealand Customs Service,Customs,179,179,Customs Duty,Tax Revenue,No Functional Classification,2037000,2013,Estimated Actual,A
+New Zealand Customs Service,Customs,179,179,Customs Duty,Tax Revenue,No Functional Classification,2141000,2014,Main Estimates,A
+New Zealand Customs Service,Customs,180,180,Excise Duty,Tax Revenue,No Functional Classification,1604066,2009,Actuals,A
+New Zealand Customs Service,Customs,180,180,Excise Duty,Tax Revenue,No Functional Classification,1654251,2010,Actuals,A
+New Zealand Customs Service,Customs,180,180,Excise Duty,Tax Revenue,No Functional Classification,1760254,2011,Actuals,A
+New Zealand Customs Service,Customs,180,180,Excise Duty,Tax Revenue,No Functional Classification,1781736,2012,Actuals,A
+New Zealand Customs Service,Customs,180,180,Excise Duty,Tax Revenue,No Functional Classification,1898000,2013,Estimated Actual,A
+New Zealand Customs Service,Customs,180,180,Excise Duty,Tax Revenue,No Functional Classification,1960000,2014,Main Estimates,A
+New Zealand Customs Service,Customs,181,181,Goods and Services Tax,Tax Revenue,No Functional Classification,6056358,2009,Actuals,A
+New Zealand Customs Service,Customs,181,181,Goods and Services Tax,Tax Revenue,No Functional Classification,5249363,2010,Actuals,A
+New Zealand Customs Service,Customs,181,181,Goods and Services Tax,Tax Revenue,No Functional Classification,6886143,2011,Actuals,A
+New Zealand Customs Service,Customs,181,181,Goods and Services Tax,Tax Revenue,No Functional Classification,7526654,2012,Actuals,A
+New Zealand Customs Service,Customs,181,181,Goods and Services Tax,Tax Revenue,No Functional Classification,7372000,2013,Estimated Actual,A
+New Zealand Customs Service,Customs,181,181,Goods and Services Tax,Tax Revenue,No Functional Classification,7537000,2014,Main Estimates,A
+New Zealand Customs Service,Customs,182,182,Sale of Seized Goods,Non-Tax Revenue,No Functional Classification,80,2009,Actuals,A
+New Zealand Customs Service,Customs,182,182,Sale of Seized Goods,Non-Tax Revenue,No Functional Classification,192,2010,Actuals,A
+New Zealand Customs Service,Customs,182,182,Sale of Seized Goods,Non-Tax Revenue,No Functional Classification,92,2011,Actuals,A
+New Zealand Customs Service,Customs,182,182,Sale of Seized Goods,Non-Tax Revenue,No Functional Classification,80,2013,Estimated Actual,A
+New Zealand Customs Service,Customs,182,182,Sale of Seized Goods,Non-Tax Revenue,No Functional Classification,80,2014,Main Estimates,A
+New Zealand Customs Service,Customs,8473,8473,Sale of Seized Goods,Non-Tax Revenue,No Functional Classification,30,2009,Actuals,A
+Ministry of Defence,Defence,191,191,Crown Interest,Non-Tax Revenue,No Functional Classification,152,2009,Actuals,A
+Ministry of Defence,Defence,191,191,Crown Interest,Non-Tax Revenue,No Functional Classification,251,2010,Actuals,A
+Ministry of Defence,Defence,191,191,Crown Interest,Non-Tax Revenue,No Functional Classification,31,2011,Actuals,A
+Ministry of Defence,Defence,191,191,Crown Interest,Non-Tax Revenue,No Functional Classification,455,2012,Actuals,A
+Ministry of Defence,Defence,191,191,Crown Interest,Non-Tax Revenue,No Functional Classification,100,2013,Estimated Actual,A
+Ministry of Defence,Defence,192,192,Defence Equipment,Capital Receipts,No Functional Classification,228583,2009,Actuals,A
+Ministry of Defence,Defence,192,192,Defence Equipment,Capital Receipts,No Functional Classification,174118,2010,Actuals,A
+Ministry of Defence,Defence,192,192,Defence Equipment,Capital Receipts,No Functional Classification,135797,2011,Actuals,A
+Ministry of Defence,Defence,192,192,Defence Equipment,Capital Receipts,No Functional Classification,154331,2012,Actuals,A
+Ministry of Defence,Defence,192,192,Defence Equipment,Capital Receipts,No Functional Classification,96613,2013,Estimated Actual,A
+Ministry of Defence,Defence,192,192,Defence Equipment,Capital Receipts,No Functional Classification,219730,2014,Main Estimates,A
+Ministry of Education ,Education,284,284,Charter Fees Early Childhood Education,Non-Tax Revenue,No Functional Classification,26,2009,Actuals,A
+Ministry of Education ,Education,287,287,Miscellaneous Receipts,Non-Tax Revenue,No Functional Classification,1566,2009,Actuals,A
+Ministry of Education ,Education,287,287,Miscellaneous Receipts,Non-Tax Revenue,No Functional Classification,1734,2010,Actuals,A
+Ministry of Education ,Education,287,287,Miscellaneous Receipts,Non-Tax Revenue,No Functional Classification,23062,2011,Actuals,A
+Ministry of Education ,Education,287,287,Miscellaneous Receipts,Non-Tax Revenue,No Functional Classification,477,2012,Actuals,A
+Ministry of Education ,Education,287,287,Miscellaneous Receipts,Non-Tax Revenue,No Functional Classification,350,2013,Estimated Actual,A
+Ministry of Education ,Education,287,287,Miscellaneous Receipts,Non-Tax Revenue,No Functional Classification,350,2014,Main Estimates,A
+Ministry of Education ,Education,288,288,Overseas Students' Fees,Non-Tax Revenue,No Functional Classification,6116,2009,Actuals,A
+Ministry of Education ,Education,288,288,Overseas Students' Fees,Non-Tax Revenue,No Functional Classification,6102,2010,Actuals,A
+Ministry of Education ,Education,288,288,Overseas Students' Fees,Non-Tax Revenue,No Functional Classification,3536,2011,Actuals,A
+Ministry of Education ,Education,288,288,Overseas Students' Fees,Non-Tax Revenue,No Functional Classification,3509,2012,Actuals,A
+Ministry of Education ,Education,288,288,Overseas Students' Fees,Non-Tax Revenue,No Functional Classification,3757,2013,Estimated Actual,A
+Ministry of Education ,Education,288,288,Overseas Students' Fees,Non-Tax Revenue,No Functional Classification,3757,2014,Main Estimates,A
+Ministry of Education ,Education,289,289,Payroll Receipts,Non-Tax Revenue,No Functional Classification,25,2013,Estimated Actual,A
+Ministry of Education ,Education,289,289,Payroll Receipts,Non-Tax Revenue,No Functional Classification,25,2014,Main Estimates,A
+Ministry of Education ,Education,290,290,Roll Audit and Staffing Recoveries,Non-Tax Revenue,No Functional Classification,421,2009,Actuals,A
+Ministry of Education ,Education,290,290,Roll Audit and Staffing Recoveries,Non-Tax Revenue,No Functional Classification,1101,2010,Actuals,A
+Ministry of Education ,Education,290,290,Roll Audit and Staffing Recoveries,Non-Tax Revenue,No Functional Classification,57,2011,Actuals,A
+Ministry of Education ,Education,290,290,Roll Audit and Staffing Recoveries,Non-Tax Revenue,No Functional Classification,110,2013,Estimated Actual,A
+Ministry of Education ,Education,290,290,Roll Audit and Staffing Recoveries,Non-Tax Revenue,No Functional Classification,110,2014,Main Estimates,A
+Ministry of Education ,Education,3321,3321,Crown Entity Recoveries,Non-Tax Revenue,No Functional Classification,9979,2009,Actuals,A
+Ministry of Education ,Education,3321,3321,Crown Entity Recoveries,Non-Tax Revenue,No Functional Classification,45198,2010,Actuals,A
+Ministry of Education ,Education,3321,3321,Crown Entity Recoveries,Non-Tax Revenue,No Functional Classification,14441,2011,Actuals,A
+Ministry of Education ,Education,3321,3321,Crown Entity Recoveries,Non-Tax Revenue,No Functional Classification,75,2012,Actuals,A
+Ministry of Education ,Education,7040,7040,Tertiary Investments - Interest,Non-Tax Revenue,No Functional Classification,1674,2009,Actuals,A
+Ministry of Education ,Education,7040,7040,Tertiary Investments - Interest,Non-Tax Revenue,No Functional Classification,46,2010,Actuals,A
+Ministry of Education ,Education,7040,7040,Tertiary Investments - Interest,Non-Tax Revenue,No Functional Classification,41,2011,Actuals,A
+Ministry of Education ,Education,7040,7040,Tertiary Investments - Interest,Non-Tax Revenue,No Functional Classification,122,2013,Estimated Actual,A
+Ministry of Education ,Education,7040,7040,Tertiary Investments - Interest,Non-Tax Revenue,No Functional Classification,122,2014,Main Estimates,A
+Ministry of Education ,Education,7756,7756,Export Education Levies,Non-Tax Revenue,No Functional Classification,3097,2009,Actuals,A
+Ministry of Education ,Education,7756,7756,Export Education Levies,Non-Tax Revenue,No Functional Classification,3019,2010,Actuals,A
+Ministry of Education ,Education,7756,7756,Export Education Levies,Non-Tax Revenue,No Functional Classification,3311,2011,Actuals,A
+Ministry of Education ,Education,7756,7756,Export Education Levies,Non-Tax Revenue,No Functional Classification,3495,2012,Actuals,A
+Ministry of Education ,Education,7756,7756,Export Education Levies,Non-Tax Revenue,No Functional Classification,3521,2013,Estimated Actual,A
+Ministry of Education ,Education,7756,7756,Export Education Levies,Non-Tax Revenue,No Functional Classification,3521,2014,Main Estimates,A
+Ministry of Education ,Education,8767,8767,State Sector Retirement Savings Scheme Recoveries,Non-Tax Revenue,No Functional Classification,50855,2009,Actuals,A
+Ministry of Education ,Education,8767,8767,State Sector Retirement Savings Scheme Recoveries,Non-Tax Revenue,No Functional Classification,55179,2010,Actuals,A
+Ministry of Education ,Education,8767,8767,State Sector Retirement Savings Scheme Recoveries,Non-Tax Revenue,No Functional Classification,54107,2011,Actuals,A
+Ministry of Education ,Education,8767,8767,State Sector Retirement Savings Scheme Recoveries,Non-Tax Revenue,No Functional Classification,68567,2012,Actuals,A
+Ministry of Education ,Education,294,294,Asset Sales,Capital Receipts,No Functional Classification,569,2009,Actuals,A
+Ministry of Education ,Education,294,294,Asset Sales,Capital Receipts,No Functional Classification,2338,2010,Actuals,A
+Ministry of Education ,Education,294,294,Asset Sales,Capital Receipts,No Functional Classification,1554,2011,Actuals,A
+Ministry of Education ,Education,7039,7039,Tertiary Investments - Repayments,Capital Receipts,No Functional Classification,22621,2009,Actuals,A
+Ministry of Education ,Education,7039,7039,Tertiary Investments - Repayments,Capital Receipts,No Functional Classification,1000,2010,Actuals,A
+Ministry of Education ,Tertiary Education,10121,10121,Tertiary Recoveries,Non-Tax Revenue,No Functional Classification,11055,2012,Actuals,A
+Ministry for the Environment,Environment,312,312,Coastal Royalties,Non-Tax Revenue,No Functional Classification,578,2009,Actuals,A
+Ministry for the Environment,Environment,312,312,Coastal Royalties,Non-Tax Revenue,No Functional Classification,533,2010,Actuals,A
+Ministry for the Environment,Environment,312,312,Coastal Royalties,Non-Tax Revenue,No Functional Classification,341,2011,Actuals,A
+Ministry for the Environment,Environment,312,312,Coastal Royalties,Non-Tax Revenue,No Functional Classification,701,2012,Actuals,A
+Ministry for the Environment,Environment,312,312,Coastal Royalties,Non-Tax Revenue,No Functional Classification,500,2013,Estimated Actual,A
+Ministry for the Environment,Environment,312,312,Coastal Royalties,Non-Tax Revenue,No Functional Classification,400,2014,Main Estimates,A
+Ministry for the Environment,Environment,9519,9519,Waste Disposal Levy,Non-Tax Revenue,No Functional Classification,24973,2010,Actuals,A
+Ministry for the Environment,Environment,9519,9519,Waste Disposal Levy,Non-Tax Revenue,No Functional Classification,25037,2011,Actuals,A
+Ministry for the Environment,Environment,9519,9519,Waste Disposal Levy,Non-Tax Revenue,No Functional Classification,26189,2012,Actuals,A
+Ministry for the Environment,Environment,9519,9519,Waste Disposal Levy,Non-Tax Revenue,No Functional Classification,26000,2013,Estimated Actual,A
+Ministry for the Environment,Environment,9519,9519,Waste Disposal Levy,Non-Tax Revenue,No Functional Classification,26000,2014,Main Estimates,A
+Ministry for the Environment,Environment,10618,10618,Emissions Trading,Non-Tax Revenue,No Functional Classification,5072,2013,Estimated Actual,A
+Ministry for the Environment,Environment,10618,10618,Emissions Trading,Non-Tax Revenue,No Functional Classification,5213,2014,Main Estimates,A
+Ministry for the Environment,Environment,10619,10619,Emissions Trading Scheme Penalty Revenue,Non-Tax Revenue,No Functional Classification,45,2013,Estimated Actual,A
+Ministry for the Environment,Climate Change,9291,9291,Emissions Trading,Non-Tax Revenue,No Functional Classification,325968,2011,Actuals,A
+Ministry for the Environment,Climate Change,9291,9291,Emissions Trading,Non-Tax Revenue,No Functional Classification,136489,2012,Actuals,A
+Ministry for the Environment,Climate Change,9374,9374,Revision in Forecast Carbon Units under Kyoto Protocol,Non-Tax Revenue,No Functional Classification,809798,2009,Actuals,A
+Ministry for the Environment,Climate Change,9374,9374,Revision in Forecast Carbon Units under Kyoto Protocol,Non-Tax Revenue,No Functional Classification,64015,2010,Actuals,A
+Ministry for the Environment,Climate Change,9374,9374,Revision in Forecast Carbon Units under Kyoto Protocol,Non-Tax Revenue,No Functional Classification,205627,2011,Actuals,A
+Ministry for the Environment,Climate Change,9374,9374,Revision in Forecast Carbon Units under Kyoto Protocol,Non-Tax Revenue,No Functional Classification,20287,2012,Actuals,A
+Ministry for the Environment,Climate Change,10299,10299,Emissions Trading Scheme Penalty Revenue,Non-Tax Revenue,No Functional Classification,4178,2012,Actuals,A
+Ministry of Foreign Affairs and Trade,Foreign Affairs and Trade,338,338,Crown Recoveries,Non-Tax Revenue,No Functional Classification,174,2009,Actuals,A
+Ministry of Foreign Affairs and Trade,Foreign Affairs and Trade,338,338,Crown Recoveries,Non-Tax Revenue,No Functional Classification,71,2010,Actuals,A
+Ministry of Foreign Affairs and Trade,Foreign Affairs and Trade,338,338,Crown Recoveries,Non-Tax Revenue,No Functional Classification,23,2011,Actuals,A
+Ministry of Foreign Affairs and Trade,Foreign Affairs and Trade,338,338,Crown Recoveries,Non-Tax Revenue,No Functional Classification,155,2012,Actuals,A
+Ministry of Health,Health,397,397,ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,49791,2009,Actuals,A
+Ministry of Health,Health,397,397,ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,52253,2010,Actuals,A
+Ministry of Health,Health,397,397,ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,52660,2011,Actuals,A
+Ministry of Health,Health,397,397,ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,56310,2012,Actuals,A
+Ministry of Health,Health,397,397,ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,66359,2013,Estimated Actual,A
+Ministry of Health,Health,397,397,ACC - Reimbursement of Motor Vehicle-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,67883,2014,Main Estimates,A
+Ministry of Health,Health,398,398,ACC - Reimbursement of Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,19108,2009,Actuals,A
+Ministry of Health,Health,398,398,ACC - Reimbursement of Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,20050,2010,Actuals,A
+Ministry of Health,Health,398,398,ACC - Reimbursement of Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,20820,2011,Actuals,A
+Ministry of Health,Health,398,398,ACC - Reimbursement of Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,21714,2012,Actuals,A
+Ministry of Health,Health,398,398,ACC - Reimbursement of Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,27948,2013,Estimated Actual,A
+Ministry of Health,Health,398,398,ACC - Reimbursement of Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,28589,2014,Main Estimates,A
+Ministry of Health,Health,401,401,Residual Health Management Rental,Non-Tax Revenue,No Functional Classification,637,2009,Actuals,A
+Ministry of Health,Health,401,401,Residual Health Management Rental,Non-Tax Revenue,No Functional Classification,632,2010,Actuals,A
+Ministry of Health,Health,401,401,Residual Health Management Rental,Non-Tax Revenue,No Functional Classification,695,2011,Actuals,A
+Ministry of Health,Health,401,401,Residual Health Management Rental,Non-Tax Revenue,No Functional Classification,450,2012,Actuals,A
+Ministry of Health,Health,401,401,Residual Health Management Rental,Non-Tax Revenue,No Functional Classification,164,2013,Estimated Actual,A
+Ministry of Health,Health,3986,3986,ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,74499,2009,Actuals,A
+Ministry of Health,Health,3986,3986,ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,78173,2010,Actuals,A
+Ministry of Health,Health,3986,3986,ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,81526,2011,Actuals,A
+Ministry of Health,Health,3986,3986,ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,84719,2012,Actuals,A
+Ministry of Health,Health,3986,3986,ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,80103,2013,Estimated Actual,A
+Ministry of Health,Health,3986,3986,ACC - Reimbursement of Earners' Non-Work-Related Public Hospital Costs,Non-Tax Revenue,No Functional Classification,81943,2014,Main Estimates,A
+Ministry of Health,Health,5936,5936,ACC - Reimbursement of Non-Earners Account,Non-Tax Revenue,No Functional Classification,231073,2009,Actuals,A
+Ministry of Health,Health,5936,5936,ACC - Reimbursement of Non-Earners Account,Non-Tax Revenue,No Functional Classification,242598,2010,Actuals,A
+Ministry of Health,Health,5936,5936,ACC - Reimbursement of Non-Earners Account,Non-Tax Revenue,No Functional Classification,253587,2011,Actuals,A
+Ministry of Health,Health,5936,5936,ACC - Reimbursement of Non-Earners Account,Non-Tax Revenue,No Functional Classification,262965,2012,Actuals,A
+Ministry of Health,Health,5936,5936,ACC - Reimbursement of Non-Earners Account,Non-Tax Revenue,No Functional Classification,263865,2013,Estimated Actual,A
+Ministry of Health,Health,5936,5936,ACC - Reimbursement of Non-Earners Account,Non-Tax Revenue,No Functional Classification,269914,2014,Main Estimates,A
+Ministry of Health,Health,7435,7435,ACC - Reimbursement of Self-Employed Public Hospital Costs,Non-Tax Revenue,No Functional Classification,4366,2009,Actuals,A
+Ministry of Health,Health,7435,7435,ACC - Reimbursement of Self-Employed Public Hospital Costs,Non-Tax Revenue,No Functional Classification,4581,2010,Actuals,A
+Ministry of Health,Health,7435,7435,ACC - Reimbursement of Self-Employed Public Hospital Costs,Non-Tax Revenue,No Functional Classification,4791,2011,Actuals,A
+Ministry of Health,Health,7435,7435,ACC - Reimbursement of Self-Employed Public Hospital Costs,Non-Tax Revenue,No Functional Classification,4967,2012,Actuals,A
+Ministry of Health,Health,7435,7435,ACC - Reimbursement of Self-Employed Public Hospital Costs,Non-Tax Revenue,No Functional Classification,7630,2013,Estimated Actual,A
+Ministry of Health,Health,7435,7435,ACC - Reimbursement of Self-Employed Public Hospital Costs,Non-Tax Revenue,No Functional Classification,7805,2014,Main Estimates,A
+Ministry of Health,Health,7436,7436,Payment of Capital Charge by DHBs,Non-Tax Revenue,No Functional Classification,151159,2009,Actuals,A
+Ministry of Health,Health,7436,7436,Payment of Capital Charge by DHBs,Non-Tax Revenue,No Functional Classification,159392,2010,Actuals,A
+Ministry of Health,Health,7436,7436,Payment of Capital Charge by DHBs,Non-Tax Revenue,No Functional Classification,158796,2011,Actuals,A
+Ministry of Health,Health,7436,7436,Payment of Capital Charge by DHBs,Non-Tax Revenue,No Functional Classification,163043,2012,Actuals,A
+Ministry of Health,Health,7436,7436,Payment of Capital Charge by DHBs,Non-Tax Revenue,No Functional Classification,166307,2013,Estimated Actual,A
+Ministry of Health,Health,7436,7436,Payment of Capital Charge by DHBs,Non-Tax Revenue,No Functional Classification,166307,2014,Main Estimates,A
+Ministry of Health,Health,7437,7437,ACC - Reimbursement of Medical Misadventure Costs,Non-Tax Revenue,No Functional Classification,3116,2009,Actuals,A
+Ministry of Health,Health,7437,7437,ACC - Reimbursement of Medical Misadventure Costs,Non-Tax Revenue,No Functional Classification,3270,2010,Actuals,A
+Ministry of Health,Health,7437,7437,ACC - Reimbursement of Medical Misadventure Costs,Non-Tax Revenue,No Functional Classification,2984,2011,Actuals,A
+Ministry of Health,Health,7437,7437,ACC - Reimbursement of Medical Misadventure Costs,Non-Tax Revenue,No Functional Classification,3471,2012,Actuals,A
+Ministry of Health,Health,7437,7437,ACC - Reimbursement of Medical Misadventure Costs,Non-Tax Revenue,No Functional Classification,2440,2013,Estimated Actual,A
+Ministry of Health,Health,7437,7437,ACC - Reimbursement of Medical Misadventure Costs,Non-Tax Revenue,No Functional Classification,2494,2014,Main Estimates,A
+Ministry of Health,Health,7440,7440,Net Surplus from DHBs,Non-Tax Revenue,No Functional Classification,-159609,2009,Actuals,A
+Ministry of Health,Health,8534,8534,ACC - Reimbursement of Complex Burns Costs,Non-Tax Revenue,No Functional Classification,4306,2009,Actuals,A
+Ministry of Health,Health,8534,8534,ACC - Reimbursement of Complex Burns Costs,Non-Tax Revenue,No Functional Classification,4163,2010,Actuals,A
+Ministry of Health,Health,8534,8534,ACC - Reimbursement of Complex Burns Costs,Non-Tax Revenue,No Functional Classification,5476,2011,Actuals,A
+Ministry of Health,Health,8534,8534,ACC - Reimbursement of Complex Burns Costs,Non-Tax Revenue,No Functional Classification,5985,2012,Actuals,A
+Ministry of Health,Health,8534,8534,ACC - Reimbursement of Complex Burns Costs,Non-Tax Revenue,No Functional Classification,5476,2013,Estimated Actual,A
+Ministry of Health,Health,8534,8534,ACC - Reimbursement of Complex Burns Costs,Non-Tax Revenue,No Functional Classification,5476,2014,Main Estimates,A
+Ministry of Health,Health,7772,7772,Repayment of Residential Care Loans,Capital Receipts,No Functional Classification,10928,2009,Actuals,A
+Ministry of Health,Health,7772,7772,Repayment of Residential Care Loans,Capital Receipts,No Functional Classification,11560,2010,Actuals,A
+Ministry of Health,Health,7772,7772,Repayment of Residential Care Loans,Capital Receipts,No Functional Classification,11076,2011,Actuals,A
+Ministry of Health,Health,7772,7772,Repayment of Residential Care Loans,Capital Receipts,No Functional Classification,13085,2012,Actuals,A
+Ministry of Health,Health,7772,7772,Repayment of Residential Care Loans,Capital Receipts,No Functional Classification,15000,2013,Estimated Actual,A
+Ministry of Health,Health,7772,7772,Repayment of Residential Care Loans,Capital Receipts,No Functional Classification,15000,2014,Main Estimates,A
+Ministry of Health,Health,8709,8709,Repayment of DHB Debt,Capital Receipts,No Functional Classification,304,2009,Actuals,A
+Ministry of Health,Health,8709,8709,Repayment of DHB Debt,Capital Receipts,No Functional Classification,304,2011,Actuals,A
+Ministry of Health,Health,8709,8709,Repayment of DHB Debt,Capital Receipts,No Functional Classification,389,2012,Actuals,A
+Ministry of Health,Health,9136,9136,Equity repayments by DHBs,Capital Receipts,No Functional Classification,47499,2009,Actuals,A
+Ministry of Health,Health,9136,9136,Equity repayments by DHBs,Capital Receipts,No Functional Classification,12499,2011,Actuals,A
+Ministry of Health,Health,9136,9136,Equity repayments by DHBs,Capital Receipts,No Functional Classification,10638,2012,Actuals,A
+Ministry of Health,Health,9136,9136,Equity repayments by DHBs,Capital Receipts,No Functional Classification,12499,2013,Estimated Actual,A
+Ministry of Health,Health,9136,9136,Equity repayments by DHBs,Capital Receipts,No Functional Classification,12499,2014,Main Estimates,A
+Inland Revenue Department,Revenue,447,447,Fringe Benefit Tax,Tax Revenue,No Functional Classification,500120,2009,Actuals,A
+Inland Revenue Department,Revenue,447,447,Fringe Benefit Tax,Tax Revenue,No Functional Classification,460726,2010,Actuals,A
+Inland Revenue Department,Revenue,447,447,Fringe Benefit Tax,Tax Revenue,No Functional Classification,462327,2011,Actuals,A
+Inland Revenue Department,Revenue,447,447,Fringe Benefit Tax,Tax Revenue,No Functional Classification,461876,2012,Actuals,A
+Inland Revenue Department,Revenue,447,447,Fringe Benefit Tax,Tax Revenue,No Functional Classification,460000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,447,447,Fringe Benefit Tax,Tax Revenue,No Functional Classification,477000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,448,448,Gaming Duties,Tax Revenue,No Functional Classification,264853,2009,Actuals,A
+Inland Revenue Department,Revenue,448,448,Gaming Duties,Tax Revenue,No Functional Classification,265311,2010,Actuals,A
+Inland Revenue Department,Revenue,448,448,Gaming Duties,Tax Revenue,No Functional Classification,266081,2011,Actuals,A
+Inland Revenue Department,Revenue,448,448,Gaming Duties,Tax Revenue,No Functional Classification,270740,2012,Actuals,A
+Inland Revenue Department,Revenue,448,448,Gaming Duties,Tax Revenue,No Functional Classification,275000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,448,448,Gaming Duties,Tax Revenue,No Functional Classification,278000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,449,449,Goods and Services Tax (IRD),Tax Revenue,No Functional Classification,10050996,2009,Actuals,A
+Inland Revenue Department,Revenue,449,449,Goods and Services Tax (IRD),Tax Revenue,No Functional Classification,11478274,2010,Actuals,A
+Inland Revenue Department,Revenue,449,449,Goods and Services Tax (IRD),Tax Revenue,No Functional Classification,12575335,2011,Actuals,A
+Inland Revenue Department,Revenue,449,449,Goods and Services Tax (IRD),Tax Revenue,No Functional Classification,13119481,2012,Actuals,A
+Inland Revenue Department,Revenue,449,449,Goods and Services Tax (IRD),Tax Revenue,No Functional Classification,14230000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,449,449,Goods and Services Tax (IRD),Tax Revenue,No Functional Classification,15293000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,450,450,Companies,Tax Revenue,No Functional Classification,8294310,2009,Actuals,A
+Inland Revenue Department,Revenue,450,450,Companies,Tax Revenue,No Functional Classification,6630791,2010,Actuals,A
+Inland Revenue Department,Revenue,450,450,Companies,Tax Revenue,No Functional Classification,7727650,2011,Actuals,A
+Inland Revenue Department,Revenue,450,450,Companies,Tax Revenue,No Functional Classification,8617353,2012,Actuals,A
+Inland Revenue Department,Revenue,450,450,Companies,Tax Revenue,No Functional Classification,9451000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,450,450,Companies,Tax Revenue,No Functional Classification,10067000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,451,451,Other Persons,Tax Revenue,No Functional Classification,2772087,2009,Actuals,A
+Inland Revenue Department,Revenue,451,451,Other Persons,Tax Revenue,No Functional Classification,2155950,2010,Actuals,A
+Inland Revenue Department,Revenue,451,451,Other Persons,Tax Revenue,No Functional Classification,2111903,2011,Actuals,A
+Inland Revenue Department,Revenue,451,451,Other Persons,Tax Revenue,No Functional Classification,2495625,2012,Actuals,A
+Inland Revenue Department,Revenue,451,451,Other Persons,Tax Revenue,No Functional Classification,3553000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,451,451,Other Persons,Tax Revenue,No Functional Classification,3595000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,452,452,Other Direct Taxes,Tax Revenue,No Functional Classification,1486,2009,Actuals,A
+Inland Revenue Department,Revenue,452,452,Other Direct Taxes,Tax Revenue,No Functional Classification,1621,2010,Actuals,A
+Inland Revenue Department,Revenue,452,452,Other Direct Taxes,Tax Revenue,No Functional Classification,1713,2011,Actuals,A
+Inland Revenue Department,Revenue,452,452,Other Direct Taxes,Tax Revenue,No Functional Classification,146,2012,Actuals,A
+Inland Revenue Department,Revenue,453,453,Other Indirect Taxes,Tax Revenue,No Functional Classification,7745,2009,Actuals,A
+Inland Revenue Department,Revenue,453,453,Other Indirect Taxes,Tax Revenue,No Functional Classification,10523,2010,Actuals,A
+Inland Revenue Department,Revenue,453,453,Other Indirect Taxes,Tax Revenue,No Functional Classification,87032,2011,Actuals,A
+Inland Revenue Department,Revenue,453,453,Other Indirect Taxes,Tax Revenue,No Functional Classification,90062,2012,Actuals,A
+Inland Revenue Department,Revenue,453,453,Other Indirect Taxes,Tax Revenue,No Functional Classification,82000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,453,453,Other Indirect Taxes,Tax Revenue,No Functional Classification,89000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,454,454,Source Deductions,Tax Revenue,No Functional Classification,22966149,2009,Actuals,A
+Inland Revenue Department,Revenue,454,454,Source Deductions,Tax Revenue,No Functional Classification,22134707,2010,Actuals,A
+Inland Revenue Department,Revenue,454,454,Source Deductions,Tax Revenue,No Functional Classification,21243190,2011,Actuals,A
+Inland Revenue Department,Revenue,454,454,Source Deductions,Tax Revenue,No Functional Classification,21632360,2012,Actuals,A
+Inland Revenue Department,Revenue,454,454,Source Deductions,Tax Revenue,No Functional Classification,22815000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,454,454,Source Deductions,Tax Revenue,No Functional Classification,24138000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,455,455,Stamp and Cheque Duties,Tax Revenue,No Functional Classification,90390,2009,Actuals,A
+Inland Revenue Department,Revenue,455,455,Stamp and Cheque Duties,Tax Revenue,No Functional Classification,81664,2010,Actuals,A
+Inland Revenue Department,Revenue,455,455,Stamp and Cheque Duties,Tax Revenue,No Functional Classification,4076,2011,Actuals,A
+Inland Revenue Department,Revenue,455,455,Stamp and Cheque Duties,Tax Revenue,No Functional Classification,3537,2012,Actuals,A
+Inland Revenue Department,Revenue,455,455,Stamp and Cheque Duties,Tax Revenue,No Functional Classification,3000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,455,455,Stamp and Cheque Duties,Tax Revenue,No Functional Classification,3000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,456,456,Withholding Taxes,Tax Revenue,No Functional Classification,4097101,2009,Actuals,A
+Inland Revenue Department,Revenue,456,456,Withholding Taxes,Tax Revenue,No Functional Classification,2815225,2010,Actuals,A
+Inland Revenue Department,Revenue,456,456,Withholding Taxes,Tax Revenue,No Functional Classification,2365840,2011,Actuals,A
+Inland Revenue Department,Revenue,456,456,Withholding Taxes,Tax Revenue,No Functional Classification,2474662,2012,Actuals,A
+Inland Revenue Department,Revenue,456,456,Withholding Taxes,Tax Revenue,No Functional Classification,2444000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,456,456,Withholding Taxes,Tax Revenue,No Functional Classification,2725000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,435,435,Child Support Collections,Non-Tax Revenue,No Functional Classification,574542,2009,Actuals,A
+Inland Revenue Department,Revenue,435,435,Child Support Collections,Non-Tax Revenue,No Functional Classification,767900,2010,Actuals,A
+Inland Revenue Department,Revenue,435,435,Child Support Collections,Non-Tax Revenue,No Functional Classification,719065,2011,Actuals,A
+Inland Revenue Department,Revenue,435,435,Child Support Collections,Non-Tax Revenue,No Functional Classification,495085,2012,Actuals,A
+Inland Revenue Department,Revenue,435,435,Child Support Collections,Non-Tax Revenue,No Functional Classification,773000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,435,435,Child Support Collections,Non-Tax Revenue,No Functional Classification,869000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,437,437,Interest on Impaired Student Loans,Non-Tax Revenue,No Functional Classification,401269,2009,Actuals,A
+Inland Revenue Department,Revenue,437,437,Interest on Impaired Student Loans,Non-Tax Revenue,No Functional Classification,394777,2010,Actuals,A
+Inland Revenue Department,Revenue,437,437,Interest on Impaired Student Loans,Non-Tax Revenue,No Functional Classification,420371,2011,Actuals,A
+Inland Revenue Department,Revenue,437,437,Interest on Impaired Student Loans,Non-Tax Revenue,No Functional Classification,474452,2012,Actuals,A
+Inland Revenue Department,Revenue,437,437,Interest on Impaired Student Loans,Non-Tax Revenue,No Functional Classification,581000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,437,437,Interest on Impaired Student Loans,Non-Tax Revenue,No Functional Classification,600000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,438,438,Unclaimed Monies,Non-Tax Revenue,No Functional Classification,2579,2009,Actuals,A
+Inland Revenue Department,Revenue,438,438,Unclaimed Monies,Non-Tax Revenue,No Functional Classification,4667,2010,Actuals,A
+Inland Revenue Department,Revenue,438,438,Unclaimed Monies,Non-Tax Revenue,No Functional Classification,5042,2011,Actuals,A
+Inland Revenue Department,Revenue,438,438,Unclaimed Monies,Non-Tax Revenue,No Functional Classification,24901,2012,Actuals,A
+Inland Revenue Department,Revenue,438,438,Unclaimed Monies,Non-Tax Revenue,No Functional Classification,23000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,438,438,Unclaimed Monies,Non-Tax Revenue,No Functional Classification,9000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,10723,10723,Working for Families Tax Credit Interest and Penalties,Non-Tax Revenue,No Functional Classification,78400,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,10723,10723,Working for Families Tax Credit Interest and Penalties,Non-Tax Revenue,No Functional Classification,87800,2014,Main Estimates,A
+Inland Revenue Department,Revenue,440,440,Student Loans - Receipts,Capital Receipts,No Functional Classification,619054,2009,Actuals,A
+Inland Revenue Department,Revenue,440,440,Student Loans - Receipts,Capital Receipts,No Functional Classification,644322,2010,Actuals,A
+Inland Revenue Department,Revenue,440,440,Student Loans - Receipts,Capital Receipts,No Functional Classification,690608,2011,Actuals,A
+Inland Revenue Department,Revenue,440,440,Student Loans - Receipts,Capital Receipts,No Functional Classification,767716,2012,Actuals,A
+Inland Revenue Department,Revenue,440,440,Student Loans - Receipts,Capital Receipts,No Functional Classification,1041000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,440,440,Student Loans - Receipts,Capital Receipts,No Functional Classification,1020000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,3723,3723,Adverse Income Equalisation Account,Capital Receipts,No Functional Classification,590,2009,Actuals,A
+Inland Revenue Department,Revenue,3723,3723,Adverse Income Equalisation Account,Capital Receipts,No Functional Classification,1440,2010,Actuals,A
+Inland Revenue Department,Revenue,3723,3723,Adverse Income Equalisation Account,Capital Receipts,No Functional Classification,319,2011,Actuals,A
+Inland Revenue Department,Revenue,3723,3723,Adverse Income Equalisation Account,Capital Receipts,No Functional Classification,437,2012,Actuals,A
+Inland Revenue Department,Revenue,3723,3723,Adverse Income Equalisation Account,Capital Receipts,No Functional Classification,1000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,3723,3723,Adverse Income Equalisation Account,Capital Receipts,No Functional Classification,1000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,3724,3724,Income Equalisation Reserve Account,Capital Receipts,No Functional Classification,290431,2009,Actuals,A
+Inland Revenue Department,Revenue,3724,3724,Income Equalisation Reserve Account,Capital Receipts,No Functional Classification,80150,2010,Actuals,A
+Inland Revenue Department,Revenue,3724,3724,Income Equalisation Reserve Account,Capital Receipts,No Functional Classification,79363,2011,Actuals,A
+Inland Revenue Department,Revenue,3724,3724,Income Equalisation Reserve Account,Capital Receipts,No Functional Classification,132701,2012,Actuals,A
+Inland Revenue Department,Revenue,3724,3724,Income Equalisation Reserve Account,Capital Receipts,No Functional Classification,160000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,3724,3724,Income Equalisation Reserve Account,Capital Receipts,No Functional Classification,90000,2014,Main Estimates,A
+Inland Revenue Department,Revenue,8918,8918,Environmental Restoration Accounts Scheme,Capital Receipts,No Functional Classification,2792,2010,Actuals,A
+Inland Revenue Department,Revenue,8918,8918,Environmental Restoration Accounts Scheme,Capital Receipts,No Functional Classification,750,2011,Actuals,A
+Inland Revenue Department,Revenue,8918,8918,Environmental Restoration Accounts Scheme,Capital Receipts,No Functional Classification,3252,2012,Actuals,A
+Inland Revenue Department,Revenue,8918,8918,Environmental Restoration Accounts Scheme,Capital Receipts,No Functional Classification,20000,2013,Estimated Actual,A
+Inland Revenue Department,Revenue,8918,8918,Environmental Restoration Accounts Scheme,Capital Receipts,No Functional Classification,20000,2014,Main Estimates,A
+Department of Internal Affairs,Internal Affairs,496,496,Forfeiture to the Crown,Non-Tax Revenue,No Functional Classification,173,2009,Actuals,A
+Department of Internal Affairs,Internal Affairs,496,496,Forfeiture to the Crown,Non-Tax Revenue,No Functional Classification,101,2010,Actuals,A
+Department of Internal Affairs,Internal Affairs,496,496,Forfeiture to the Crown,Non-Tax Revenue,No Functional Classification,43,2011,Actuals,A
+Department of Internal Affairs,Internal Affairs,496,496,Forfeiture to the Crown,Non-Tax Revenue,No Functional Classification,41,2012,Actuals,A
+Department of Internal Affairs,Internal Affairs,1282,1282,Refund of Benefit,Non-Tax Revenue,No Functional Classification,4,2009,Actuals,A
+Department of Internal Affairs,Internal Affairs,1282,1282,Refund of Benefit,Non-Tax Revenue,No Functional Classification,6,2010,Actuals,A
+Department of Internal Affairs,Internal Affairs,1282,1282,Refund of Benefit,Non-Tax Revenue,No Functional Classification,2,2011,Actuals,A
+Department of Internal Affairs,Internal Affairs,1282,1282,Refund of Benefit,Non-Tax Revenue,No Functional Classification,20,2012,Actuals,A
+Department of Internal Affairs,Internal Affairs,10493,10493,Lake Taupo fee revenue,Non-Tax Revenue,No Functional Classification,436,2013,Estimated Actual,A
+Department of Internal Affairs,Internal Affairs,10493,10493,Lake Taupo fee revenue,Non-Tax Revenue,No Functional Classification,451,2014,Main Estimates,A
+Department of Internal Affairs,Emergency Management (Old),8994,8994,Refund of Non-Departmental payment,Non-Tax Revenue,No Functional Classification,1139,2010,Actuals,A
+Department of Internal Affairs,Emergency Management (Old),8994,8994,Refund of Non-Departmental payment,Non-Tax Revenue,No Functional Classification,43,2011,Actuals,A
+Department of Internal Affairs,Emergency Management (Old),8994,8994,Refund of Non-Departmental payment,Non-Tax Revenue,No Functional Classification,25,2012,Actuals,A
+Department of Internal Affairs,Local Government (Old),9765,9765,Interest received from the Auckland Transition Agency,Non-Tax Revenue,No Functional Classification,125,2010,Actuals,A
+Department of Internal Affairs,Local Government (Old),9765,9765,Interest received from the Auckland Transition Agency,Non-Tax Revenue,No Functional Classification,380,2011,Actuals,A
+Department of Internal Affairs,Local Government (Old),9765,9765,Interest received from the Auckland Transition Agency,Non-Tax Revenue,No Functional Classification,133,2012,Actuals,A
+Department of Internal Affairs,Local Government (Old),9768,9768,Repayment of loan from the Auckland Transition Agency,Capital Receipts,No Functional Classification,8637,2012,Actuals,A
+Department of Internal Affairs,Ministerial Services (Old),5904,5904,Rent from Crown Properties,Non-Tax Revenue,No Functional Classification,4,2009,Actuals,A
+Department of Internal Affairs,Ministerial Services (Old),5904,5904,Rent from Crown Properties,Non-Tax Revenue,No Functional Classification,38,2011,Actuals,A
+Department of Internal Affairs,Ministerial Services (Old),5904,5904,Rent from Crown Properties,Non-Tax Revenue,No Functional Classification,52,2012,Actuals,A
+Department of Internal Affairs,Community and Voluntary Sector (Old),8995,8995,Refund of Non-Departmental grants,Non-Tax Revenue,No Functional Classification,166,2009,Actuals,A
+Department of Internal Affairs,Community and Voluntary Sector (Old),8995,8995,Refund of Non-Departmental grants,Non-Tax Revenue,No Functional Classification,357,2010,Actuals,A
+Department of Internal Affairs,Community and Voluntary Sector (Old),8995,8995,Refund of Non-Departmental grants,Non-Tax Revenue,No Functional Classification,249,2011,Actuals,A
+Department of Internal Affairs,Community and Voluntary Sector (Old),8995,8995,Refund of Non-Departmental grants,Non-Tax Revenue,No Functional Classification,383,2012,Actuals,A
+Te Puni Kokiri,Maori Affairs,635,635,Miscellaneous Receipts,Non-Tax Revenue,No Functional Classification,8864,2009,Actuals,A
+Te Puni Kokiri,Maori Affairs,636,636,Mortgage Repayments Intended for HNZC,Non-Tax Revenue,No Functional Classification,10,2013,Estimated Actual,A
+Te Puni Kokiri,Maori Affairs,636,636,Mortgage Repayments Intended for HNZC,Non-Tax Revenue,No Functional Classification,10,2014,Main Estimates,A
+Te Puni Kokiri,Maori Affairs,1274,1274,Interest on Advances,Non-Tax Revenue,No Functional Classification,23,2009,Actuals,A
+Te Puni Kokiri,Maori Affairs,1274,1274,Interest on Advances,Non-Tax Revenue,No Functional Classification,8,2010,Actuals,A
+Te Puni Kokiri,Maori Affairs,1275,1275,Rent Received,Non-Tax Revenue,No Functional Classification,75,2009,Actuals,A
+Te Puni Kokiri,Maori Affairs,1275,1275,Rent Received,Non-Tax Revenue,No Functional Classification,70,2010,Actuals,A
+Te Puni Kokiri,Maori Affairs,1275,1275,Rent Received,Non-Tax Revenue,No Functional Classification,37,2012,Actuals,A
+Te Puni Kokiri,Maori Affairs,3403,3403,Recovery of POBOCs,Non-Tax Revenue,No Functional Classification,18,2009,Actuals,A
+Te Puni Kokiri,Maori Affairs,3403,3403,Recovery of POBOCs,Non-Tax Revenue,No Functional Classification,58,2010,Actuals,A
+Te Puni Kokiri,Maori Affairs,3403,3403,Recovery of POBOCs,Non-Tax Revenue,No Functional Classification,77,2011,Actuals,A
+Te Puni Kokiri,Maori Affairs,3403,3403,Recovery of POBOCs,Non-Tax Revenue,No Functional Classification,134,2012,Actuals,A
+Te Puni Kokiri,Maori Affairs,638,638,Repayment of Advances,Capital Receipts,No Functional Classification,876,2009,Actuals,A
+Te Puni Kokiri,Maori Affairs,638,638,Repayment of Advances,Capital Receipts,No Functional Classification,54,2010,Actuals,A
+Te Puni Kokiri,Maori Affairs,1276,1276,Sale of Properties,Capital Receipts,No Functional Classification,5,2010,Actuals,A
+Te Puni Kokiri,Maori Affairs,1276,1276,Sale of Properties,Capital Receipts,No Functional Classification,4,2011,Actuals,A
+Te Puni Kokiri,Maori Affairs,1276,1276,Sale of Properties,Capital Receipts,No Functional Classification,35,2012,Actuals,A
+Parliamentary Service,Parliamentary Service,9028,9028,Refund of Party and Members Support United,Non-Tax Revenue,No Functional Classification,1,2009,Actuals,A
+New Zealand Police,Police,716,716,Infringement Fees,Non-Tax Revenue,No Functional Classification,85970,2009,Actuals,A
+New Zealand Police,Police,716,716,Infringement Fees,Non-Tax Revenue,No Functional Classification,81458,2010,Actuals,A
+New Zealand Police,Police,716,716,Infringement Fees,Non-Tax Revenue,No Functional Classification,88519,2011,Actuals,A
+New Zealand Police,Police,716,716,Infringement Fees,Non-Tax Revenue,No Functional Classification,87772,2012,Actuals,A
+New Zealand Police,Police,716,716,Infringement Fees,Non-Tax Revenue,No Functional Classification,70900,2013,Estimated Actual,A
+New Zealand Police,Police,716,716,Infringement Fees,Non-Tax Revenue,No Functional Classification,70900,2014,Main Estimates,A
+New Zealand Police,Police,3416,3416,Sale of Unclaimed Property,Non-Tax Revenue,No Functional Classification,491,2009,Actuals,A
+New Zealand Police,Police,3416,3416,Sale of Unclaimed Property,Non-Tax Revenue,No Functional Classification,344,2010,Actuals,A
+New Zealand Police,Police,3416,3416,Sale of Unclaimed Property,Non-Tax Revenue,No Functional Classification,305,2011,Actuals,A
+New Zealand Police,Police,3416,3416,Sale of Unclaimed Property,Non-Tax Revenue,No Functional Classification,411,2012,Actuals,A
+New Zealand Police,Police,3416,3416,Sale of Unclaimed Property,Non-Tax Revenue,No Functional Classification,400,2013,Estimated Actual,A
+New Zealand Police,Police,3416,3416,Sale of Unclaimed Property,Non-Tax Revenue,No Functional Classification,400,2014,Main Estimates,A
+State Services Commission,State Services,867,867,Reimbursement of Chief Executives' Remuneration,Non-Tax Revenue,No Functional Classification,11887,2009,Actuals,A
+State Services Commission,State Services,867,867,Reimbursement of Chief Executives' Remuneration,Non-Tax Revenue,No Functional Classification,12017,2010,Actuals,A
+State Services Commission,State Services,867,867,Reimbursement of Chief Executives' Remuneration,Non-Tax Revenue,No Functional Classification,11337,2011,Actuals,A
+State Services Commission,State Services,867,867,Reimbursement of Chief Executives' Remuneration,Non-Tax Revenue,No Functional Classification,11743,2012,Actuals,A
+State Services Commission,State Services,867,867,Reimbursement of Chief Executives' Remuneration,Non-Tax Revenue,No Functional Classification,13774,2013,Estimated Actual,A
+State Services Commission,State Services,867,867,Reimbursement of Chief Executives' Remuneration,Non-Tax Revenue,No Functional Classification,13044,2014,Main Estimates,A
+Land Information New Zealand,Lands,890,890,Pastoral Lease Rentals,Non-Tax Revenue,No Functional Classification,1769,2009,Actuals,A
+Land Information New Zealand,Lands,890,890,Pastoral Lease Rentals,Non-Tax Revenue,No Functional Classification,1796,2010,Actuals,A
+Land Information New Zealand,Lands,890,890,Pastoral Lease Rentals,Non-Tax Revenue,No Functional Classification,1799,2011,Actuals,A
+Land Information New Zealand,Lands,890,890,Pastoral Lease Rentals,Non-Tax Revenue,No Functional Classification,1656,2012,Actuals,A
+Land Information New Zealand,Lands,890,890,Pastoral Lease Rentals,Non-Tax Revenue,No Functional Classification,3302,2013,Estimated Actual,A
+Land Information New Zealand,Lands,890,890,Pastoral Lease Rentals,Non-Tax Revenue,No Functional Classification,1902,2014,Main Estimates,A
+Land Information New Zealand,Lands,892,892,Surplus Government Properties - Rents,Non-Tax Revenue,No Functional Classification,2489,2009,Actuals,A
+Land Information New Zealand,Lands,892,892,Surplus Government Properties - Rents,Non-Tax Revenue,No Functional Classification,2283,2010,Actuals,A
+Land Information New Zealand,Lands,892,892,Surplus Government Properties - Rents,Non-Tax Revenue,No Functional Classification,2555,2011,Actuals,A
+Land Information New Zealand,Lands,892,892,Surplus Government Properties - Rents,Non-Tax Revenue,No Functional Classification,3388,2012,Actuals,A
+Land Information New Zealand,Lands,892,892,Surplus Government Properties - Rents,Non-Tax Revenue,No Functional Classification,3298,2013,Estimated Actual,A
+Land Information New Zealand,Lands,892,892,Surplus Government Properties - Rents,Non-Tax Revenue,No Functional Classification,3298,2014,Main Estimates,A
+Land Information New Zealand,Lands,1254,1254,Transit Sales,Non-Tax Revenue,No Functional Classification,15881,2009,Actuals,A
+Land Information New Zealand,Lands,1254,1254,Transit Sales,Non-Tax Revenue,No Functional Classification,14030,2010,Actuals,A
+Land Information New Zealand,Lands,1254,1254,Transit Sales,Non-Tax Revenue,No Functional Classification,32552,2011,Actuals,A
+Land Information New Zealand,Lands,1254,1254,Transit Sales,Non-Tax Revenue,No Functional Classification,25359,2012,Actuals,A
+Land Information New Zealand,Lands,1254,1254,Transit Sales,Non-Tax Revenue,No Functional Classification,30000,2013,Estimated Actual,A
+Land Information New Zealand,Lands,1254,1254,Transit Sales,Non-Tax Revenue,No Functional Classification,17000,2014,Main Estimates,A
+Land Information New Zealand,Lands,3467,3467,Database Licence Fees and Royalties,Non-Tax Revenue,No Functional Classification,780,2009,Actuals,A
+Land Information New Zealand,Lands,3467,3467,Database Licence Fees and Royalties,Non-Tax Revenue,No Functional Classification,583,2010,Actuals,A
+Land Information New Zealand,Lands,3468,3468,Sundry Operating Revenue,Non-Tax Revenue,No Functional Classification,92,2009,Actuals,A
+Land Information New Zealand,Lands,3468,3468,Sundry Operating Revenue,Non-Tax Revenue,No Functional Classification,945,2010,Actuals,A
+Land Information New Zealand,Lands,3468,3468,Sundry Operating Revenue,Non-Tax Revenue,No Functional Classification,95,2011,Actuals,A
+Land Information New Zealand,Lands,3468,3468,Sundry Operating Revenue,Non-Tax Revenue,No Functional Classification,39,2012,Actuals,A
+Land Information New Zealand,Lands,3468,3468,Sundry Operating Revenue,Non-Tax Revenue,No Functional Classification,571,2013,Estimated Actual,A
+Land Information New Zealand,Lands,3468,3468,Sundry Operating Revenue,Non-Tax Revenue,No Functional Classification,2571,2014,Main Estimates,A
+Land Information New Zealand,Lands,10782,10782,Soil Conservation Reserve Management,Non-Tax Revenue,No Functional Classification,3101,2013,Estimated Actual,A
+Land Information New Zealand,Lands,10782,10782,Soil Conservation Reserve Management,Non-Tax Revenue,No Functional Classification,742,2014,Main Estimates,A
+Land Information New Zealand,Lands,893,893,Surplus Government Properties - Sales,Capital Receipts,No Functional Classification,238956,2009,Actuals,A
+Land Information New Zealand,Lands,893,893,Surplus Government Properties - Sales,Capital Receipts,No Functional Classification,8310,2010,Actuals,A
+Land Information New Zealand,Lands,893,893,Surplus Government Properties - Sales,Capital Receipts,No Functional Classification,20080,2011,Actuals,A
+Land Information New Zealand,Lands,893,893,Surplus Government Properties - Sales,Capital Receipts,No Functional Classification,25613,2012,Actuals,A
+Land Information New Zealand,Lands,893,893,Surplus Government Properties - Sales,Capital Receipts,No Functional Classification,39000,2013,Estimated Actual,A
+Land Information New Zealand,Lands,893,893,Surplus Government Properties - Sales,Capital Receipts,No Functional Classification,6000,2014,Main Estimates,A
+Land Information New Zealand,Lands,5267,5267,Land Tenure Reform Sales,Capital Receipts,No Functional Classification,1417,2009,Actuals,A
+Land Information New Zealand,Lands,5267,5267,Land Tenure Reform Sales,Capital Receipts,No Functional Classification,1060,2010,Actuals,A
+Land Information New Zealand,Lands,5267,5267,Land Tenure Reform Sales,Capital Receipts,No Functional Classification,3186,2011,Actuals,A
+Land Information New Zealand,Lands,5267,5267,Land Tenure Reform Sales,Capital Receipts,No Functional Classification,1293,2012,Actuals,A
+Land Information New Zealand,Lands,5267,5267,Land Tenure Reform Sales,Capital Receipts,No Functional Classification,106153,2013,Estimated Actual,A
+Land Information New Zealand,Lands,5267,5267,Land Tenure Reform Sales,Capital Receipts,No Functional Classification,177975,2014,Main Estimates,A
+Ministry of Transport,Transport,923,923,Motor Vehicle Registration,Tax Revenue,No Functional Classification,170606,2009,Actuals,A
+Ministry of Transport,Transport,923,923,Motor Vehicle Registration,Tax Revenue,No Functional Classification,171295,2010,Actuals,A
+Ministry of Transport,Transport,923,923,Motor Vehicle Registration,Tax Revenue,No Functional Classification,171529,2011,Actuals,A
+Ministry of Transport,Transport,923,923,Motor Vehicle Registration,Tax Revenue,No Functional Classification,174654,2012,Actuals,A
+Ministry of Transport,Transport,923,923,Motor Vehicle Registration,Tax Revenue,No Functional Classification,177744,2013,Estimated Actual,A
+Ministry of Transport,Transport,923,923,Motor Vehicle Registration,Tax Revenue,No Functional Classification,186707,2014,Main Estimates,A
+Ministry of Transport,Transport,924,924,Road User Charges,Tax Revenue,No Functional Classification,867649,2009,Actuals,A
+Ministry of Transport,Transport,924,924,Road User Charges,Tax Revenue,No Functional Classification,909900,2010,Actuals,A
+Ministry of Transport,Transport,924,924,Road User Charges,Tax Revenue,No Functional Classification,1015779,2011,Actuals,A
+Ministry of Transport,Transport,924,924,Road User Charges,Tax Revenue,No Functional Classification,1044600,2012,Actuals,A
+Ministry of Transport,Transport,924,924,Road User Charges,Tax Revenue,No Functional Classification,1061963,2013,Estimated Actual,A
+Ministry of Transport,Transport,924,924,Road User Charges,Tax Revenue,No Functional Classification,1163642,2014,Main Estimates,A
+Ministry of Transport,Transport,8862,8862,Fuel Excise Duty Refunds,Tax Revenue,No Functional Classification,-34681,2009,Actuals,A
+Ministry of Transport,Transport,8862,8862,Fuel Excise Duty Refunds,Tax Revenue,No Functional Classification,-32515,2010,Actuals,A
+Ministry of Transport,Transport,8862,8862,Fuel Excise Duty Refunds,Tax Revenue,No Functional Classification,-35636,2011,Actuals,A
+Ministry of Transport,Transport,8862,8862,Fuel Excise Duty Refunds,Tax Revenue,No Functional Classification,-35093,2012,Actuals,A
+Ministry of Transport,Transport,8862,8862,Fuel Excise Duty Refunds,Tax Revenue,No Functional Classification,-37545,2013,Estimated Actual,A
+Ministry of Transport,Transport,8862,8862,Fuel Excise Duty Refunds,Tax Revenue,No Functional Classification,-37357,2014,Main Estimates,A
+Ministry of Transport,Transport,9391,9391,Motor Vehicle Registration fee - administration cost,Tax Revenue,No Functional Classification,43725,2009,Actuals,A
+Ministry of Transport,Transport,9394,9394,Road User Charge transaction fee,Tax Revenue,No Functional Classification,13030,2009,Actuals,A
+Ministry of Transport,Transport,925,925,Infringements,Non-Tax Revenue,No Functional Classification,2182,2012,Actuals,A
+Ministry of Transport,Transport,925,925,Infringements,Non-Tax Revenue,No Functional Classification,1800,2013,Estimated Actual,A
+Ministry of Transport,Transport,925,925,Infringements,Non-Tax Revenue,No Functional Classification,1400,2014,Main Estimates,A
+Ministry of Transport,Transport,926,926,Motor Vehicle Registration Recoveries,Non-Tax Revenue,No Functional Classification,11545,2009,Actuals,A
+Ministry of Transport,Transport,926,926,Motor Vehicle Registration Recoveries,Non-Tax Revenue,No Functional Classification,11264,2010,Actuals,A
+Ministry of Transport,Transport,926,926,Motor Vehicle Registration Recoveries,Non-Tax Revenue,No Functional Classification,8997,2011,Actuals,A
+Ministry of Transport,Transport,926,926,Motor Vehicle Registration Recoveries,Non-Tax Revenue,No Functional Classification,6467,2012,Actuals,A
+Ministry of Transport,Transport,9595,9595,Northern Gateway Toll Road Revenue,Non-Tax Revenue,No Functional Classification,2315,2009,Actuals,A
+Ministry of Transport,Transport,9595,9595,Northern Gateway Toll Road Revenue,Non-Tax Revenue,No Functional Classification,6057,2010,Actuals,A
+Ministry of Transport,Transport,9595,9595,Northern Gateway Toll Road Revenue,Non-Tax Revenue,No Functional Classification,6150,2011,Actuals,A
+Ministry of Transport,Transport,9595,9595,Northern Gateway Toll Road Revenue,Non-Tax Revenue,No Functional Classification,6415,2012,Actuals,A
+Ministry of Transport,Transport,9595,9595,Northern Gateway Toll Road Revenue,Non-Tax Revenue,No Functional Classification,7500,2013,Estimated Actual,A
+Ministry of Transport,Transport,9595,9595,Northern Gateway Toll Road Revenue,Non-Tax Revenue,No Functional Classification,7200,2014,Main Estimates,A
+Ministry of Transport,Transport,9621,9621,Motor Vehicle Registration fee-administration cost,Non-Tax Revenue,No Functional Classification,44734,2010,Actuals,A
+Ministry of Transport,Transport,9621,9621,Motor Vehicle Registration fee-administration cost,Non-Tax Revenue,No Functional Classification,46751,2011,Actuals,A
+Ministry of Transport,Transport,9621,9621,Motor Vehicle Registration fee-administration cost,Non-Tax Revenue,No Functional Classification,47002,2012,Actuals,A
+Ministry of Transport,Transport,9622,9622,Road User Charge transaction fee,Non-Tax Revenue,No Functional Classification,13772,2010,Actuals,A
+Ministry of Transport,Transport,9622,9622,Road User Charge transaction fee,Non-Tax Revenue,No Functional Classification,14176,2011,Actuals,A
+Ministry of Transport,Transport,9622,9622,Road User Charge transaction fee,Non-Tax Revenue,No Functional Classification,14401,2012,Actuals,A
+Ministry of Transport,Transport,9622,9622,Road User Charge transaction fee,Non-Tax Revenue,No Functional Classification,11510,2013,Estimated Actual,A
+Ministry of Transport,Transport,9622,9622,Road User Charge transaction fee,Non-Tax Revenue,No Functional Classification,13204,2014,Main Estimates,A
+The Treasury,Finance,5433,5433,Dividends from Crown Research Institutes,Non-Tax Revenue,No Functional Classification,9303,2009,Actuals,A
+The Treasury,Finance,5433,5433,Dividends from Crown Research Institutes,Non-Tax Revenue,No Functional Classification,1934,2010,Actuals,A
+The Treasury,Finance,5433,5433,Dividends from Crown Research Institutes,Non-Tax Revenue,No Functional Classification,817,2011,Actuals,A
+The Treasury,Finance,6020,6020,Unclaimed Money,Non-Tax Revenue,No Functional Classification,582,2009,Actuals,A
+The Treasury,Finance,6020,6020,Unclaimed Money,Non-Tax Revenue,No Functional Classification,1327,2010,Actuals,A
+The Treasury,Finance,6020,6020,Unclaimed Money,Non-Tax Revenue,No Functional Classification,2381,2011,Actuals,A
+The Treasury,Finance,6020,6020,Unclaimed Money,Non-Tax Revenue,No Functional Classification,1781,2012,Actuals,A
+The Treasury,Finance,6020,6020,Unclaimed Money,Non-Tax Revenue,No Functional Classification,855,2013,Estimated Actual,A
+The Treasury,Finance,6020,6020,Unclaimed Money,Non-Tax Revenue,No Functional Classification,500,2014,Main Estimates,A
+The Treasury,Finance,6021,6021,Capital Charge - Departments,Non-Tax Revenue,No Functional Classification,1560582,2009,Actuals,A
+The Treasury,Finance,6021,6021,Capital Charge - Departments,Non-Tax Revenue,No Functional Classification,1695213,2010,Actuals,A
+The Treasury,Finance,6021,6021,Capital Charge - Departments,Non-Tax Revenue,No Functional Classification,1650255,2011,Actuals,A
+The Treasury,Finance,6021,6021,Capital Charge - Departments,Non-Tax Revenue,No Functional Classification,1784933,2012,Actuals,A
+The Treasury,Finance,6021,6021,Capital Charge - Departments,Non-Tax Revenue,No Functional Classification,1835345,2013,Estimated Actual,A
+The Treasury,Finance,6021,6021,Capital Charge - Departments,Non-Tax Revenue,No Functional Classification,1840444,2014,Main Estimates,A
+The Treasury,Finance,6023,6023,Contact Energy Ltd Crown Margin,Non-Tax Revenue,No Functional Classification,3669,2009,Actuals,A
+The Treasury,Finance,6024,6024,Dividends from Crown Entities,Non-Tax Revenue,No Functional Classification,10301,2009,Actuals,A
+The Treasury,Finance,6024,6024,Dividends from Crown Entities,Non-Tax Revenue,No Functional Classification,1471,2010,Actuals,A
+The Treasury,Finance,6024,6024,Dividends from Crown Entities,Non-Tax Revenue,No Functional Classification,4870,2011,Actuals,A
+The Treasury,Finance,6024,6024,Dividends from Crown Entities,Non-Tax Revenue,No Functional Classification,13828,2012,Actuals,A
+The Treasury,Finance,6024,6024,Dividends from Crown Entities,Non-Tax Revenue,No Functional Classification,11285,2013,Estimated Actual,A
+The Treasury,Finance,6024,6024,Dividends from Crown Entities,Non-Tax Revenue,No Functional Classification,9765,2014,Main Estimates,A
+The Treasury,Finance,6025,6025,Dividends from SOEs,Non-Tax Revenue,No Functional Classification,275815,2009,Actuals,A
+The Treasury,Finance,6025,6025,Dividends from SOEs,Non-Tax Revenue,No Functional Classification,813448,2010,Actuals,A
+The Treasury,Finance,6025,6025,Dividends from SOEs,Non-Tax Revenue,No Functional Classification,895784,2011,Actuals,A
+The Treasury,Finance,6025,6025,Dividends from SOEs,Non-Tax Revenue,No Functional Classification,483432,2012,Actuals,A
+The Treasury,Finance,6025,6025,Dividends from SOEs,Non-Tax Revenue,No Functional Classification,704793,2013,Estimated Actual,A
+The Treasury,Finance,6025,6025,Dividends from SOEs,Non-Tax Revenue,No Functional Classification,908110,2014,Main Estimates,A
+The Treasury,Finance,6026,6026,Dividends - Other,Non-Tax Revenue,No Functional Classification,3320,2009,Actuals,A
+The Treasury,Finance,6026,6026,Dividends - Other,Non-Tax Revenue,No Functional Classification,2634,2010,Actuals,A
+The Treasury,Finance,6026,6026,Dividends - Other,Non-Tax Revenue,No Functional Classification,2269,2011,Actuals,A
+The Treasury,Finance,6026,6026,Dividends - Other,Non-Tax Revenue,No Functional Classification,2668,2013,Estimated Actual,A
+The Treasury,Finance,6026,6026,Dividends - Other,Non-Tax Revenue,No Functional Classification,2505,2014,Main Estimates,A
+The Treasury,Finance,6027,6027,Earthquake Commission Guarantee Fee,Non-Tax Revenue,No Functional Classification,10000,2009,Actuals,A
+The Treasury,Finance,6027,6027,Earthquake Commission Guarantee Fee,Non-Tax Revenue,No Functional Classification,10000,2010,Actuals,A
+The Treasury,Finance,6027,6027,Earthquake Commission Guarantee Fee,Non-Tax Revenue,No Functional Classification,10000,2011,Actuals,A
+The Treasury,Finance,6027,6027,Earthquake Commission Guarantee Fee,Non-Tax Revenue,No Functional Classification,10000,2012,Actuals,A
+The Treasury,Finance,6027,6027,Earthquake Commission Guarantee Fee,Non-Tax Revenue,No Functional Classification,10000,2013,Estimated Actual,A
+The Treasury,Finance,6027,6027,Earthquake Commission Guarantee Fee,Non-Tax Revenue,No Functional Classification,10000,2014,Main Estimates,A
+The Treasury,Finance,6028,6028,Sale of Goods and Services,Non-Tax Revenue,No Functional Classification,2355,2009,Actuals,A
+The Treasury,Finance,6030,6030,Interest from Securities and Deposits,Non-Tax Revenue,No Functional Classification,386620,2009,Actuals,A
+The Treasury,Finance,6030,6030,Interest from Securities and Deposits,Non-Tax Revenue,No Functional Classification,246463,2010,Actuals,A
+The Treasury,Finance,6030,6030,Interest from Securities and Deposits,Non-Tax Revenue,No Functional Classification,317701,2011,Actuals,A
+The Treasury,Finance,6030,6030,Interest from Securities and Deposits,Non-Tax Revenue,No Functional Classification,312944,2012,Actuals,A
+The Treasury,Finance,6030,6030,Interest from Securities and Deposits,Non-Tax Revenue,No Functional Classification,275533,2013,Estimated Actual,A
+The Treasury,Finance,6030,6030,Interest from Securities and Deposits,Non-Tax Revenue,No Functional Classification,238990,2014,Main Estimates,A
+The Treasury,Finance,6032,6032,Other Interest,Non-Tax Revenue,No Functional Classification,29472,2009,Actuals,A
+The Treasury,Finance,6032,6032,Other Interest,Non-Tax Revenue,No Functional Classification,565,2010,Actuals,A
+The Treasury,Finance,6032,6032,Other Interest,Non-Tax Revenue,No Functional Classification,7389,2011,Actuals,A
+The Treasury,Finance,6032,6032,Other Interest,Non-Tax Revenue,No Functional Classification,4868,2012,Actuals,A
+The Treasury,Finance,6032,6032,Other Interest,Non-Tax Revenue,No Functional Classification,3448,2013,Estimated Actual,A
+The Treasury,Finance,6032,6032,Other Interest,Non-Tax Revenue,No Functional Classification,1502,2014,Main Estimates,A
+The Treasury,Finance,6033,6033,Maui Gas Contracts,Non-Tax Revenue,No Functional Classification,11018,2009,Actuals,A
+The Treasury,Finance,6033,6033,Maui Gas Contracts,Non-Tax Revenue,No Functional Classification,1763,2010,Actuals,A
+The Treasury,Finance,6034,6034,Reserve Bank Surplus,Non-Tax Revenue,No Functional Classification,168000,2009,Actuals,A
+The Treasury,Finance,6034,6034,Reserve Bank Surplus,Non-Tax Revenue,No Functional Classification,675000,2010,Actuals,A
+The Treasury,Finance,6034,6034,Reserve Bank Surplus,Non-Tax Revenue,No Functional Classification,290000,2011,Actuals,A
+The Treasury,Finance,6034,6034,Reserve Bank Surplus,Non-Tax Revenue,No Functional Classification,210000,2012,Actuals,A
+The Treasury,Finance,6034,6034,Reserve Bank Surplus,Non-Tax Revenue,No Functional Classification,160000,2013,Estimated Actual,A
+The Treasury,Finance,6034,6034,Reserve Bank Surplus,Non-Tax Revenue,No Functional Classification,228000,2014,Main Estimates,A
+The Treasury,Finance,6036,6036,Other Current Revenue,Non-Tax Revenue,No Functional Classification,57163,2009,Actuals,A
+The Treasury,Finance,6036,6036,Other Current Revenue,Non-Tax Revenue,No Functional Classification,16216,2010,Actuals,A
+The Treasury,Finance,6036,6036,Other Current Revenue,Non-Tax Revenue,No Functional Classification,142520,2011,Actuals,A
+The Treasury,Finance,6036,6036,Other Current Revenue,Non-Tax Revenue,No Functional Classification,585155,2012,Actuals,A
+The Treasury,Finance,6036,6036,Other Current Revenue,Non-Tax Revenue,No Functional Classification,221762,2013,Estimated Actual,A
+The Treasury,Finance,6036,6036,Other Current Revenue,Non-Tax Revenue,No Functional Classification,30578,2014,Main Estimates,A
+The Treasury,Finance,6037,6037,Rentals from Crown Overseas Properties,Non-Tax Revenue,No Functional Classification,14049,2009,Actuals,A
+The Treasury,Finance,6037,6037,Rentals from Crown Overseas Properties,Non-Tax Revenue,No Functional Classification,10913,2010,Actuals,A
+The Treasury,Finance,6037,6037,Rentals from Crown Overseas Properties,Non-Tax Revenue,No Functional Classification,9598,2011,Actuals,A
+The Treasury,Finance,6037,6037,Rentals from Crown Overseas Properties,Non-Tax Revenue,No Functional Classification,9659,2012,Actuals,A
+The Treasury,Finance,6037,6037,Rentals from Crown Overseas Properties,Non-Tax Revenue,No Functional Classification,9500,2013,Estimated Actual,A
+The Treasury,Finance,6037,6037,Rentals from Crown Overseas Properties,Non-Tax Revenue,No Functional Classification,9500,2014,Main Estimates,A
+The Treasury,Finance,7530,7530,Export Credit Office,Non-Tax Revenue,No Functional Classification,2494,2009,Actuals,A
+The Treasury,Finance,7530,7530,Export Credit Office,Non-Tax Revenue,No Functional Classification,2848,2010,Actuals,A
+The Treasury,Finance,7530,7530,Export Credit Office,Non-Tax Revenue,No Functional Classification,4386,2011,Actuals,A
+The Treasury,Finance,7530,7530,Export Credit Office,Non-Tax Revenue,No Functional Classification,12734,2012,Actuals,A
+The Treasury,Finance,7530,7530,Export Credit Office,Non-Tax Revenue,No Functional Classification,2158,2013,Estimated Actual,A
+The Treasury,Finance,7530,7530,Export Credit Office,Non-Tax Revenue,No Functional Classification,1536,2014,Main Estimates,A
+The Treasury,Finance,7575,7575,Employers' Superannuation Contributions,Non-Tax Revenue,No Functional Classification,38652,2009,Actuals,A
+The Treasury,Finance,7575,7575,Employers' Superannuation Contributions,Non-Tax Revenue,No Functional Classification,36395,2010,Actuals,A
+The Treasury,Finance,7575,7575,Employers' Superannuation Contributions,Non-Tax Revenue,No Functional Classification,53725,2011,Actuals,A
+The Treasury,Finance,7575,7575,Employers' Superannuation Contributions,Non-Tax Revenue,No Functional Classification,46600,2012,Actuals,A
+The Treasury,Finance,7575,7575,Employers' Superannuation Contributions,Non-Tax Revenue,No Functional Classification,42362,2013,Estimated Actual,A
+The Treasury,Finance,7575,7575,Employers' Superannuation Contributions,Non-Tax Revenue,No Functional Classification,42300,2014,Main Estimates,A
+The Treasury,Finance,9446,9446,Crown Deposit Guarantee Scheme Fees,Non-Tax Revenue,No Functional Classification,67295,2009,Actuals,A
+The Treasury,Finance,9446,9446,Crown Deposit Guarantee Scheme Fees,Non-Tax Revenue,No Functional Classification,87041,2010,Actuals,A
+The Treasury,Finance,9446,9446,Crown Deposit Guarantee Scheme Fees,Non-Tax Revenue,No Functional Classification,38075,2011,Actuals,A
+The Treasury,Finance,9446,9446,Crown Deposit Guarantee Scheme Fees,Non-Tax Revenue,No Functional Classification,2905,2012,Actuals,A
+The Treasury,Finance,9447,9447,Crown Wholesale Guarantee Facility Fees,Non-Tax Revenue,No Functional Classification,6249,2009,Actuals,A
+The Treasury,Finance,9447,9447,Crown Wholesale Guarantee Facility Fees,Non-Tax Revenue,No Functional Classification,76455,2010,Actuals,A
+The Treasury,Finance,9447,9447,Crown Wholesale Guarantee Facility Fees,Non-Tax Revenue,No Functional Classification,80356,2011,Actuals,A
+The Treasury,Finance,9447,9447,Crown Wholesale Guarantee Facility Fees,Non-Tax Revenue,No Functional Classification,68044,2012,Actuals,A
+The Treasury,Finance,9447,9447,Crown Wholesale Guarantee Facility Fees,Non-Tax Revenue,No Functional Classification,29341,2013,Estimated Actual,A
+The Treasury,Finance,9447,9447,Crown Wholesale Guarantee Facility Fees,Non-Tax Revenue,No Functional Classification,26362,2014,Main Estimates,A
+The Treasury,Finance,10224,10224,Dividends from CRIs,Non-Tax Revenue,No Functional Classification,1878,2012,Actuals,A
+The Treasury,Finance,10225,10225,Other Fees,Non-Tax Revenue,No Functional Classification,17312,2011,Actuals,A
+The Treasury,Finance,10225,10225,Other Fees,Non-Tax Revenue,No Functional Classification,3885,2012,Actuals,A
+The Treasury,Finance,10225,10225,Other Fees,Non-Tax Revenue,No Functional Classification,3762,2013,Estimated Actual,A
+The Treasury,Finance,10225,10225,Other Fees,Non-Tax Revenue,No Functional Classification,3752,2014,Main Estimates,A
+The Treasury,Finance,6043,6043,Capital Withdrawals from Crown Companies,Capital Receipts,No Functional Classification,401312,2009,Actuals,A
+The Treasury,Finance,6043,6043,Capital Withdrawals from Crown Companies,Capital Receipts,No Functional Classification,7400,2010,Actuals,A
+The Treasury,Finance,6043,6043,Capital Withdrawals from Crown Companies,Capital Receipts,No Functional Classification,112763,2013,Estimated Actual,A
+The Treasury,Finance,6043,6043,Capital Withdrawals from Crown Companies,Capital Receipts,No Functional Classification,41561,2014,Main Estimates,A
+The Treasury,Finance,6045,6045,Contact Energy Limited Crown Margin,Capital Receipts,No Functional Classification,31549,2009,Actuals,A
+The Treasury,Finance,6051,6051,Loan Repayments from Other Parties,Capital Receipts,No Functional Classification,15267,2010,Actuals,A
+The Treasury,Finance,6051,6051,Loan Repayments from Other Parties,Capital Receipts,No Functional Classification,176205,2011,Actuals,A
+The Treasury,Finance,6051,6051,Loan Repayments from Other Parties,Capital Receipts,No Functional Classification,947,2012,Actuals,A
+The Treasury,Finance,6051,6051,Loan Repayments from Other Parties,Capital Receipts,No Functional Classification,1263,2013,Estimated Actual,A
+The Treasury,Finance,7529,7529,Return of Capital by the IMF,Capital Receipts,No Functional Classification,1122,2013,Estimated Actual,A
+The Treasury,Finance,8766,8766,Loan Repayments by ONTRACK,Capital Receipts,No Functional Classification,500,2009,Actuals,A
+The Treasury,Finance,10822,10822,Unwind Prior Year Capital Expenditure,Capital Receipts,No Functional Classification,7774,2013,Estimated Actual,A
+Ministry of Justice,Justice,1447,1447,Offenders Legal Aid Cont,Non-Tax Revenue,No Functional Classification,55,2009,Actuals,A
+Ministry of Justice,Justice,1447,1447,Offenders Legal Aid Cont,Non-Tax Revenue,No Functional Classification,161,2010,Actuals,A
+Ministry of Justice,Justice,5280,5280,Repayments of Judicial Salaries from Crown Entities,Non-Tax Revenue,No Functional Classification,285,2009,Actuals,A
+Ministry of Justice,Justice,5280,5280,Repayments of Judicial Salaries from Crown Entities,Non-Tax Revenue,No Functional Classification,285,2010,Actuals,A
+Ministry of Justice,Justice,5280,5280,Repayments of Judicial Salaries from Crown Entities,Non-Tax Revenue,No Functional Classification,803,2011,Actuals,A
+Ministry of Justice,Justice,5280,5280,Repayments of Judicial Salaries from Crown Entities,Non-Tax Revenue,No Functional Classification,455,2012,Actuals,A
+Ministry of Justice,Justice,5280,5280,Repayments of Judicial Salaries from Crown Entities,Non-Tax Revenue,No Functional Classification,476,2013,Estimated Actual,A
+Ministry of Justice,Justice,5280,5280,Repayments of Judicial Salaries from Crown Entities,Non-Tax Revenue,No Functional Classification,476,2014,Main Estimates,A
+Ministry of Justice,Justice,9728,9728,Miscellaneous receipts received on behalf of the Crown,Non-Tax Revenue,No Functional Classification,1157,2011,Actuals,A
+Ministry of Justice,Justice,9728,9728,Miscellaneous receipts received on behalf of the Crown,Non-Tax Revenue,No Functional Classification,18119,2012,Actuals,A
+Ministry of Justice,Justice,10198,10198,Recoveries from Legally Aided Persons,Non-Tax Revenue,No Functional Classification,26069,2012,Actuals,A
+Ministry of Justice,Justice,10198,10198,Recoveries from Legally Aided Persons,Non-Tax Revenue,No Functional Classification,33000,2013,Estimated Actual,A
+Ministry of Justice,Justice,10198,10198,Recoveries from Legally Aided Persons,Non-Tax Revenue,No Functional Classification,33000,2014,Main Estimates,A
+Ministry of Justice,Justice,10230,10230,Receipts from the Law Society's Special Fund for Community Law Centres,Non-Tax Revenue,No Functional Classification,4779,2012,Actuals,A
+Ministry of Justice,Justice,10230,10230,Receipts from the Law Society's Special Fund for Community Law Centres,Non-Tax Revenue,No Functional Classification,4939,2013,Estimated Actual,A
+Ministry of Justice,Justice,10230,10230,Receipts from the Law Society's Special Fund for Community Law Centres,Non-Tax Revenue,No Functional Classification,4374,2014,Main Estimates,A
+Ministry of Justice,Justice,10295,10295,Legal Aid Debt: Interest & Attachment Orders,Non-Tax Revenue,No Functional Classification,4912,2013,Estimated Actual,A
+Ministry of Justice,Justice,10295,10295,Legal Aid Debt: Interest & Attachment Orders,Non-Tax Revenue,No Functional Classification,6027,2014,Main Estimates,A
+Ministry of Justice,Justice,1451,1451,Licensing Fund,Capital Receipts,No Functional Classification,200,2013,Estimated Actual,A
+Ministry of Justice,Justice,1451,1451,Licensing Fund,Capital Receipts,No Functional Classification,200,2014,Main Estimates,A
+Ministry of Justice,Courts,1328,1328,Court Fines,Non-Tax Revenue,No Functional Classification,263379,2009,Actuals,A
+Ministry of Justice,Courts,1328,1328,Court Fines,Non-Tax Revenue,No Functional Classification,237852,2010,Actuals,A
+Ministry of Justice,Courts,1328,1328,Court Fines,Non-Tax Revenue,No Functional Classification,184305,2011,Actuals,A
+Ministry of Justice,Courts,1328,1328,Court Fines,Non-Tax Revenue,No Functional Classification,170017,2012,Actuals,A
+Ministry of Justice,Courts,1328,1328,Court Fines,Non-Tax Revenue,No Functional Classification,167501,2013,Estimated Actual,A
+Ministry of Justice,Courts,1328,1328,Court Fines,Non-Tax Revenue,No Functional Classification,167440,2014,Main Estimates,A
+Ministry of Justice,Courts,3507,3507,Money Forfeited to the Crown,Non-Tax Revenue,No Functional Classification,42,2009,Actuals,A
+Ministry of Justice,Courts,3507,3507,Money Forfeited to the Crown,Non-Tax Revenue,No Functional Classification,105,2010,Actuals,A
+Ministry of Justice,Courts,3507,3507,Money Forfeited to the Crown,Non-Tax Revenue,No Functional Classification,5,2011,Actuals,A
+Ministry of Justice,Courts,3507,3507,Money Forfeited to the Crown,Non-Tax Revenue,No Functional Classification,180,2012,Actuals,A
+Ministry of Justice,Courts,3507,3507,Money Forfeited to the Crown,Non-Tax Revenue,No Functional Classification,200,2013,Estimated Actual,A
+Ministry of Justice,Courts,3507,3507,Money Forfeited to the Crown,Non-Tax Revenue,No Functional Classification,200,2014,Main Estimates,A
+Ministry of Justice,Courts,9729,9729,Offenders Levy,Non-Tax Revenue,No Functional Classification,6023,2011,Actuals,A
+Ministry of Justice,Courts,9729,9729,Offenders Levy,Non-Tax Revenue,No Functional Classification,5464,2012,Actuals,A
+Ministry of Justice,Courts,9729,9729,Offenders Levy,Non-Tax Revenue,No Functional Classification,5217,2013,Estimated Actual,A
+Ministry of Justice,Courts,9729,9729,Offenders Levy,Non-Tax Revenue,No Functional Classification,5159,2014,Main Estimates,A
+Ministry of Justice,Courts,10293,10293,Contributions towards Lawyer for Child Costs,Non-Tax Revenue,No Functional Classification,3661,2014,Main Estimates,A
+Ministry of Justice,Courts,10726,10726,Contributions Lawyer to Assist,Non-Tax Revenue,No Functional Classification,115,2014,Main Estimates,A
+Ministry of Justice,Courts,10727,10727,Contributions Specialist Reports,Non-Tax Revenue,No Functional Classification,774,2014,Main Estimates,A
+Ministry of Justice,Treaty Negotiations,7493,7493,Landbank Properties,Non-Tax Revenue,No Functional Classification,6467,2009,Actuals,A
+Ministry of Justice,Treaty Negotiations,7493,7493,Landbank Properties,Non-Tax Revenue,No Functional Classification,6710,2010,Actuals,A
+Ministry of Justice,Treaty Negotiations,7493,7493,Landbank Properties,Non-Tax Revenue,No Functional Classification,8802,2011,Actuals,A
+Ministry of Justice,Treaty Negotiations,7493,7493,Landbank Properties,Non-Tax Revenue,No Functional Classification,9683,2012,Actuals,A
+Ministry of Justice,Treaty Negotiations,7493,7493,Landbank Properties,Non-Tax Revenue,No Functional Classification,9270,2013,Estimated Actual,A
+Ministry of Justice,Treaty Negotiations,7493,7493,Landbank Properties,Non-Tax Revenue,No Functional Classification,9270,2014,Main Estimates,A
+Ministry of Justice,Treaty Negotiations,9726,9726,Miscellaneous receipts received on behalf of the Crown,Non-Tax Revenue,No Functional Classification,2828,2013,Estimated Actual,A
+Ministry of Justice,Treaty Negotiations,9726,9726,Miscellaneous receipts received on behalf of the Crown,Non-Tax Revenue,No Functional Classification,6678,2014,Main Estimates,A
+Ministry of Justice,Treaty Negotiations,9727,9727,Sale of Landbank Properties,Capital Receipts,No Functional Classification,14000,2014,Main Estimates,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5068,5068,Crown Forestry Assets,Non-Tax Revenue,No Functional Classification,98384,2009,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5068,5068,Crown Forestry Assets,Non-Tax Revenue,No Functional Classification,124970,2010,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5068,5068,Crown Forestry Assets,Non-Tax Revenue,No Functional Classification,128103,2011,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5068,5068,Crown Forestry Assets,Non-Tax Revenue,No Functional Classification,115194,2012,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),7676,7676,Levy Charged Under the Dairy Industry Restructuring Act,Non-Tax Revenue,No Functional Classification,439,2011,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9156,9156,Forestry Encouragement Loan Interest,Non-Tax Revenue,No Functional Classification,2600,2009,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9156,9156,Forestry Encouragement Loan Interest,Non-Tax Revenue,No Functional Classification,2990,2010,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9156,9156,Forestry Encouragement Loan Interest,Non-Tax Revenue,No Functional Classification,1004,2011,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9156,9156,Forestry Encouragement Loan Interest,Non-Tax Revenue,No Functional Classification,836,2012,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9177,9177,New Zealand Emissions Trading Scheme Fees,Non-Tax Revenue,No Functional Classification,101,2009,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9177,9177,New Zealand Emissions Trading Scheme Fees,Non-Tax Revenue,No Functional Classification,221,2010,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9177,9177,New Zealand Emissions Trading Scheme Fees,Non-Tax Revenue,No Functional Classification,498,2011,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9177,9177,New Zealand Emissions Trading Scheme Fees,Non-Tax Revenue,No Functional Classification,681,2012,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),10063,10063,Global Research Alliance funding from other countries,Non-Tax Revenue,No Functional Classification,34,2011,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5069,5069,Forestry Encouragement Loans,Capital Receipts,No Functional Classification,2907,2009,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5069,5069,Forestry Encouragement Loans,Capital Receipts,No Functional Classification,5358,2010,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5069,5069,Forestry Encouragement Loans,Capital Receipts,No Functional Classification,4255,2011,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5069,5069,Forestry Encouragement Loans,Capital Receipts,No Functional Classification,1675,2012,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5873,5873,Sale of Forestry Assets,Capital Receipts,No Functional Classification,4724,2009,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5873,5873,Sale of Forestry Assets,Capital Receipts,No Functional Classification,27,2010,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5873,5873,Sale of Forestry Assets,Capital Receipts,No Functional Classification,1985,2011,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),5873,5873,Sale of Forestry Assets,Capital Receipts,No Functional Classification,17234,2012,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9514,9514,New Zealand Fast Forward Fund,Capital Receipts,No Functional Classification,715580,2009,Actuals,A
+Ministry for Primary Industries,Agriculture and Forestry (old),9514,9514,New Zealand Fast Forward Fund,Capital Receipts,No Functional Classification,39,2010,Actuals,A
+Ministry for Primary Industries,Biosecurity,6122,6122,Biosecurity Act 1993 Fines,Non-Tax Revenue,No Functional Classification,742,2009,Actuals,A
+Ministry for Primary Industries,Biosecurity,6122,6122,Biosecurity Act 1993 Fines,Non-Tax Revenue,No Functional Classification,989,2010,Actuals,A
+Ministry for Primary Industries,Biosecurity,6122,6122,Biosecurity Act 1993 Fines,Non-Tax Revenue,No Functional Classification,1545,2011,Actuals,A
+Ministry for Primary Industries,Biosecurity,6122,6122,Biosecurity Act 1993 Fines,Non-Tax Revenue,No Functional Classification,1109,2012,Actuals,A
+Ministry for Primary Industries,Fisheries,1370,1370,Deemed Values,Non-Tax Revenue,No Functional Classification,5590,2009,Actuals,A
+Ministry for Primary Industries,Fisheries,1370,1370,Deemed Values,Non-Tax Revenue,No Functional Classification,2724,2010,Actuals,A
+Ministry for Primary Industries,Fisheries,1370,1370,Deemed Values,Non-Tax Revenue,No Functional Classification,3808,2011,Actuals,A
+Ministry for Primary Industries,Fisheries,1370,1370,Deemed Values,Non-Tax Revenue,No Functional Classification,6672,2012,Actuals,A
+Ministry for Primary Industries,Fisheries,1371,1371,Fisheries Revenue from Forfeitures,Non-Tax Revenue,No Functional Classification,75,2009,Actuals,A
+Ministry for Primary Industries,Fisheries,1371,1371,Fisheries Revenue from Forfeitures,Non-Tax Revenue,No Functional Classification,1371,2010,Actuals,A
+Ministry for Primary Industries,Fisheries,1371,1371,Fisheries Revenue from Forfeitures,Non-Tax Revenue,No Functional Classification,1765,2011,Actuals,A
+Ministry for Primary Industries,Fisheries,1371,1371,Fisheries Revenue from Forfeitures,Non-Tax Revenue,No Functional Classification,613,2012,Actuals,A
+Ministry for Primary Industries,Fisheries,1372,1372,Fisheries Research Catch,Non-Tax Revenue,No Functional Classification,201,2010,Actuals,A
+Ministry for Primary Industries,Fisheries,1374,1374,Sale of Quota Shares and ACE,Non-Tax Revenue,No Functional Classification,645,2009,Actuals,A
+Ministry for Primary Industries,Fisheries,1374,1374,Sale of Quota Shares and ACE,Non-Tax Revenue,No Functional Classification,110,2010,Actuals,A
+Ministry for Primary Industries,Fisheries,1374,1374,Sale of Quota Shares and ACE,Non-Tax Revenue,No Functional Classification,2358,2011,Actuals,A
+Ministry for Primary Industries,Fisheries,1374,1374,Sale of Quota Shares and ACE,Non-Tax Revenue,No Functional Classification,1012,2012,Actuals,A
+Ministry for Primary Industries,Fisheries,1378,1378,Cost Recovery,Non-Tax Revenue,No Functional Classification,27857,2009,Actuals,A
+Ministry for Primary Industries,Fisheries,1378,1378,Cost Recovery,Non-Tax Revenue,No Functional Classification,32356,2010,Actuals,A
+Ministry for Primary Industries,Fisheries,1378,1378,Cost Recovery,Non-Tax Revenue,No Functional Classification,24167,2011,Actuals,A
+Ministry for Primary Industries,Fisheries,1378,1378,Cost Recovery,Non-Tax Revenue,No Functional Classification,32582,2012,Actuals,A
+Ministry for Primary Industries,Fisheries,1379,1379,Conservation Levy,Non-Tax Revenue,No Functional Classification,1329,2009,Actuals,A
+Ministry for Primary Industries,Fisheries,1379,1379,Conservation Levy,Non-Tax Revenue,No Functional Classification,1373,2010,Actuals,A
+Ministry for Primary Industries,Fisheries,1379,1379,Conservation Levy,Non-Tax Revenue,No Functional Classification,1873,2011,Actuals,A
+Ministry for Primary Industries,Fisheries,1379,1379,Conservation Levy,Non-Tax Revenue,No Functional Classification,1868,2012,Actuals,A
+Ministry for Primary Industries,Fisheries,5348,5348,Doubtful Debts Recovered,Non-Tax Revenue,No Functional Classification,155,2012,Actuals,A
+Ministry for Primary Industries,Fisheries,7527,7527,Other Revenue,Non-Tax Revenue,No Functional Classification,141,2009,Actuals,A
+Ministry for Primary Industries,Fisheries,7527,7527,Other Revenue,Non-Tax Revenue,No Functional Classification,144,2010,Actuals,A
+Ministry for Primary Industries,Fisheries,7527,7527,Other Revenue,Non-Tax Revenue,No Functional Classification,73,2011,Actuals,A
+Ministry for Primary Industries,Fisheries,7527,7527,Other Revenue,Non-Tax Revenue,No Functional Classification,45,2012,Actuals,A
+Ministry for Primary Industries,Fisheries,7678,7678,Infringement Notice Revenue,Non-Tax Revenue,No Functional Classification,197,2009,Actuals,A
+Ministry for Primary Industries,Fisheries,7678,7678,Infringement Notice Revenue,Non-Tax Revenue,No Functional Classification,223,2010,Actuals,A
+Ministry for Primary Industries,Fisheries,7678,7678,Infringement Notice Revenue,Non-Tax Revenue,No Functional Classification,150,2011,Actuals,A
+Ministry for Primary Industries,Fisheries,7678,7678,Infringement Notice Revenue,Non-Tax Revenue,No Functional Classification,254,2012,Actuals,A
+Ministry for Primary Industries,Primary Industries,10548,10548,Biosecurity Act Fines,Non-Tax Revenue,No Functional Classification,1500,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10548,10548,Biosecurity Act Fines,Non-Tax Revenue,No Functional Classification,1000,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10549,10549,Conservation Levy,Non-Tax Revenue,No Functional Classification,1500,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10549,10549,Conservation Levy,Non-Tax Revenue,No Functional Classification,1100,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10550,10550,Cost Recovery from Fisheries Industry,Non-Tax Revenue,No Functional Classification,29600,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10550,10550,Cost Recovery from Fisheries Industry,Non-Tax Revenue,No Functional Classification,30000,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10552,10552,Dairy Industry Levy,Non-Tax Revenue,No Functional Classification,800,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10552,10552,Dairy Industry Levy,Non-Tax Revenue,No Functional Classification,250,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10553,10553,Deemed Value for Over-fishing,Non-Tax Revenue,No Functional Classification,2500,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10553,10553,Deemed Value for Over-fishing,Non-Tax Revenue,No Functional Classification,2500,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10554,10554,Fisheries Act Infringement Notices,Non-Tax Revenue,No Functional Classification,200,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10554,10554,Fisheries Act Infringement Notices,Non-Tax Revenue,No Functional Classification,150,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10555,10555,Forestry Encouragement Loan Interest,Non-Tax Revenue,No Functional Classification,757,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10555,10555,Forestry Encouragement Loan Interest,Non-Tax Revenue,No Functional Classification,652,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10556,10556,Forfeitures for fisheries offences,Non-Tax Revenue,No Functional Classification,150,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10556,10556,Forfeitures for fisheries offences,Non-Tax Revenue,No Functional Classification,150,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10558,10558,New Zealand Emissions Trading Scheme Fees,Non-Tax Revenue,No Functional Classification,400,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10558,10558,New Zealand Emissions Trading Scheme Fees,Non-Tax Revenue,No Functional Classification,500,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10559,10559,Sale of Forest Produce,Non-Tax Revenue,No Functional Classification,124358,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10559,10559,Sale of Forest Produce,Non-Tax Revenue,No Functional Classification,115895,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10560,10560,Sale Quota Shares & ACE,Non-Tax Revenue,No Functional Classification,100,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10560,10560,Sale Quota Shares & ACE,Non-Tax Revenue,No Functional Classification,100,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10561,10561,Miscellaneous Revenue,Non-Tax Revenue,No Functional Classification,50,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10561,10561,Miscellaneous Revenue,Non-Tax Revenue,No Functional Classification,50,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10732,10732,Global Research Alliance contributions from other countries,Non-Tax Revenue,No Functional Classification,251,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10562,10562,Forestry encouragement loan repayments,Capital Receipts,No Functional Classification,2012,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10562,10562,Forestry encouragement loan repayments,Capital Receipts,No Functional Classification,1811,2014,Main Estimates,A
+Ministry for Primary Industries,Primary Industries,10563,10563,Sale of Crown Forestry Assets,Capital Receipts,No Functional Classification,958,2013,Estimated Actual,A
+Ministry for Primary Industries,Primary Industries,10563,10563,Sale of Crown Forestry Assets,Capital Receipts,No Functional Classification,3068,2014,Main Estimates,A
+Ministry of Social Development,Social Development,5385,5385,Interest Revenue,Non-Tax Revenue,No Functional Classification,64122,2009,Actuals,A
+Ministry of Social Development,Social Development,5385,5385,Interest Revenue,Non-Tax Revenue,No Functional Classification,68248,2010,Actuals,A
+Ministry of Social Development,Social Development,5385,5385,Interest Revenue,Non-Tax Revenue,No Functional Classification,64029,2011,Actuals,A
+Ministry of Social Development,Social Development,5385,5385,Interest Revenue,Non-Tax Revenue,No Functional Classification,51409,2012,Actuals,A
+Ministry of Social Development,Social Development,5386,5386,Maintenance Capitalisation,Non-Tax Revenue,No Functional Classification,323,2009,Actuals,A
+Ministry of Social Development,Social Development,5386,5386,Maintenance Capitalisation,Non-Tax Revenue,No Functional Classification,483,2010,Actuals,A
+Ministry of Social Development,Social Development,5386,5386,Maintenance Capitalisation,Non-Tax Revenue,No Functional Classification,142,2011,Actuals,A
+Ministry of Social Development,Social Development,5386,5386,Maintenance Capitalisation,Non-Tax Revenue,No Functional Classification,1031,2012,Actuals,A
+Ministry of Social Development,Social Development,5386,5386,Maintenance Capitalisation,Non-Tax Revenue,No Functional Classification,90,2013,Estimated Actual,A
+Ministry of Social Development,Social Development,5386,5386,Maintenance Capitalisation,Non-Tax Revenue,No Functional Classification,60,2014,Main Estimates,A
+Ministry of Social Development,Social Development,5601,5601,Student Loan - Administration Fee,Non-Tax Revenue,No Functional Classification,9594,2009,Actuals,A
+Ministry of Social Development,Social Development,5601,5601,Student Loan - Administration Fee,Non-Tax Revenue,No Functional Classification,10532,2010,Actuals,A
+Ministry of Social Development,Social Development,5601,5601,Student Loan - Administration Fee,Non-Tax Revenue,No Functional Classification,11959,2011,Actuals,A
+Ministry of Social Development,Social Development,5601,5601,Student Loan - Administration Fee,Non-Tax Revenue,No Functional Classification,12046,2012,Actuals,A
+Ministry of Social Development,Social Development,5601,5601,Student Loan - Administration Fee,Non-Tax Revenue,No Functional Classification,11705,2013,Estimated Actual,A
+Ministry of Social Development,Social Development,5601,5601,Student Loan - Administration Fee,Non-Tax Revenue,No Functional Classification,11334,2014,Main Estimates,A
+Ministry of Social Development,Social Development,5387,5387,Benefit Recoveries - Current Debt,Capital Receipts,No Functional Classification,203331,2009,Actuals,A
+Ministry of Social Development,Social Development,5387,5387,Benefit Recoveries - Current Debt,Capital Receipts,No Functional Classification,238027,2010,Actuals,A
+Ministry of Social Development,Social Development,5387,5387,Benefit Recoveries - Current Debt,Capital Receipts,No Functional Classification,245240,2011,Actuals,A
+Ministry of Social Development,Social Development,5387,5387,Benefit Recoveries - Current Debt,Capital Receipts,No Functional Classification,231513,2012,Actuals,A
+Ministry of Social Development,Social Development,5387,5387,Benefit Recoveries - Current Debt,Capital Receipts,No Functional Classification,226393,2013,Estimated Actual,A
+Ministry of Social Development,Social Development,5387,5387,Benefit Recoveries - Current Debt,Capital Receipts,No Functional Classification,232180,2014,Main Estimates,A
+Ministry of Social Development,Social Development,5388,5388,Benefit Recoveries - Liable Parent Contributions,Capital Receipts,No Functional Classification,2185,2009,Actuals,A
+Ministry of Social Development,Social Development,5388,5388,Benefit Recoveries - Liable Parent Contributions,Capital Receipts,No Functional Classification,1894,2010,Actuals,A
+Ministry of Social Development,Social Development,5388,5388,Benefit Recoveries - Liable Parent Contributions,Capital Receipts,No Functional Classification,1629,2011,Actuals,A
+Ministry of Social Development,Social Development,5388,5388,Benefit Recoveries - Liable Parent Contributions,Capital Receipts,No Functional Classification,1236,2012,Actuals,A
+Ministry of Social Development,Social Development,5388,5388,Benefit Recoveries - Liable Parent Contributions,Capital Receipts,No Functional Classification,1082,2013,Estimated Actual,A
+Ministry of Social Development,Social Development,5388,5388,Benefit Recoveries - Liable Parent Contributions,Capital Receipts,No Functional Classification,960,2014,Main Estimates,A
+Ministry of Social Development,Social Development,5389,5389,Benefit Recoveries - Non-Current Debt,Capital Receipts,No Functional Classification,75617,2009,Actuals,A
+Ministry of Social Development,Social Development,5389,5389,Benefit Recoveries - Non-Current Debt,Capital Receipts,No Functional Classification,78589,2010,Actuals,A
+Ministry of Social Development,Social Development,5389,5389,Benefit Recoveries - Non-Current Debt,Capital Receipts,No Functional Classification,78429,2011,Actuals,A
+Ministry of Social Development,Social Development,5389,5389,Benefit Recoveries - Non-Current Debt,Capital Receipts,No Functional Classification,77700,2012,Actuals,A
+Ministry of Social Development,Social Development,5389,5389,Benefit Recoveries - Non-Current Debt,Capital Receipts,No Functional Classification,77332,2013,Estimated Actual,A
+Ministry of Social Development,Social Development,5389,5389,Benefit Recoveries - Non-Current Debt,Capital Receipts,No Functional Classification,82861,2014,Main Estimates,A
+Ministry of Social Development,Social Development,5391,5391,Overseas Pension Recoveries,Capital Receipts,No Functional Classification,171989,2009,Actuals,A
+Ministry of Social Development,Social Development,5391,5391,Overseas Pension Recoveries,Capital Receipts,No Functional Classification,164382,2010,Actuals,A
+Ministry of Social Development,Social Development,5391,5391,Overseas Pension Recoveries,Capital Receipts,No Functional Classification,173546,2011,Actuals,A
+Ministry of Social Development,Social Development,5391,5391,Overseas Pension Recoveries,Capital Receipts,No Functional Classification,173904,2012,Actuals,A
+Ministry of Social Development,Social Development,5391,5391,Overseas Pension Recoveries,Capital Receipts,No Functional Classification,183658,2013,Estimated Actual,A
+Ministry of Social Development,Social Development,5391,5391,Overseas Pension Recoveries,Capital Receipts,No Functional Classification,197943,2014,Main Estimates,A
+Ministry of Social Development,Social Development,5603,5603,Student Loans - Repayment of Principal,Capital Receipts,No Functional Classification,90939,2009,Actuals,A
+Ministry of Social Development,Social Development,5603,5603,Student Loans - Repayment of Principal,Capital Receipts,No Functional Classification,102163,2010,Actuals,A
+Ministry of Social Development,Social Development,5603,5603,Student Loans - Repayment of Principal,Capital Receipts,No Functional Classification,110936,2011,Actuals,A
+Ministry of Social Development,Social Development,5603,5603,Student Loans - Repayment of Principal,Capital Receipts,No Functional Classification,108751,2012,Actuals,A
+Ministry of Social Development,Social Development,5603,5603,Student Loans - Repayment of Principal,Capital Receipts,No Functional Classification,107902,2013,Estimated Actual,A
+Ministry of Social Development,Social Development,5603,5603,Student Loans - Repayment of Principal,Capital Receipts,No Functional Classification,115203,2014,Main Estimates,A
+Canterbury Earthquake Recovery Authority,Canterbury Earthquake Recovery,10663,10663,Recovery of costs associated with the making safe and demolition of central business district buildings.,Non-Tax Revenue,No Functional Classification,56936,2012,Actuals,A
+Canterbury Earthquake Recovery Authority,Canterbury Earthquake Recovery,10663,10663,Recovery of costs associated with the making safe and demolition of central business district buildings.,Non-Tax Revenue,No Functional Classification,44314,2013,Estimated Actual,A
+Canterbury Earthquake Recovery Authority,Canterbury Earthquake Recovery,10663,10663,Recovery of costs associated with the making safe and demolition of central business district buildings.,Non-Tax Revenue,No Functional Classification,7752,2014,Main Estimates,A
+Canterbury Earthquake Recovery Authority,Canterbury Earthquake Recovery,10664,10664,Insurance recoveries associated with the purchase of Canterbury Red Zone properties.,Non-Tax Revenue,No Functional Classification,73997,2012,Actuals,A
+Canterbury Earthquake Recovery Authority,Canterbury Earthquake Recovery,10664,10664,Insurance recoveries associated with the purchase of Canterbury Red Zone properties.,Non-Tax Revenue,No Functional Classification,492149,2014,Main Estimates,A
+Canterbury Earthquake Recovery Authority,Canterbury Earthquake Recovery,10780,10780,Contribution from the Christchurch City Council for Port Hills land zoning decisions,Non-Tax Revenue,No Functional Classification,61209,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Economic Development,10305,10305,Right Hemisphere Loan Repayment,Capital Receipts,No Functional Classification,9581,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,1318,1318,Commerce Act 1986 Penalty,Non-Tax Revenue,No Functional Classification,2112,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,1318,1318,Commerce Act 1986 Penalty,Non-Tax Revenue,No Functional Classification,6065,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,1318,1318,Commerce Act 1986 Penalty,Non-Tax Revenue,No Functional Classification,17799,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,1318,1318,Commerce Act 1986 Penalty,Non-Tax Revenue,No Functional Classification,21030,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,1481,1481,Accounting Standards Review Board,Non-Tax Revenue,No Functional Classification,830,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,1481,1481,Accounting Standards Review Board,Non-Tax Revenue,No Functional Classification,830,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,1481,1481,Accounting Standards Review Board,Non-Tax Revenue,No Functional Classification,830,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,1481,1481,Accounting Standards Review Board,Non-Tax Revenue,No Functional Classification,830,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,1481,1481,Accounting Standards Review Board,Non-Tax Revenue,No Functional Classification,830,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Commerce,1481,1481,Accounting Standards Review Board,Non-Tax Revenue,No Functional Classification,830,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Commerce,4008,4008,Proceeds of Crime,Non-Tax Revenue,No Functional Classification,3264,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,4008,4008,Proceeds of Crime,Non-Tax Revenue,No Functional Classification,1294,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,4008,4008,Proceeds of Crime,Non-Tax Revenue,No Functional Classification,1776,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,4008,4008,Proceeds of Crime,Non-Tax Revenue,No Functional Classification,3954,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,4008,4008,Proceeds of Crime,Non-Tax Revenue,No Functional Classification,2500,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Commerce,4008,4008,Proceeds of Crime,Non-Tax Revenue,No Functional Classification,2600,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Commerce,9326,9326,Levy on Regulated Airports,Non-Tax Revenue,No Functional Classification,1242,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9326,9326,Levy on Regulated Airports,Non-Tax Revenue,No Functional Classification,886,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9326,9326,Levy on Regulated Airports,Non-Tax Revenue,No Functional Classification,762,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9326,9326,Levy on Regulated Airports,Non-Tax Revenue,No Functional Classification,1019,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Commerce,9326,9326,Levy on Regulated Airports,Non-Tax Revenue,No Functional Classification,600,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Commerce,9570,9570,Control of Natural Gas Services,Non-Tax Revenue,No Functional Classification,3246,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9570,9570,Control of Natural Gas Services,Non-Tax Revenue,No Functional Classification,98,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9570,9570,Control of Natural Gas Services,Non-Tax Revenue,No Functional Classification,2432,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9570,9570,Control of Natural Gas Services,Non-Tax Revenue,No Functional Classification,2156,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Commerce,9570,9570,Control of Natural Gas Services,Non-Tax Revenue,No Functional Classification,1586,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Commerce,9571,9571,Levy on Electricity Line Businesses,Non-Tax Revenue,No Functional Classification,6778,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9571,9571,Levy on Electricity Line Businesses,Non-Tax Revenue,No Functional Classification,2939,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9571,9571,Levy on Electricity Line Businesses,Non-Tax Revenue,No Functional Classification,6490,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9571,9571,Levy on Electricity Line Businesses,Non-Tax Revenue,No Functional Classification,5244,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Commerce,9571,9571,Levy on Electricity Line Businesses,Non-Tax Revenue,No Functional Classification,5539,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Commerce,9591,9591,Financial Advisers Act (FAA) Fees and Charges,Non-Tax Revenue,No Functional Classification,2252,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9591,9591,Financial Advisers Act (FAA) Fees and Charges,Non-Tax Revenue,No Functional Classification,224,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9591,9591,Financial Advisers Act (FAA) Fees and Charges,Non-Tax Revenue,No Functional Classification,6225,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Commerce,9591,9591,Financial Advisers Act (FAA) Fees and Charges,Non-Tax Revenue,No Functional Classification,6225,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Commerce,10665,10665,Recovery of Fees and Levies for the FMA,Non-Tax Revenue,No Functional Classification,695,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,10665,10665,Recovery of Fees and Levies for the FMA,Non-Tax Revenue,No Functional Classification,6000,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Commerce,10665,10665,Recovery of Fees and Levies for the FMA,Non-Tax Revenue,No Functional Classification,6000,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Commerce,10696,10696,External Reporting Board Fees,Non-Tax Revenue,No Functional Classification,1500,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Commerce,10696,10696,External Reporting Board Fees,Non-Tax Revenue,No Functional Classification,1500,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Commerce,5894,5894,Return of Capital Invested,Capital Receipts,No Functional Classification,2,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,9594,9594,Securities Commission Return of Capital,Capital Receipts,No Functional Classification,2065,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,10306,10306,Statutory Management - Aorangi Securities loan repayment,Capital Receipts,No Functional Classification,927,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Commerce,10683,10683,XRB Return of Capital,Capital Receipts,No Functional Classification,100,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,88,88,Trade Measurement Unit Infringement Fees,Non-Tax Revenue,No Functional Classification,11,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,88,88,Trade Measurement Unit Infringement Fees,Non-Tax Revenue,No Functional Classification,5,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,88,88,Trade Measurement Unit Infringement Fees,Non-Tax Revenue,No Functional Classification,2,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,88,88,Trade Measurement Unit Infringement Fees,Non-Tax Revenue,No Functional Classification,17,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,88,88,Trade Measurement Unit Infringement Fees,Non-Tax Revenue,No Functional Classification,20,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,88,88,Trade Measurement Unit Infringement Fees,Non-Tax Revenue,No Functional Classification,20,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,10036,10036,Financial Service Providers Reserve Dispute Resolution Scheme,Non-Tax Revenue,No Functional Classification,244,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,10036,10036,Financial Service Providers Reserve Dispute Resolution Scheme,Non-Tax Revenue,No Functional Classification,540,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,10036,10036,Financial Service Providers Reserve Dispute Resolution Scheme,Non-Tax Revenue,No Functional Classification,1680,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Consumer Affairs,10036,10036,Financial Service Providers Reserve Dispute Resolution Scheme,Non-Tax Revenue,No Functional Classification,1680,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Tourism,124,124,Rent from Reserve Lands,Non-Tax Revenue,No Functional Classification,713,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Tourism,124,124,Rent from Reserve Lands,Non-Tax Revenue,No Functional Classification,435,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Tourism,124,124,Rent from Reserve Lands,Non-Tax Revenue,No Functional Classification,113,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Tourism,3286,3286,Concession Fees,Non-Tax Revenue,No Functional Classification,501,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Tourism,3286,3286,Concession Fees,Non-Tax Revenue,No Functional Classification,572,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Tourism,3286,3286,Concession Fees,Non-Tax Revenue,No Functional Classification,270,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Tourism,3286,3286,Concession Fees,Non-Tax Revenue,No Functional Classification,-1,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,83,83,Radio Spectrum,Non-Tax Revenue,No Functional Classification,324,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,83,83,Radio Spectrum,Non-Tax Revenue,No Functional Classification,352,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,83,83,Radio Spectrum,Non-Tax Revenue,No Functional Classification,2855,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,83,83,Radio Spectrum,Non-Tax Revenue,No Functional Classification,352,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,7595,7595,Telecommunications Levy,Non-Tax Revenue,No Functional Classification,4713,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,7595,7595,Telecommunications Levy,Non-Tax Revenue,No Functional Classification,6558,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,7595,7595,Telecommunications Levy,Non-Tax Revenue,No Functional Classification,6040,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,7595,7595,Telecommunications Levy,Non-Tax Revenue,No Functional Classification,5334,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,7595,7595,Telecommunications Levy,Non-Tax Revenue,No Functional Classification,6001,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Communications,7595,7595,Telecommunications Levy,Non-Tax Revenue,No Functional Classification,6001,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Communications,8607,8607,Revenue from the Textphone Rental Service,Non-Tax Revenue,No Functional Classification,1,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,8607,8607,Revenue from the Textphone Rental Service,Non-Tax Revenue,No Functional Classification,1,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,10064,10064,Radio Spectrum Financing,Non-Tax Revenue,No Functional Classification,4156,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,10064,10064,Radio Spectrum Financing,Non-Tax Revenue,No Functional Classification,3276,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Communications,10064,10064,Radio Spectrum Financing,Non-Tax Revenue,No Functional Classification,17,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Communications,10277,10277,Telecommunications Development Levy,Non-Tax Revenue,No Functional Classification,50000,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,10277,10277,Telecommunications Development Levy,Non-Tax Revenue,No Functional Classification,50000,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Communications,10277,10277,Telecommunications Development Levy,Non-Tax Revenue,No Functional Classification,50000,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Communications,7558,7558,Radio Spectrum Rights,Capital Receipts,No Functional Classification,3150,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,7558,7558,Radio Spectrum Rights,Capital Receipts,No Functional Classification,11667,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,7558,7558,Radio Spectrum Rights,Capital Receipts,No Functional Classification,12441,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,7558,7558,Radio Spectrum Rights,Capital Receipts,No Functional Classification,19727,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Communications,7558,7558,Radio Spectrum Rights,Capital Receipts,No Functional Classification,26712,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Communications,7558,7558,Radio Spectrum Rights,Capital Receipts,No Functional Classification,26978,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,105,105,Energy Resource Levies - Coal,Tax Revenue,No Functional Classification,7145,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,105,105,Energy Resource Levies - Coal,Tax Revenue,No Functional Classification,6494,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,105,105,Energy Resource Levies - Coal,Tax Revenue,No Functional Classification,8257,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,105,105,Energy Resource Levies - Coal,Tax Revenue,No Functional Classification,9511,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,105,105,Energy Resource Levies - Coal,Tax Revenue,No Functional Classification,7784,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Energy,105,105,Energy Resource Levies - Coal,Tax Revenue,No Functional Classification,7784,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,106,106,Energy Resource Levies - Gas,Tax Revenue,No Functional Classification,31379,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,106,106,Energy Resource Levies - Gas,Tax Revenue,No Functional Classification,32698,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,106,106,Energy Resource Levies - Gas,Tax Revenue,No Functional Classification,27451,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,106,106,Energy Resource Levies - Gas,Tax Revenue,No Functional Classification,26852,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,106,106,Energy Resource Levies - Gas,Tax Revenue,No Functional Classification,28090,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Energy,106,106,Energy Resource Levies - Gas,Tax Revenue,No Functional Classification,28090,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,109,109,Ironsands Royalties,Non-Tax Revenue,No Functional Classification,41,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,109,109,Ironsands Royalties,Non-Tax Revenue,No Functional Classification,32,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,109,109,Ironsands Royalties,Non-Tax Revenue,No Functional Classification,58,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,109,109,Ironsands Royalties,Non-Tax Revenue,No Functional Classification,67,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,109,109,Ironsands Royalties,Non-Tax Revenue,No Functional Classification,63,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Energy,109,109,Ironsands Royalties,Non-Tax Revenue,No Functional Classification,63,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,110,110,Residual Ministry of Energy Commitments,Non-Tax Revenue,No Functional Classification,61,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,110,110,Residual Ministry of Energy Commitments,Non-Tax Revenue,No Functional Classification,18,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,110,110,Residual Ministry of Energy Commitments,Non-Tax Revenue,No Functional Classification,24,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,110,110,Residual Ministry of Energy Commitments,Non-Tax Revenue,No Functional Classification,80,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Energy,110,110,Residual Ministry of Energy Commitments,Non-Tax Revenue,No Functional Classification,80,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,111,111,Royalties - Coal,Non-Tax Revenue,No Functional Classification,1035,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,111,111,Royalties - Coal,Non-Tax Revenue,No Functional Classification,918,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,111,111,Royalties - Coal,Non-Tax Revenue,No Functional Classification,2259,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,111,111,Royalties - Coal,Non-Tax Revenue,No Functional Classification,2757,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,111,111,Royalties - Coal,Non-Tax Revenue,No Functional Classification,1912,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Energy,111,111,Royalties - Coal,Non-Tax Revenue,No Functional Classification,1912,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,113,113,Royalties - Minerals,Non-Tax Revenue,No Functional Classification,6501,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,113,113,Royalties - Minerals,Non-Tax Revenue,No Functional Classification,11313,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,113,113,Royalties - Minerals,Non-Tax Revenue,No Functional Classification,9227,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,113,113,Royalties - Minerals,Non-Tax Revenue,No Functional Classification,10722,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,113,113,Royalties - Minerals,Non-Tax Revenue,No Functional Classification,3388,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Energy,113,113,Royalties - Minerals,Non-Tax Revenue,No Functional Classification,3388,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,114,114,Royalties - Petroleum,Non-Tax Revenue,No Functional Classification,511581,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,114,114,Royalties - Petroleum,Non-Tax Revenue,No Functional Classification,399195,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,114,114,Royalties - Petroleum,Non-Tax Revenue,No Functional Classification,357058,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,114,114,Royalties - Petroleum,Non-Tax Revenue,No Functional Classification,333760,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,114,114,Royalties - Petroleum,Non-Tax Revenue,No Functional Classification,345950,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Energy,114,114,Royalties - Petroleum,Non-Tax Revenue,No Functional Classification,345950,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,4047,4047,Repayment of Compensation Payments,Non-Tax Revenue,No Functional Classification,2,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,7596,7596,Levy on Electricity Line Businesses,Non-Tax Revenue,No Functional Classification,5946,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,7596,7596,Levy on Electricity Line Businesses,Non-Tax Revenue,No Functional Classification,293,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8698,8698,Levy on Electricity Industry Participants,Non-Tax Revenue,No Functional Classification,82081,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8698,8698,Levy on Electricity Industry Participants,Non-Tax Revenue,No Functional Classification,86420,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8698,8698,Levy on Electricity Industry Participants,Non-Tax Revenue,No Functional Classification,28204,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8894,8894,Control of Natural Gas Services,Non-Tax Revenue,No Functional Classification,1798,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8895,8895,Whirinaki Operating and Maintenance Recoveries,Non-Tax Revenue,No Functional Classification,8063,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8895,8895,Whirinaki Operating and Maintenance Recoveries,Non-Tax Revenue,No Functional Classification,8926,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8895,8895,Whirinaki Operating and Maintenance Recoveries,Non-Tax Revenue,No Functional Classification,2638,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8896,8896,Whirinaki Availability,Non-Tax Revenue,No Functional Classification,22251,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8896,8896,Whirinaki Availability,Non-Tax Revenue,No Functional Classification,22536,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8896,8896,Whirinaki Availability,Non-Tax Revenue,No Functional Classification,5513,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8897,8897,Whirinaki Electricity Generation,Non-Tax Revenue,No Functional Classification,2505,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8897,8897,Whirinaki Electricity Generation,Non-Tax Revenue,No Functional Classification,6402,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8897,8897,Whirinaki Electricity Generation,Non-Tax Revenue,No Functional Classification,1290,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8897,8897,Whirinaki Electricity Generation,Non-Tax Revenue,No Functional Classification,888,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8976,8976,Electricity Governance Rulings Panel Penalties and Fees,Non-Tax Revenue,No Functional Classification,58,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8976,8976,Electricity Governance Rulings Panel Penalties and Fees,Non-Tax Revenue,No Functional Classification,18,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,8976,8976,Electricity Governance Rulings Panel Penalties and Fees,Non-Tax Revenue,No Functional Classification,22,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9385,9385,Miscellaneous Receipts,Non-Tax Revenue,No Functional Classification,1501,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9792,9792,Levy on Electricity Industry,Non-Tax Revenue,No Functional Classification,51831,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9792,9792,Levy on Electricity Industry,Non-Tax Revenue,No Functional Classification,98294,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9792,9792,Levy on Electricity Industry,Non-Tax Revenue,No Functional Classification,82050,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Energy,9792,9792,Levy on Electricity Industry,Non-Tax Revenue,No Functional Classification,84789,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,9793,9793,Whirinaki Availability Recovered,Non-Tax Revenue,No Functional Classification,11250,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9793,9793,Whirinaki Availability Recovered,Non-Tax Revenue,No Functional Classification,7213,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9794,9794,Whirinaki Operating and Maintenance Recovered,Non-Tax Revenue,No Functional Classification,4336,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9794,9794,Whirinaki Operating and Maintenance Recovered,Non-Tax Revenue,No Functional Classification,3034,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9166,9166,Sales Proceeds Surplus Assets,Capital Receipts,No Functional Classification,6,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9457,9457,Repayment of Crown Energy Efficiency Loans.,Capital Receipts,No Functional Classification,1213,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9457,9457,Repayment of Crown Energy Efficiency Loans.,Capital Receipts,No Functional Classification,1784,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9457,9457,Repayment of Crown Energy Efficiency Loans.,Capital Receipts,No Functional Classification,1831,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9457,9457,Repayment of Crown Energy Efficiency Loans.,Capital Receipts,No Functional Classification,1900,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Energy,9457,9457,Repayment of Crown Energy Efficiency Loans.,Capital Receipts,No Functional Classification,2000,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Energy,9457,9457,Repayment of Crown Energy Efficiency Loans.,Capital Receipts,No Functional Classification,2000,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Energy,10304,10304,Sale of Whirinaki,Capital Receipts,No Functional Classification,33000,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,8574,8574,Interest on Housing New Zealand Corporation Loans,Non-Tax Revenue,No Functional Classification,108725,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,8574,8574,Interest on Housing New Zealand Corporation Loans,Non-Tax Revenue,No Functional Classification,50575,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,8574,8574,Interest on Housing New Zealand Corporation Loans,Non-Tax Revenue,No Functional Classification,106810,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,8574,8574,Interest on Housing New Zealand Corporation Loans,Non-Tax Revenue,No Functional Classification,107973,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,8574,8574,Interest on Housing New Zealand Corporation Loans,Non-Tax Revenue,No Functional Classification,106000,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Housing,8574,8574,Interest on Housing New Zealand Corporation Loans,Non-Tax Revenue,No Functional Classification,103000,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Housing,8615,8615,Dividend from HNZC,Non-Tax Revenue,No Functional Classification,1661,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,8615,8615,Dividend from HNZC,Non-Tax Revenue,No Functional Classification,132000,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,8615,8615,Dividend from HNZC,Non-Tax Revenue,No Functional Classification,71000,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,8615,8615,Dividend from HNZC,Non-Tax Revenue,No Functional Classification,68000,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,8615,8615,Dividend from HNZC,Non-Tax Revenue,No Functional Classification,77000,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Housing,8615,8615,Dividend from HNZC,Non-Tax Revenue,No Functional Classification,90000,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Housing,10085,10085,Weathertight Services: Loan Guarantee Fees,Non-Tax Revenue,No Functional Classification,2805,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Housing,10085,10085,Weathertight Services: Loan Guarantee Fees,Non-Tax Revenue,No Functional Classification,3100,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Housing,10686,10686,Rent from Canterbury Earthquake Temporary Accommodation,Non-Tax Revenue,No Functional Classification,624,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,10685,10685,Canterbury Earthquake: Acquisition of Emergency and Temporary Accommodation,Capital Receipts,No Functional Classification,252,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Housing,10685,10685,Canterbury Earthquake: Acquisition of Emergency and Temporary Accommodation,Capital Receipts,No Functional Classification,1516,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Labour,574,574,Employment Relations Authority Fees,Non-Tax Revenue,No Functional Classification,171,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,574,574,Employment Relations Authority Fees,Non-Tax Revenue,No Functional Classification,189,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,574,574,Employment Relations Authority Fees,Non-Tax Revenue,No Functional Classification,163,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,574,574,Employment Relations Authority Fees,Non-Tax Revenue,No Functional Classification,163,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,574,574,Employment Relations Authority Fees,Non-Tax Revenue,No Functional Classification,193,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Labour,574,574,Employment Relations Authority Fees,Non-Tax Revenue,No Functional Classification,193,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Labour,575,575,Health and Safety in Employment Levy,Non-Tax Revenue,No Functional Classification,41138,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,575,575,Health and Safety in Employment Levy,Non-Tax Revenue,No Functional Classification,49017,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,575,575,Health and Safety in Employment Levy,Non-Tax Revenue,No Functional Classification,43802,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,575,575,Health and Safety in Employment Levy,Non-Tax Revenue,No Functional Classification,45597,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,575,575,Health and Safety in Employment Levy,Non-Tax Revenue,No Functional Classification,45701,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Labour,575,575,Health and Safety in Employment Levy,Non-Tax Revenue,No Functional Classification,47209,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Labour,576,576,Health and Safety Fees and Licences,Non-Tax Revenue,No Functional Classification,37,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,576,576,Health and Safety Fees and Licences,Non-Tax Revenue,No Functional Classification,34,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,576,576,Health and Safety Fees and Licences,Non-Tax Revenue,No Functional Classification,29,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,576,576,Health and Safety Fees and Licences,Non-Tax Revenue,No Functional Classification,35,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,576,576,Health and Safety Fees and Licences,Non-Tax Revenue,No Functional Classification,33,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Labour,576,576,Health and Safety Fees and Licences,Non-Tax Revenue,No Functional Classification,33,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Labour,7528,7528,Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration,Non-Tax Revenue,No Functional Classification,227,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,7528,7528,Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration,Non-Tax Revenue,No Functional Classification,240,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,7528,7528,Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration,Non-Tax Revenue,No Functional Classification,262,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,7528,7528,Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration,Non-Tax Revenue,No Functional Classification,258,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,7528,7528,Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration,Non-Tax Revenue,No Functional Classification,262,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Labour,7528,7528,Recovery of Remuneration Authority Costs of Setting Local Authority Members' Remuneration,Non-Tax Revenue,No Functional Classification,262,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Labour,8580,8580,Infringement Notice Fines,Non-Tax Revenue,No Functional Classification,10,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,8580,8580,Infringement Notice Fines,Non-Tax Revenue,No Functional Classification,7,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,8580,8580,Infringement Notice Fines,Non-Tax Revenue,No Functional Classification,15,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,8580,8580,Infringement Notice Fines,Non-Tax Revenue,No Functional Classification,16,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Labour,8580,8580,Infringement Notice Fines,Non-Tax Revenue,No Functional Classification,247,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Labour,8580,8580,Infringement Notice Fines,Non-Tax Revenue,No Functional Classification,247,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Labour,10065,10065,Other,Non-Tax Revenue,No Functional Classification,27,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",ACC,3730,3730,Repayment of Non-Earners' Account Surplus,Non-Tax Revenue,No Functional Classification,9925,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",ACC,10290,10290,Dividends from Crown Entities,Non-Tax Revenue,No Functional Classification,500,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",ACC,10290,10290,Dividends from Crown Entities,Non-Tax Revenue,No Functional Classification,500,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Immigration,3394,3394,Non-Principal Applicants English Language Fees,Non-Tax Revenue,No Functional Classification,3354,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,3394,3394,Non-Principal Applicants English Language Fees,Non-Tax Revenue,No Functional Classification,2834,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,3395,3395,Migrant Levy,Non-Tax Revenue,No Functional Classification,10450,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,3395,3395,Migrant Levy,Non-Tax Revenue,No Functional Classification,10391,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,3395,3395,Migrant Levy,Non-Tax Revenue,No Functional Classification,9490,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,3395,3395,Migrant Levy,Non-Tax Revenue,No Functional Classification,10028,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,3395,3395,Migrant Levy,Non-Tax Revenue,No Functional Classification,9715,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Immigration,3395,3395,Migrant Levy,Non-Tax Revenue,No Functional Classification,9715,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Immigration,9411,9411,Immigration Adviser Levy,Non-Tax Revenue,No Functional Classification,227,2009,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,9411,9411,Immigration Adviser Levy,Non-Tax Revenue,No Functional Classification,428,2010,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,9411,9411,Immigration Adviser Levy,Non-Tax Revenue,No Functional Classification,494,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,9411,9411,Immigration Adviser Levy,Non-Tax Revenue,No Functional Classification,512,2012,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,9411,9411,Immigration Adviser Levy,Non-Tax Revenue,No Functional Classification,982,2013,Estimated Actual,A
+"Ministry of Business, Innovation and Employment",Immigration,9411,9411,Immigration Adviser Levy,Non-Tax Revenue,No Functional Classification,982,2014,Main Estimates,A
+"Ministry of Business, Innovation and Employment",Immigration,10066,10066,Other,Non-Tax Revenue,No Functional Classification,1577,2011,Actuals,A
+"Ministry of Business, Innovation and Employment",Immigration,10066,10066,Other,Non-Tax Revenue,No Functional Classification,1047,2012,Actuals,A

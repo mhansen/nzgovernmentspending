@@ -2,9 +2,9 @@
 """
 Converts tab separated fields into JSON ready to be eaten by javascript.
 """
-import sys
-import json
-import collections
+import sys, json, collections, csv
+
+YEAR = 2012
 
 def factory():
     return collections.defaultdict(factory)
@@ -12,24 +12,24 @@ def factory():
 data = collections.defaultdict(factory)
 budget = collections.defaultdict(factory)
 
-for line in sys.stdin:
-    fields = line.split("\t")
-    year = int(fields[0].rstrip()) # $10
 
-    if year == 2012:
+for line in csv.DictReader(sys.stdin):
+    year = int(line["Year"])
+
+    if year == YEAR:
         key = "previous_nzd"
-    elif year == 2013:
+    elif year == YEAR + 1:
         key = "nzd"
     else:
         continue # We skip years we don't visualise
 
-    dept = fields[1] #$1
-    lineitem = fields[2] #$5
-    amount = int(fields[3].rstrip().lstrip().replace(",","")) #$9
+    dept = line["Department"]
+    lineitem = line["Description"]
+    amount = int(line["Amount ($000)"].replace(",",""))
 
     # we don't always have Scope data, parse it if we do.
-    if len(fields) > 4 and year == 2013:
-        scope = fields[4].rstrip() #$13
+    if "Current Scope" in line and year == YEAR + 1:
+        scope = line["Current Scope"].rstrip()
         budget[dept][lineitem]["scope"] = scope
 
     # A very few items have more than one line item with the same identifiers,
@@ -93,4 +93,4 @@ for dept_name, dept in budget.items():
 
 data["series_for_dept"] = series_for_dept
 
-print json.dumps(data)
+print(json.dumps(data))

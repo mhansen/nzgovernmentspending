@@ -14,7 +14,7 @@ window.GovtPieView = Backbone.View.extend
         renderTo: @el
         backgroundColor: null
       credits:
-        text: "[Budget 2012]"
+        text: "[Budget 2013]"
         href: "http://www.treasury.govt.nz/"
       title:
         text: @render_title_text viewing_income, grand_total
@@ -38,7 +38,7 @@ window.GovtPieView = Backbone.View.extend
           dataLabels:
             formatter: ->
               # Draw a label for only thick slices.
-              if @percentage > 5
+              if @percentage > 5.6
                 # Split long labels every two words.
                 @point.name.replace /(\w+ \w+)/g, "$1<br/>"
             distance: -70
