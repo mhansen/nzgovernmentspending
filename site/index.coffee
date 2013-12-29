@@ -1,8 +1,7 @@
 # Main client-side logic for the wheresmytaxes site.
 
-if document.location.hostname == "localhost"
-  mpq.track = -> console.log "tracking:", arguments
-  mpq.register = -> console.log "registering:", arguments
+window.track = ->
+  # No tracking
 
 # window.appModel - a convenient place to hold triggers
 window.appModel = new Backbone.Model
