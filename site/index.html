@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Where Are My Taxes?</title>
+<meta charset='utf-8'>
+<meta content='Where&#39;s your money going? Breakdown the spending in the 2013 Government Budget by department, and find out how the government&#39;s spending your money.' name='description'>
+<link href='lib/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css' media='screen' rel='stylesheet'>
+<meta content='http://wheresmytaxes.co.nz/logo.jpg' property='og:image'>
+<link href='http://wheresmytaxes.co.nz/' rel='canonical'>
+<link href='https://plus.google.com/102726734559112403673/' rel='publisher'>
+<link href='style.css' rel='stylesheet'>
+</head>
+<body>
+<center>
+<img alt='Where are my taxes?' id='title' src='title.png'>
+</center>
+<div class='small' id='account_links'></div>
+<div id='budget_container'>Loading...</div>
+<div id='dept_container'>
+<div id='dept_graph'></div>
+<div id='dept_delta'>
+<div id='dept_delta_percent'></div>
+<div id='dept_delta_caption'></div>
+</div>
+</div>
+<div id='call_to_action'>&lt;&lt; Click on a segment to expand the department</div>
+<div id='receipt_wrapper'>
+<div class='header'></div>
+<div class='receipt'>
+<table></table>
+</div>
+</div>
+<div id='footer'>
+<div style="height:80px;float:left;margin-right:20px;">
+  <a href="https://plus.google.com/102726734559112403673/?prsrc=3" style="text-decoration: none;">
+    <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" width="32" height="32" style="border: 0;"/>
+  </a>
+</div>
+<iframe src="http://www.facebook.com/plugins/like.php?app_id=110821432339192&href=http%3A%2F%2Fwheresmytaxes.co.nz%2F&send=false&layout=standard&width=450&show_faces=false&action=like&colorscheme=light&font&height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true" id="likebutton"></iframe>
+<div id='rightstuff' style='float:right;'>
+<div id='links'>
+<a href='http://markhansen.co.nz/budget-visualisation/#disqus_thread'>FEEDBACK</a>
+<a href='#credits' id='creditslink'>CREDITS</a>
+<div style='display:none;'>
+<div id='credits'>
+<ul>
+<li>Public data helpfully provided by the <a href="http://www.treasury.govt.nz/">New Zealand Treasury</a>.</li>
+<li>Design by <a href="http://ryandelaney.co.nz/">Ryan Delaney</a>.</li>
+<li>Code by <a href="http://markhansen.co.nz/">Mark Hansen</a> and <a href="mailto:lukebjerring@hotmail.com">Luke Bjerring</a>.</li>
+<li>Inspired by the <a href="http://datavizchallenge.org/">DataVizChallenge</a>, and <a href="http://www.wheredidmytaxdollarsgo.com/">Where Did My Tax Dollars Go?</a></li>
+<li>Charts made with the excellent <a href="http://highcharts.com">HighCharts Library</a>.</li>
+</ul>
+</div>
+</div>
+<a href='http://markhansen.co.nz/budget-visualisation/'>ABOUT</a>
+</div>
+<div id='copyright'>Copyright Mark Hansen, Luke Bjerring, Ryan Delaney</div>
+</div>
+</div>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js'></script>
+<script src='lib/underscore-min.js'></script>
+<script src='lib/backbone-min.js'></script>
+<script src='lib/highcharts/js/highcharts.js'></script>
+<script src='lib/jquery.tools.min.js'></script>
+<script src='lib/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js'></script>
+<script src='lib/jquery.url.js'></script>
+<script src='lib/cohorts/lib/cohorts.js'></script>
+<script src='AccountLinksView.js'></script>
+<script src='DeptReceiptView.js'></script>
+<script src='DeptPieView.js'></script>
+<script src='GovtPieView.js'></script>
+<script src='helper_methods.js'></script>
+<script src='index.js'></script>
+<script src='tracking.js'></script>
+</body>
+</html>
