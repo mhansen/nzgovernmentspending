@@ -4,8 +4,8 @@ window.GovtPieView = Backbone.View.extend({
     let add_comma_to_number_string = s => s.replace(/(\d{3})$/, ",$1");
 
     return `Government ${viewing_income ? "Incomes" : "Expenses"}: ` +
-    "$" + add_comma_to_number_string(dollars_per_person(grand_total).toFixed(0)) +
-    " per capita";
+      "$" + add_comma_to_number_string(dollars_per_person(grand_total).toFixed(0)) +
+      " per capita";
   },
 
   // Plot the main pie chart of all departments.
@@ -33,11 +33,11 @@ window.GovtPieView = Backbone.View.extend({
       legend: {
         enabled: false
       },
-      series: [ {
-          type: "pie",
-          data: budget_expense_series,
-          size: "100%"
-      } ],
+      series: [{
+        type: "pie",
+        data: budget_expense_series,
+        size: "100%"
+      }],
       plotOptions: {
         pie: {
           allowPointSelect: true,
@@ -57,12 +57,14 @@ window.GovtPieView = Backbone.View.extend({
             // A little nudging to keep text inside their slices.
             y: -4
           },
-          point: { events: {
-            mouseOver() { return appModel.trigger("dept_mouseover", this.name); },
-            select() { return appModel.trigger("dept_select", this.name); }
+          point: {
+            events: {
+              mouseOver() { return appModel.trigger("dept_mouseover", this.name); },
+              select() { return appModel.trigger("dept_select", this.name); }
+            }
           }
-        }
         }
       }
     });
-  }});
+  }
+});

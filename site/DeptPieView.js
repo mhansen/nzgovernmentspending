@@ -22,10 +22,10 @@ window.DeptPieView = Backbone.View.extend({
           width: '300px'
         }
       },
-      series: [ {
+      series: [{
         type: "pie",
         data: dept_data
-      } ],
+      }],
       plotOptions: {
         pie: {
           allowPointSelect: true,
@@ -50,4 +50,5 @@ window.DeptPieView = Backbone.View.extend({
         }
       }
     });
-  }});
+  }
+});

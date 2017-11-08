@@ -1,7 +1,7 @@
 //### Helper Methods
 
 // Format a percentage for display, with colors and an arrow pointing up or down.
-window.format_percent = function(n) {
+window.format_percent = function (n) {
   if (n === undefined) { return ""; }
   // Round to 2 significant figures - JavaScript doesn't have a
   // builtin function for this.
@@ -25,7 +25,7 @@ window.split_long_sentence = (sentence, joiner) => sentence.replace(/([^\s]+\s+[
 
 // A formatter function that gives the tooltip information when hovering over a
 // pie slice. Returns some subsetted-HTML for HighCharts to convert into SVG.
-window.format_tooltip = function() {
+window.format_tooltip = function () {
   this.point.name.replace();
   let total = format_big_dollars(this.y);
   let splitName = `<b>${split_long_sentence(this.point.name, "<br/><b>")}`;
@@ -36,25 +36,25 @@ window.format_tooltip = function() {
   return splitName + "<br/>" + total + percentage + "<br/>" + perperson + "<br/>" + scope;
 };
 
-window.format_big_dollars = function(big_dollars) {
+window.format_big_dollars = function (big_dollars) {
   let a_billion = 1000000000;
   let a_million = 1000000;
   if (big_dollars > a_billion) {
-   return `$${(big_dollars / a_billion).toFixed(2)} Billion `;
+    return `$${(big_dollars / a_billion).toFixed(2)} Billion `;
   } else {
-   return `$${(big_dollars / a_million).toFixed(2)} Million `;
- }
+    return `$${(big_dollars / a_million).toFixed(2)} Million `;
+  }
 };
 
 // Hardcoded - from the Statistics NZ Population Clock.
-window.dollars_per_person = function(dollars_per_country) {
+window.dollars_per_person = function (dollars_per_country) {
   let NZ_POPULATION = 4405193;
   return dollars_per_country / NZ_POPULATION;
 };
 
 // Tests specifically for SVG inline in HTML, not within XHTML
 // Nicked from the Modernizr lib.
-window.hasSvgSupport = function() {
+window.hasSvgSupport = function () {
   let div = document.createElement('div');
   div.innerHTML = '<svg/>';
   return (div.firstChild && div.firstChild.namespaceURI) === "http://www.w3.org/2000/svg";
