@@ -1,9 +1,6 @@
 (function () {
 // Main client-side logic for the wheresmytaxes site.
 
-window.track = function () { };
-// No tracking
-
 // window.appModel - a convenient place to hold triggers
 window.appModel = new Backbone.Model;
 
