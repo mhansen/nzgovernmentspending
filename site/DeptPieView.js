@@ -4,7 +4,7 @@ window.DeptPieView = Backbone.View.extend({
     $("#dept_delta_percent").html(format_percent(dept_percent_change));
     $("#dept_delta_caption").text("over last year");
     if (this.chart) { this.chart.destroy(); }
-    return this.chart = new Highcharts.Chart({
+    this.chart = new Highcharts.Chart({
       chart: {
         renderTo: this.el,
         backgroundColor: null

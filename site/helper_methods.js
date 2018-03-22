@@ -48,6 +48,6 @@ window.format_big_dollars = function (big_dollars) {
 
 // Hardcoded - from the Statistics NZ Population Clock.
 window.dollars_per_person = function (dollars_per_country) {
-  let NZ_POPULATION = 4405193;
+  const NZ_POPULATION = 4405193;
   return dollars_per_country / NZ_POPULATION;
 };

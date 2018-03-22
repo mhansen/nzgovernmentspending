@@ -21,6 +21,6 @@ window.DeptReceiptView = Backbone.View.extend({
           .attr("title", item.scope || "")).
         appendTo($list);
     }
-    return this.$("td.delta").attr("title", "Percentage change over last year's Budget");
+    this.$("td.delta").attr("title", "Percentage change over last year's Budget");
   }
 });

@@ -10,7 +10,7 @@ window.GovtPieView = Backbone.View.extend({
 
   // Plot the main pie chart of all departments.
   render(budget_expense_series, viewing_income, grand_total) {
-    return this.chart = new Highcharts.Chart({
+    this.chart = new Highcharts.Chart({
       chart: {
         renderTo: this.el,
         backgroundColor: null

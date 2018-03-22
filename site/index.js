@@ -18,15 +18,15 @@ appModel.bind("dept_select", function (dept_name) {
   appModel.set({ activeDept: dept_name });
 
   deptPieView.render(dept_name, model.series_for_dept[dept_name], dept_percent_change);
-  return deptReceiptView.render(model.series_for_dept[dept_name]);
+  deptReceiptView.render(model.series_for_dept[dept_name]);
 });
 
 appModel.bind("change:viewingIncome", function (m, viewingIncome) {
   // Fetch the file, save the model data, and plot the budget.
   let filename = viewingIncome ? "b13-revenue-data.json" : "b13-expenditure-data.json";
-  return $.getJSON(filename, function (fetched_data) {
+  $.getJSON(filename, function (fetched_data) {
     window.model = fetched_data;
-    return govtPieView.render(model.series_for_budget, viewingIncome, model.grand_total.nzd);
+    govtPieView.render(model.series_for_budget, viewingIncome, model.grand_total.nzd);
   });
 });
 
@@ -34,7 +34,7 @@ $(document).ready(function () {
   $("a#creditslink").fancybox();
   // Are we looking at income or expenses? Fetch the right file, and
   // link to the other page.
-  return appModel.set({
+  appModel.set({
     viewingIncome: $.url.param("income") === "true"
   });
 });
