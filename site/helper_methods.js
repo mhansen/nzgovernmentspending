@@ -51,11 +51,3 @@ window.dollars_per_person = function (dollars_per_country) {
   let NZ_POPULATION = 4405193;
   return dollars_per_country / NZ_POPULATION;
 };
-
-// Tests specifically for SVG inline in HTML, not within XHTML
-// Nicked from the Modernizr lib.
-window.hasSvgSupport = function () {
-  let div = document.createElement('div');
-  div.innerHTML = '<svg/>';
-  return (div.firstChild && div.firstChild.namespaceURI) === "http://www.w3.org/2000/svg";
-};

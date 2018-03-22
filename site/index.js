@@ -1,4 +1,3 @@
-(function () {
 // Main client-side logic for the wheresmytaxes site.
 
 // window.appModel - a convenient place to hold triggers
@@ -9,14 +8,6 @@ let accountLinksView = new AccountLinksView({ el: "#account_links" });
 let govtPieView = new GovtPieView({ el: "#budget_container" });
 let deptPieView = new DeptPieView({ el: "#dept_graph" });
 let deptReceiptView = new DeptReceiptView({ el: "#receipt_wrapper" });
-
-// IE <9 and android <3.0 don't support SVG, so we can't render the charts. :(
-if (!hasSvgSupport()) {
-  alert("Sorry, your browser doesn't support inline SVG.\n" +
-    "We can't show render the graphs without it."
-  );
-  return;
-}
 
 appModel.bind("change:viewingIncome", (model, viewingIncome) => accountLinksView.render(viewingIncome));
 
@@ -47,5 +38,3 @@ $(document).ready(function () {
     viewingIncome: $.url.param("income") === "true"
   });
 });
-
-})();
