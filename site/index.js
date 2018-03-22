@@ -1,5 +1,5 @@
 // Format a percentage for display, with colors and an arrow pointing up or down.
-window.format_percent = function (n) {
+let format_percent = function (n) {
   if (n === undefined) { return ""; }
   // Round to 2 significant figures - JavaScript doesn't have a
   // builtin function for this.
@@ -19,11 +19,11 @@ window.format_percent = function (n) {
 // Long sentences aren't autowrapped by the highcharts library, and they go over
 // the edges of the graph and get clipped. This looks horrible; we have to wrap
 // them ourselves. Do this by splitting every fifth word.
-window.split_long_sentence = (sentence, joiner) => sentence.replace(/([^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+)/g, `$1${joiner}`);
+let split_long_sentence = (sentence, joiner) => sentence.replace(/([^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+[^\s]+\s+)/g, `$1${joiner}`);
 
 // A formatter function that gives the tooltip information when hovering over a
 // pie slice. Returns some subsetted-HTML for HighCharts to convert into SVG.
-window.format_tooltip = function () {
+let format_tooltip = function () {
   this.point.name.replace();
   let total = format_big_dollars(this.y);
   let splitName = `<b>${split_long_sentence(this.point.name, "<br/><b>")}`;
@@ -34,7 +34,7 @@ window.format_tooltip = function () {
   return splitName + "<br/>" + total + percentage + "<br/>" + perperson + "<br/>" + scope;
 };
 
-window.format_big_dollars = function (big_dollars) {
+let format_big_dollars = function (big_dollars) {
   let a_billion = 1000000000;
   let a_million = 1000000;
   if (big_dollars > a_billion) {
@@ -45,7 +45,7 @@ window.format_big_dollars = function (big_dollars) {
 };
 
 // Hardcoded - from the Statistics NZ Population Clock.
-window.dollars_per_person = function (dollars_per_country) {
+let dollars_per_person = function (dollars_per_country) {
   const NZ_POPULATION = 4405193;
   return dollars_per_country / NZ_POPULATION;
 };

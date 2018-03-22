@@ -1,4 +1,4 @@
-window.DeptReceiptView = Backbone.View.extend({
+DeptReceiptView = Backbone.View.extend({
   // Show a receipt-like view of a department's line items.
   render(series_for_dept) {
     this.$(".receipt table").remove();

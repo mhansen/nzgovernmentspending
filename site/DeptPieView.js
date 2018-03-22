@@ -1,4 +1,4 @@
-window.DeptPieView = Backbone.View.extend({
+DeptPieView = Backbone.View.extend({
   // Plot the smaller graph of items within a department.
   render(dept_name, dept_data, dept_percent_change) {
     $("#dept_delta_percent").html(format_percent(dept_percent_change));

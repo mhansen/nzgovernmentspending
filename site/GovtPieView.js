@@ -1,4 +1,4 @@
-window.GovtPieView = Backbone.View.extend({
+GovtPieView = Backbone.View.extend({
   render_title_text(viewing_income, grand_total) {
     // Add a comma before the last three numbers in the string.
     let add_comma_to_number_string = s => s.replace(/(\d{3})$/, ",$1");
