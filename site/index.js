@@ -1,3 +1,4 @@
+(function () {
 // Main client-side logic for the wheresmytaxes site.
 
 window.track = function () { };
@@ -49,3 +50,5 @@ $(document).ready(function () {
     viewingIncome: $.url.param("income") === "true"
   });
 });
+
+})();
